@@ -1,0 +1,42 @@
+.subckt xoon21v0x05 a1 a2 b vdd vss z
+*01-JAN-08 SPICE3       file   created      from xoon21v0x05.ext -        technology: scmos
+m00 z   an bn  vdd p w=0.88u  l=0.13u ad=0.193487p  pd=1.38256u as=0.290675p  ps=2.51u   
+m01 an  bn z   vdd p w=1.265u l=0.13u ad=0.26565p   pd=1.685u   as=0.278138p  ps=1.98744u
+m02 w1  a2 an  vdd p w=1.265u l=0.13u ad=0.161288p  pd=1.52u    as=0.26565p   ps=1.685u  
+m03 vdd a1 w1  vdd p w=1.265u l=0.13u ad=0.745539p  pd=4.58231u as=0.161288p  ps=1.52u   
+m04 bn  b  vdd vdd p w=0.88u  l=0.13u ad=0.290675p  pd=2.51u    as=0.518636p  ps=3.18769u
+m05 w2  an vss vss n w=0.385u l=0.13u ad=0.0490875p pd=0.64u    as=0.192019p  ps=1.63u   
+m06 z   bn w2  vss n w=0.385u l=0.13u ad=0.08085p   pd=0.805u   as=0.0490875p ps=0.64u   
+m07 an  b  z   vss n w=0.385u l=0.13u ad=0.102025p  pd=1.04333u as=0.08085p   ps=0.805u  
+m08 vss a2 an  vss n w=0.385u l=0.13u ad=0.192019p  pd=1.63u    as=0.102025p  ps=1.04333u
+m09 vss a1 an  vss n w=0.385u l=0.13u ad=0.192019p  pd=1.63u    as=0.102025p  ps=1.04333u
+m10 bn  b  vss vss n w=0.385u l=0.13u ad=0.144375p  pd=1.52u    as=0.192019p  ps=1.63u   
+C0  a2  an  0.051f
+C1  vdd b   0.007f
+C2  bn  z   0.088f
+C3  bn  w1  0.026f
+C4  bn  b   0.140f
+C5  an  z   0.189f
+C6  a2  b   0.027f
+C7  a1  b   0.059f
+C8  vdd bn  0.228f
+C9  an  b   0.021f
+C10 vdd a2  0.028f
+C11 vdd a1  0.017f
+C12 z   w2  0.009f
+C13 vdd an  0.009f
+C14 bn  a2  0.134f
+C15 bn  a1  0.082f
+C16 vdd z   0.004f
+C17 vdd w1  0.004f
+C18 bn  an  0.262f
+C19 a2  a1  0.145f
+C20 w2  vss 0.003f
+C21 b   vss 0.267f
+C22 w1  vss 0.004f
+C23 z   vss 0.248f
+C24 an  vss 0.229f
+C25 a1  vss 0.154f
+C26 a2  vss 0.156f
+C27 bn  vss 0.245f
+.ends

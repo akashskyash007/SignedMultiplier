@@ -1,0 +1,53 @@
+.subckt oai22_x2 a1 a2 b1 b2 vdd vss z
+*04-JAN-08 SPICE3       file   created      from oai22_x2.ext -        technology: scmos
+m00 w1  b1 vdd vdd p w=2.035u l=0.13u ad=0.315425p pd=2.345u  as=0.763125p ps=3.8025u
+m01 z   b2 w1  vdd p w=2.035u l=0.13u ad=0.539275p pd=2.565u  as=0.315425p ps=2.345u 
+m02 w2  b2 z   vdd p w=2.035u l=0.13u ad=0.315425p pd=2.345u  as=0.539275p ps=2.565u 
+m03 vdd b1 w2  vdd p w=2.035u l=0.13u ad=0.763125p pd=3.8025u as=0.315425p ps=2.345u 
+m04 w3  a1 vdd vdd p w=2.035u l=0.13u ad=0.315425p pd=2.345u  as=0.763125p ps=3.8025u
+m05 z   a2 w3  vdd p w=2.035u l=0.13u ad=0.539275p pd=2.565u  as=0.315425p ps=2.345u 
+m06 w4  a2 z   vdd p w=2.035u l=0.13u ad=0.315425p pd=2.345u  as=0.539275p ps=2.565u 
+m07 vdd a1 w4  vdd p w=2.035u l=0.13u ad=0.763125p pd=3.8025u as=0.315425p ps=2.345u 
+m08 z   b2 n3  vss n w=1.815u l=0.13u ad=0.480975p pd=2.345u  as=0.52635p  ps=3.4175u
+m09 n3  b1 z   vss n w=1.815u l=0.13u ad=0.52635p  pd=3.4175u as=0.480975p ps=2.345u 
+m10 vss a1 n3  vss n w=1.815u l=0.13u ad=0.480975p pd=2.345u  as=0.52635p  ps=3.4175u
+m11 n3  a2 vss vss n w=1.815u l=0.13u ad=0.52635p  pd=3.4175u as=0.480975p ps=2.345u 
+C0  a1  z   0.007f
+C1  a2  z   0.066f
+C2  vdd w1  0.009f
+C3  b1  n3  0.007f
+C4  vdd z   0.124f
+C5  b2  n3  0.054f
+C6  w1  z   0.010f
+C7  vdd w2  0.009f
+C8  b1  b2  0.351f
+C9  a1  n3  0.022f
+C10 a2  w4  0.034f
+C11 vdd w3  0.009f
+C12 b1  a1  0.116f
+C13 a2  n3  0.007f
+C14 z   w2  0.010f
+C15 vdd w4  0.009f
+C16 b2  a1  0.016f
+C17 z   w3  0.010f
+C18 b1  vdd 0.021f
+C19 b1  w1  0.014f
+C20 b2  vdd 0.021f
+C21 a1  a2  0.332f
+C22 z   n3  0.079f
+C23 b1  z   0.191f
+C24 a1  vdd 0.050f
+C25 b1  w2  0.014f
+C26 b2  z   0.084f
+C27 a2  vdd 0.036f
+C28 n3  vss 0.277f
+C29 w4  vss 0.010f
+C30 w3  vss 0.015f
+C31 w2  vss 0.011f
+C32 z   vss 0.208f
+C33 w1  vss 0.011f
+C35 a2  vss 0.136f
+C36 a1  vss 0.233f
+C37 b2  vss 0.162f
+C38 b1  vss 0.200f
+.ends

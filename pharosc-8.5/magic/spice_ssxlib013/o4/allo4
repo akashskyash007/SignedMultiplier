@@ -1,0 +1,11 @@
+#!/bin/bash
+# allo4 2008-01-12:20h00 graham
+
+./allo4_delay $1
+./allo4_vbe
+./allo4_lib
+./allo4_html
+if test -x allo4_xtra
+then
+  ./allo4_xtra
+fi

@@ -1,0 +1,41 @@
+.subckt xor2v0x2 a b vdd vss z
+*01-JAN-08 SPICE3       file   created      from xor2v0x2.ext -        technology: scmos
+m00 bn  an z   vdd p w=1.54u  l=0.13u ad=0.3234p   pd=1.96u    as=0.404643p ps=3.08857u
+m01 z   an bn  vdd p w=1.54u  l=0.13u ad=0.404643p pd=3.08857u as=0.3234p   ps=1.96u   
+m02 an  bn z   vdd p w=1.155u l=0.13u ad=0.24255p  pd=1.575u   as=0.303482p ps=2.31643u
+m03 z   bn an  vdd p w=1.155u l=0.13u ad=0.303482p pd=2.31643u as=0.24255p  ps=1.575u  
+m04 bn  b  vdd vdd p w=1.54u  l=0.13u ad=0.3234p   pd=1.96u    as=0.436621p ps=3.08857u
+m05 vdd b  bn  vdd p w=1.54u  l=0.13u ad=0.436621p pd=3.08857u as=0.3234p   ps=1.96u   
+m06 an  a  vdd vdd p w=1.155u l=0.13u ad=0.24255p  pd=1.575u   as=0.327466p ps=2.31643u
+m07 vdd a  an  vdd p w=1.155u l=0.13u ad=0.327466p pd=2.31643u as=0.24255p  ps=1.575u  
+m08 w1  bn vss vss n w=0.66u  l=0.13u ad=0.08415p  pd=0.915u   as=0.289245p ps=2.136u  
+m09 z   an w1  vss n w=0.66u  l=0.13u ad=0.164529p pd=1.39714u as=0.08415p  ps=0.915u  
+m10 w2  an z   vss n w=0.66u  l=0.13u ad=0.08415p  pd=0.915u   as=0.164529p ps=1.39714u
+m11 vss bn w2  vss n w=0.66u  l=0.13u ad=0.289245p pd=2.136u   as=0.08415p  ps=0.915u  
+m12 an  b  z   vss n w=0.99u  l=0.13u ad=0.2079p   pd=1.41u    as=0.246793p ps=2.09571u
+m13 vss a  an  vss n w=0.99u  l=0.13u ad=0.433868p pd=3.204u   as=0.2079p   ps=1.41u   
+m14 bn  b  vss vss n w=0.495u l=0.13u ad=0.10395p  pd=0.915u   as=0.216934p ps=1.602u  
+m15 vss b  bn  vss n w=0.495u l=0.13u ad=0.216934p pd=1.602u   as=0.10395p  ps=0.915u  
+C0  z   w1  0.004f
+C1  bn  a   0.091f
+C2  z   w2  0.009f
+C3  vdd an  0.034f
+C4  vdd b   0.014f
+C5  vdd z   0.137f
+C6  an  b   0.134f
+C7  vdd bn  0.136f
+C8  an  z   0.094f
+C9  vdd a   0.010f
+C10 an  bn  0.393f
+C11 an  a   0.017f
+C12 b   bn  0.031f
+C13 z   bn  0.223f
+C14 b   a   0.141f
+C15 w2  vss 0.004f
+C16 w1  vss 0.005f
+C17 a   vss 0.162f
+C18 bn  vss 0.513f
+C19 z   vss 0.396f
+C20 b   vss 0.214f
+C21 an  vss 0.275f
+.ends

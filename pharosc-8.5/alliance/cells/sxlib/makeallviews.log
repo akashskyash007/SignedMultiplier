@@ -1,0 +1,2567 @@
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+#
+#
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+#
+#
+# Write sxlib013_alliance CIF from Alliance
+# Write spice deck using sx013 values
+# Write sxlib100 CIF from Alliance
+# Write sxlib200 CIF from Alliance for Magic
+
+# Read sxlib200 CIF into Magic
+# Write sxlib200 CIF and GDS files from Magic
+# Write sxlib100 CIF file from Magic
+# Write sxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt
+# Create ssxlib files
+#
+#
+# Write ssxlib013 CIF from Alliance
+# Write spice deck using ssx013 values
+# Write ssxlib100 CIF from Alliance
+# Write ssxlib200 CIF from Alliance for Magic
+
+# Read ssxlib200 CIF into Magic
+# Write ssxlib200 CIF and GDS files from Magic
+# Write ssxlib100 CIF and GDS files from Magic
+# Write ssxlib013 CIF and GDS files from Magic
+# Extract 0.13um SPI file from Magic
+# Convert Magic SPICE output to SPI subckt

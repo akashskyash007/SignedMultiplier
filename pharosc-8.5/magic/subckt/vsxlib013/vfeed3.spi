@@ -1,0 +1,11 @@
+.subckt vfeed3 vdd vss
+*04-JAN-08 SPICE3       file   created      from vfeed3.ext -        technology: scmos
+C0 w1  w2  0.166f
+C1 w3  w2  0.166f
+C2 w4  w2  0.166f
+C3 vdd w2  0.016f
+C4 w2  vss 1.089f
+C5 w4  vss 0.196f
+C6 w3  vss 0.196f
+C7 w1  vss 0.196f
+.ends

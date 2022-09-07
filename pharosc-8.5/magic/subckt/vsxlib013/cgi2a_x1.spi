@@ -1,0 +1,83 @@
+.subckt cgi2a_x1 a b c vdd vss z
+*04-JAN-08 SPICE3       file   created      from cgi2a_x1.ext -        technology: scmos
+m00 vdd b  n2  vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u as=0.610775p ps=3.5u  
+m01 w1  b  vdd vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u as=0.568425p ps=2.675u
+m02 z   an w1  vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u as=0.332475p ps=2.455u
+m03 n2  c  z   vdd p w=2.145u l=0.13u ad=0.610775p pd=3.5u   as=0.568425p ps=2.675u
+m04 vdd an n2  vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u as=0.610775p ps=3.5u  
+m05 an  a  vdd vdd p w=2.145u l=0.13u ad=0.622875p pd=5.15u  as=0.568425p ps=2.675u
+m06 vss b  n4  vss n w=0.99u  l=0.13u ad=0.289575p pd=1.685u as=0.3047p   ps=1.96u 
+m07 w2  b  vss vss n w=0.99u  l=0.13u ad=0.15345p  pd=1.3u   as=0.289575p ps=1.685u
+m08 z   an w2  vss n w=0.99u  l=0.13u ad=0.26235p  pd=1.52u  as=0.15345p  ps=1.3u  
+m09 n4  c  z   vss n w=0.99u  l=0.13u ad=0.3047p   pd=1.96u  as=0.26235p  ps=1.52u 
+m10 vss an n4  vss n w=0.99u  l=0.13u ad=0.289575p pd=1.685u as=0.3047p   ps=1.96u 
+m11 an  a  vss vss n w=0.99u  l=0.13u ad=0.3894p   pd=2.84u  as=0.289575p ps=1.685u
+C0  w3 c   0.022f
+C1  w4 n2  0.005f
+C2  w5 vdd 0.026f
+C3  z  w4  0.031f
+C4  b  an  0.151f
+C5  w1 n2  0.029f
+C6  w1 z   0.009f
+C7  w3 a   0.027f
+C8  w4 vdd 0.012f
+C9  z  w6  0.009f
+C10 w1 vdd 0.010f
+C11 n4 w3  0.066f
+C12 w3 n2  0.026f
+C13 z  w3  0.022f
+C14 an c   0.202f
+C15 w1 w5  0.002f
+C16 w2 w3  0.005f
+C17 w3 vdd 0.052f
+C18 n4 b   0.029f
+C19 b  n2  0.036f
+C20 an a   0.152f
+C21 w1 w4  0.002f
+C22 w5 w3  0.166f
+C23 n4 an  0.023f
+C24 an n2  0.007f
+C25 b  vdd 0.020f
+C26 c  a   0.076f
+C27 z  an  0.015f
+C28 w4 w3  0.166f
+C29 w5 b   0.005f
+C30 n4 c   0.007f
+C31 c  n2  0.103f
+C32 an vdd 0.029f
+C33 w1 w3  0.005f
+C34 z  c   0.096f
+C35 w6 w3  0.166f
+C36 w4 b   0.012f
+C37 w5 an  0.008f
+C38 c  vdd 0.010f
+C39 w5 c   0.001f
+C40 w6 b   0.012f
+C41 w4 an  0.011f
+C42 a  vdd 0.069f
+C43 z  n4  0.075f
+C44 z  n2  0.024f
+C45 n4 w2  0.020f
+C46 w3 b   0.028f
+C47 w6 an  0.041f
+C48 w4 c   0.015f
+C49 w5 a   0.002f
+C50 n2 vdd 0.172f
+C51 z  vdd 0.017f
+C52 w3 an  0.040f
+C53 w6 c   0.002f
+C54 w4 a   0.011f
+C55 w5 n2  0.043f
+C56 z  w5  0.005f
+C57 w3 vss 0.949f
+C58 w6 vss 0.174f
+C59 w4 vss 0.154f
+C60 w5 vss 0.154f
+C61 n4 vss 0.149f
+C62 z  vss 0.023f
+C64 n2 vss 0.002f
+C65 a  vss 0.060f
+C66 c  vss 0.070f
+C67 an vss 0.246f
+C68 b  vss 0.134f
+.ends

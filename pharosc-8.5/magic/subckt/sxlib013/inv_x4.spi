@@ -1,0 +1,12 @@
+.subckt inv_x4 i nq vdd vss
+*05-JAN-08 SPICE3       file   created      from inv_x4.ext -        technology: scmos
+m00 nq  i vdd vdd p w=2.19u l=0.13u ad=0.642518p pd=3.20258u as=0.93075p  ps=5.38081u
+m01 vdd i nq  vdd p w=1.53u l=0.13u ad=0.65025p  pd=3.75919u as=0.448882p ps=2.23742u
+m02 nq  i vss vss n w=1.09u l=0.13u ad=0.28885p  pd=1.62u    as=0.46325p  ps=3.03u   
+m03 vss i nq  vss n w=1.09u l=0.13u ad=0.46325p  pd=3.03u    as=0.28885p  ps=1.62u   
+C0 i   vdd 0.083f
+C1 i   nq  0.186f
+C2 vdd nq  0.057f
+C3 nq  vss 0.123f
+C5 i   vss 0.299f
+.ends

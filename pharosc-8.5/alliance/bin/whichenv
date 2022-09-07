@@ -1,0 +1,46 @@
+#!/bin/bash
+
+echo "env_alliance      : original sxlib with Alliance 1um design rules"
+echo "env_g600c         : dev gsclib with 6um design rules"
+echo "env_msc200        : dev msclib with standard 2um design rules"
+echo
+echo "env_rga013        : generic 0.13um technology"
+echo "env_rga200c       : standard 2um design rules including metal end overlap rules" 
+echo "env_rga200        : standard 2um design rules, no upper metal end overlap"
+echo
+echo "env_vga013        : generic 0.13um technology"
+echo "env_vga200c       : standard 2um design rules including metal end overlap rules" 
+echo "env_vga200        : standard 2um design rules, no upper metal end overlap"
+echo
+echo "env_ssx013        : generic 0.13um technology"
+echo "env_ssx100        : standard 1um design rules including metal end overlap rules" 
+echo "env_ssx200        : standard 2um design rules, no upper metal end overlap"
+echo
+echo "env_stx013        : generic 0.13um technology"
+echo "env_stx100        : standard 1um design rules including metal end overlap rules" 
+echo "env_stx200        : standard 2um design rules, no upper metal end overlap"
+echo "env_stx200c       : standard 2um design rules including metal end overlap rules" 
+echo "env_stx200x       : standard 2um design rules for interconnect only, no upper metal end overlap" 
+echo
+echo "env_sx013         : original sxlib with generic 0.13um technology"
+echo "env_sx100         : original sxlib with sx100.rds 1um design rules, no metal end overlap"
+echo "env_sx100x        : original sxlib with metal end overlap rules and 2L metal spacing"
+echo "env_sx200         : original sxlib with standard 2um design rules"
+echo
+echo "env_vsc013  env_vtc013  : generic 0.13um technology incl metal end overlap rules"
+echo "env_vsc013x env_vtc013x : generic 0.13um technology excl metal end overlap rules" 
+echo "env_vsc200  env_vtc200  : standard 2um design rules incl metal end overlap rules"
+echo "env_vsc200c env_vtc200c : standard 2um design rules incl metal end overlap rules and REF to AB rules" 
+echo "env_vsc200x env_vtc200x : standard 2um design rules for interconnect only, no upper metal end overlap" 
+echo
+echo "env_vx013         : generic 0.13um technology"
+echo "env_vx100         : vx100.rds 1um design rules including metal end overlap rules"
+echo "env_vx100x        : vx100x.rds 1um design rules for interconnect only including metal end overlap rules"
+echo "env_vx200         : vx200.rds 2um design rules"
+echo
+echo "env_wsc013  env_wtc013  : generic 0.13um technology incl metal end overlap rules"
+echo "env_wsc013x env_wtc013x : generic 0.13um technology excl metal end overlap rules" 
+echo "env_wsc200  env_wtc200  : standard 2um design rules incl metal end overlap rules"
+echo "env_wsc200c env_wtc200c : standard 2um design rules incl metal end overlap rules and REF to AB rules" 
+echo "env_wsc200x env_wtc200x : standard 2um design rules for interconnect only, no upper metal end overlap" 
+echo

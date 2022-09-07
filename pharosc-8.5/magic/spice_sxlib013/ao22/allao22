@@ -1,0 +1,11 @@
+#!/bin/bash
+# allao22 2008-01-12:19h44 graham
+
+./allao22_delay $1
+./allao22_vbe
+./allao22_lib
+./allao22_html
+if test -x allao22_xtra
+then
+  ./allao22_xtra
+fi

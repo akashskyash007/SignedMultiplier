@@ -1,0 +1,47 @@
+.subckt lant1v0x1 d e vdd vss z
+*01-JAN-08 SPICE3       file   created      from lant1v0x1.ext -        technology: scmos
+m00 vdd n1 z   vdd p w=0.99u  l=0.13u ad=0.235125p pd=1.917u   as=0.341p    ps=2.73u   
+m01 w1  n2 vdd vdd p w=0.33u  l=0.13u ad=0.042075p pd=0.585u   as=0.078375p ps=0.639u  
+m02 n1  e  w1  vdd p w=0.33u  l=0.13u ad=0.07535p  pd=0.72u    as=0.042075p ps=0.585u  
+m03 n2  n1 vdd vdd p w=0.66u  l=0.13u ad=0.2112p   pd=2.07u    as=0.15675p  ps=1.278u  
+m04 vss n1 n2  vss n w=0.33u  l=0.13u ad=0.14575p  pd=1.34182u as=0.12375p  ps=1.41u   
+m05 w2  en n1  vdd p w=0.66u  l=0.13u ad=0.08415p  pd=0.915u   as=0.1507p   ps=1.44u   
+m06 vdd d  w2  vdd p w=0.66u  l=0.13u ad=0.15675p  pd=1.278u   as=0.08415p  ps=0.915u  
+m07 en  e  vdd vdd p w=0.66u  l=0.13u ad=0.2112p   pd=2.07u    as=0.15675p  ps=1.278u  
+m08 vss n1 z   vss n w=0.495u l=0.13u ad=0.218625p pd=2.01273u as=0.203775p ps=2.07u   
+m09 w3  n2 vss vss n w=0.33u  l=0.13u ad=0.042075p pd=0.585u   as=0.14575p  ps=1.34182u
+m10 n1  en w3  vss n w=0.33u  l=0.13u ad=0.0693p   pd=0.75u    as=0.042075p ps=0.585u  
+m11 w4  e  n1  vss n w=0.33u  l=0.13u ad=0.042075p pd=0.585u   as=0.0693p   ps=0.75u   
+m12 vss d  w4  vss n w=0.33u  l=0.13u ad=0.14575p  pd=1.34182u as=0.042075p ps=0.585u  
+m13 en  e  vss vss n w=0.33u  l=0.13u ad=0.12375p  pd=1.41u    as=0.14575p  ps=1.34182u
+C0  en  w2  0.004f
+C1  vdd n2  0.030f
+C2  vdd en  0.026f
+C3  e   n1  0.030f
+C4  vdd d   0.002f
+C5  e   n2  0.067f
+C6  vdd z   0.017f
+C7  n1  n2  0.120f
+C8  e   en  0.186f
+C9  n1  en  0.132f
+C10 e   d   0.206f
+C11 n1  d   0.014f
+C12 n2  en  0.052f
+C13 n1  z   0.009f
+C14 n2  z   0.028f
+C15 n1  w1  0.003f
+C16 en  d   0.165f
+C17 vdd e   0.037f
+C18 e   w4  0.004f
+C19 n1  w3  0.008f
+C20 vdd n1  0.036f
+C21 w4  vss 0.002f
+C22 w2  vss 0.003f
+C23 w1  vss 0.002f
+C24 z   vss 0.185f
+C25 d   vss 0.107f
+C26 en  vss 0.192f
+C27 n2  vss 0.143f
+C28 n1  vss 0.324f
+C29 e   vss 0.286f
+.ends

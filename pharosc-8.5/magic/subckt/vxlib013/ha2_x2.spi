@@ -1,0 +1,48 @@
+.subckt ha2_x2 a b co so vdd vss
+*04-JAN-08 SPICE3       file   created      from ha2_x2.ext -        technology: scmos
+m00 vdd son so  vdd p w=2.09u  l=0.13u ad=0.637245p pd=2.96922u as=0.6809p   ps=5.04u   
+m01 son con vdd vdd p w=0.99u  l=0.13u ad=0.26235p  pd=1.66154u as=0.301853p ps=1.40647u
+m02 w1  b   son vdd p w=1.87u  l=0.13u ad=0.28985p  pd=2.18u    as=0.49555p  ps=3.13846u
+m03 vdd a   w1  vdd p w=1.87u  l=0.13u ad=0.570167p pd=2.65667u as=0.28985p  ps=2.18u   
+m04 con a   vdd vdd p w=2.09u  l=0.13u ad=0.55385p  pd=2.62u    as=0.637245p ps=2.96922u
+m05 vdd b   con vdd p w=2.09u  l=0.13u ad=0.637245p pd=2.96922u as=0.55385p  ps=2.62u   
+m06 co  con vdd vdd p w=2.09u  l=0.13u ad=0.6809p   pd=5.04u    as=0.637245p ps=2.96922u
+m07 vss son so  vss n w=1.045u l=0.13u ad=0.326286p pd=2.02294u as=0.403975p ps=2.95u   
+m08 n2  con vss vss n w=0.825u l=0.13u ad=0.236775p pd=1.74u    as=0.257594p ps=1.59706u
+m09 son b   n2  vss n w=0.825u l=0.13u ad=0.232238p pd=1.52u    as=0.236775p ps=1.74u   
+m10 n2  a   son vss n w=0.825u l=0.13u ad=0.236775p pd=1.74u    as=0.232238p ps=1.52u   
+m11 w2  a   con vss n w=1.76u  l=0.13u ad=0.2728p   pd=2.07u    as=0.52085p  ps=4.38u   
+m12 vss b   w2  vss n w=1.76u  l=0.13u ad=0.549534p pd=3.40706u as=0.2728p   ps=2.07u   
+m13 co  con vss vss n w=1.045u l=0.13u ad=0.403975p pd=2.95u    as=0.326286p ps=2.02294u
+C0  con w2  0.010f
+C1  son a   0.009f
+C2  vdd b   0.042f
+C3  son con 0.210f
+C4  so  con 0.049f
+C5  vdd a   0.018f
+C6  vdd con 0.177f
+C7  b   a   0.378f
+C8  son n2  0.070f
+C9  vdd w1  0.005f
+C10 b   con 0.347f
+C11 b   w1  0.012f
+C12 a   con 0.033f
+C13 vdd co  0.009f
+C14 b   n2  0.007f
+C15 con w1  0.010f
+C16 son so  0.043f
+C17 con co  0.179f
+C18 a   n2  0.024f
+C19 son vdd 0.015f
+C20 so  vdd 0.009f
+C21 son b   0.108f
+C22 w2  vss 0.022f
+C23 n2  vss 0.148f
+C24 co  vss 0.099f
+C25 w1  vss 0.009f
+C26 con vss 0.310f
+C27 a   vss 0.208f
+C28 b   vss 0.262f
+C30 so  vss 0.115f
+C31 son vss 0.198f
+.ends

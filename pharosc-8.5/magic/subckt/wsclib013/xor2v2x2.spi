@@ -1,0 +1,42 @@
+.subckt xor2v2x2 a b vdd vss z
+*01-JAN-08 SPICE3       file   created      from xor2v2x2.ext -        technology: scmos
+m00 an  bn z   vdd p w=1.1u   l=0.13u ad=0.231p     pd=1.52u    as=0.289988p  ps=2.235u  
+m01 z   bn an  vdd p w=1.1u   l=0.13u ad=0.289988p  pd=2.235u   as=0.231p     ps=1.52u   
+m02 bn  an z   vdd p w=1.1u   l=0.13u ad=0.231p     pd=1.52u    as=0.289988p  ps=2.235u  
+m03 z   an bn  vdd p w=1.1u   l=0.13u ad=0.289988p  pd=2.235u   as=0.231p     ps=1.52u   
+m04 bn  b  vdd vdd p w=1.1u   l=0.13u ad=0.231p     pd=1.52u    as=0.32175p   ps=2.235u  
+m05 vdd b  bn  vdd p w=1.1u   l=0.13u ad=0.32175p   pd=2.235u   as=0.231p     ps=1.52u   
+m06 an  a  vdd vdd p w=1.1u   l=0.13u ad=0.231p     pd=1.52u    as=0.32175p   ps=2.235u  
+m07 vdd a  an  vdd p w=1.1u   l=0.13u ad=0.32175p   pd=2.235u   as=0.231p     ps=1.52u   
+m08 w1  an vss vss n w=0.715u l=0.13u ad=0.0911625p pd=0.97u    as=0.383535p  ps=2.34u   
+m09 z   bn w1  vss n w=0.715u l=0.13u ad=0.15015p   pd=1.04591u as=0.0911625p ps=0.97u   
+m10 w2  bn z   vss n w=0.715u l=0.13u ad=0.0911625p pd=0.97u    as=0.15015p   ps=1.04591u
+m11 vss an w2  vss n w=0.715u l=0.13u ad=0.383535p  pd=2.34u    as=0.0911625p ps=0.97u   
+m12 bn  b  vss vss n w=0.55u  l=0.13u ad=0.125583p  pd=1.01333u as=0.295027p  ps=1.8u    
+m13 z   a  bn  vss n w=1.1u   l=0.13u ad=0.231p     pd=1.60909u as=0.251167p  ps=2.02667u
+m14 an  b  z   vss n w=1.1u   l=0.13u ad=0.251167p  pd=2.02667u as=0.231p     ps=1.60909u
+m15 vss a  an  vss n w=0.55u  l=0.13u ad=0.295027p  pd=1.8u     as=0.125583p  ps=1.01333u
+C0  bn  z   0.321f
+C1  an  z   0.213f
+C2  vdd b   0.018f
+C3  z   w1  0.006f
+C4  vdd a   0.014f
+C5  z   w2  0.006f
+C6  vdd bn  0.026f
+C7  vdd an  0.311f
+C8  b   a   0.258f
+C9  b   bn  0.036f
+C10 a   bn  0.014f
+C11 b   an  0.035f
+C12 b   z   0.007f
+C13 a   an  0.118f
+C14 a   z   0.026f
+C15 bn  an  0.286f
+C16 w2  vss 0.005f
+C17 w1  vss 0.004f
+C18 z   vss 0.445f
+C19 an  vss 0.373f
+C20 bn  vss 0.271f
+C21 a   vss 0.198f
+C22 b   vss 0.162f
+.ends

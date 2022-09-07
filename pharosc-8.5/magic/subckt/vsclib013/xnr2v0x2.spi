@@ -1,0 +1,44 @@
+.subckt xnr2v0x2 a b vdd vss z
+*01-JAN-08 SPICE3       file   created      from xnr2v0x2.ext -        technology: scmos
+m00 w1  bn vdd vdd p w=1.54u  l=0.13u ad=0.19635p   pd=1.795u    as=0.443392p ps=3.03121u 
+m01 z   an w1  vdd p w=1.54u  l=0.13u ad=0.325202p  pd=2.07319u  as=0.19635p  ps=1.795u   
+m02 w2  an z   vdd p w=1.54u  l=0.13u ad=0.19635p   pd=1.795u    as=0.325202p ps=2.07319u 
+m03 vdd bn w2  vdd p w=1.54u  l=0.13u ad=0.443392p  pd=3.03121u  as=0.19635p  ps=1.795u   
+m04 an  a  vdd vdd p w=1.1u   l=0.13u ad=0.231p     pd=1.54211u  as=0.316708p ps=2.16515u 
+m05 z   b  an  vdd p w=1.1u   l=0.13u ad=0.232287p  pd=1.48085u  as=0.231p    ps=1.54211u 
+m06 an  b  z   vdd p w=0.99u  l=0.13u ad=0.2079p    pd=1.38789u  as=0.209059p ps=1.33277u 
+m07 vdd a  an  vdd p w=0.99u  l=0.13u ad=0.285038p  pd=1.94864u  as=0.2079p   ps=1.38789u 
+m08 bn  b  vdd vdd p w=1.045u l=0.13u ad=0.21945p   pd=1.465u    as=0.300873p ps=2.05689u 
+m09 vdd b  bn  vdd p w=1.045u l=0.13u ad=0.300873p  pd=2.05689u  as=0.21945p  ps=1.465u   
+m10 z   an bn  vss n w=1.045u l=0.13u ad=0.21945p   pd=1.465u    as=0.3344p   ps=2.84u    
+m11 an  bn z   vss n w=1.045u l=0.13u ad=0.25575p   pd=2.17u     as=0.21945p  ps=1.465u   
+m12 vss a  an  vss n w=0.715u l=0.13u ad=0.313659p  pd=2.12447u  as=0.174987p ps=1.48474u 
+m13 an  a  vss vss n w=0.33u  l=0.13u ad=0.0807632p pd=0.685263u as=0.144766p ps=0.980526u
+m14 vss b  bn  vss n w=1.045u l=0.13u ad=0.458425p  pd=3.105u    as=0.3344p   ps=2.84u    
+C0  an  z   0.243f
+C1  a   z   0.007f
+C2  b   z   0.010f
+C3  vdd bn  0.029f
+C4  w1  z   0.007f
+C5  vdd an  0.086f
+C6  vdd a   0.013f
+C7  z   w2  0.009f
+C8  vdd b   0.019f
+C9  bn  an  0.347f
+C10 vdd w1  0.004f
+C11 bn  a   0.097f
+C12 an  a   0.139f
+C13 vdd z   0.161f
+C14 bn  b   0.047f
+C15 an  b   0.012f
+C16 vdd w2  0.004f
+C17 bn  z   0.140f
+C18 a   b   0.151f
+C19 w2  vss 0.009f
+C20 z   vss 0.100f
+C21 w1  vss 0.008f
+C22 b   vss 0.344f
+C23 a   vss 0.184f
+C24 an  vss 0.243f
+C25 bn  vss 0.608f
+.ends

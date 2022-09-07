@@ -1,0 +1,13 @@
+* Spice description of nd2v5x1
+* Spice driver version 134999461
+* Date  1/01/2008 at 16:51:45
+* vsclib 0.13um values
+.subckt nd2v5x1 a b vdd vss z
+M01 vdd   a     z     vdd p  L=0.12U  W=1.045U AS=0.276925P AD=0.276925P PS=2.62U   PD=2.62U
+M02 vss   a     n1    vss n  L=0.12U  W=0.66U  AS=0.1749P   AD=0.1749P   PS=1.85U   PD=1.85U
+M03 z     b     vdd   vdd p  L=0.12U  W=1.045U AS=0.276925P AD=0.276925P PS=2.62U   PD=2.62U
+M04 n1    b     z     vss n  L=0.12U  W=0.66U  AS=0.1749P   AD=0.1749P   PS=1.85U   PD=1.85U
+C4  a     vss   0.583f
+C5  b     vss   0.487f
+C1  z     vss   0.609f
+.ends

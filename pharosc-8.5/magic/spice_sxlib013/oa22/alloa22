@@ -1,0 +1,11 @@
+#!/bin/bash
+# alloa22 2008-01-12:19h48 graham
+
+./alloa22_delay $1
+./alloa22_vbe
+./alloa22_lib
+./alloa22_html
+if test -x alloa22_xtra
+then
+  ./alloa22_xtra
+fi

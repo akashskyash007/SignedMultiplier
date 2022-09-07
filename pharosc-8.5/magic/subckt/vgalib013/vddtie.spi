@@ -1,0 +1,12 @@
+.subckt vddtie vdd vss z
+*10-JAN-08 SPICE3       file   created      from vddtie.ext -        technology: scmos
+m00 z   w1 vdd vdd p w=1.43u l=0.13u ad=0.37895p pd=1.96u as=0.53625p ps=3.61u
+m01 vdd w1 z   vdd p w=1.43u l=0.13u ad=0.53625p pd=3.61u as=0.37895p ps=1.96u
+m02 w1  z  vss vss n w=0.99u l=0.13u ad=0.26235p pd=1.52u as=0.37125p ps=2.73u
+m03 vss z  w1  vss n w=0.99u l=0.13u ad=0.37125p pd=2.73u as=0.26235p ps=1.52u
+C0 vdd w1  0.067f
+C1 vdd z   0.106f
+C2 w1  z   0.264f
+C3 z   vss 0.328f
+C4 w1  vss 0.317f
+.ends

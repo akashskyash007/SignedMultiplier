@@ -1,0 +1,17 @@
+* Spice description of nao22_x1
+* Spice driver version 134999461
+* Date  5/01/2008 at 15:14:11
+* ssxlib 0.13um values
+.subckt nao22_x1 i0 i1 i2 nq vdd vss
+Mtr_00001 sig1  i0    nq    vss n  L=0.12U  W=1.045U AS=0.276925P AD=0.276925P PS=2.62U   PD=2.62U
+Mtr_00002 nq    i1    sig1  vss n  L=0.12U  W=1.045U AS=0.276925P AD=0.276925P PS=2.62U   PD=2.62U
+Mtr_00003 sig1  i2    vss   vss n  L=0.12U  W=1.045U AS=0.276925P AD=0.276925P PS=2.62U   PD=2.62U
+Mtr_00004 vdd   i2    nq    vdd p  L=0.12U  W=2.145U AS=0.568425P AD=0.568425P PS=4.82U   PD=4.82U
+Mtr_00005 sig8  i0    vdd   vdd p  L=0.12U  W=2.145U AS=0.568425P AD=0.568425P PS=4.82U   PD=4.82U
+Mtr_00006 nq    i1    sig8  vdd p  L=0.12U  W=2.145U AS=0.568425P AD=0.568425P PS=4.82U   PD=4.82U
+C4  i0    vss   0.726f
+C3  i1    vss   0.782f
+C6  i2    vss   0.977f
+C2  nq    vss   0.703f
+C1  sig1  vss   0.178f
+.ends

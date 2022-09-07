@@ -1,0 +1,43 @@
+.subckt mx2_x4 cmd i0 i1 q vdd vss
+*05-JAN-08 SPICE3       file   created      from mx2_x4.ext -        technology: scmos
+m00 vdd cmd w1  vdd p w=1.09u l=0.13u ad=0.486731p pd=2.23272u as=0.46325p  ps=3.03u   
+m01 w2  i0  vdd vdd p w=1.09u l=0.13u ad=0.16895p  pd=1.4u     as=0.486731p ps=2.23272u
+m02 w3  cmd w2  vdd p w=1.09u l=0.13u ad=0.40875p  pd=1.84u    as=0.16895p  ps=1.4u    
+m03 w4  w1  w3  vdd p w=1.09u l=0.13u ad=0.16895p  pd=1.4u     as=0.40875p  ps=1.84u   
+m04 vdd i1  w4  vdd p w=1.09u l=0.13u ad=0.486731p pd=2.23272u as=0.16895p  ps=1.4u    
+m05 q   w3  vdd vdd p w=2.19u l=0.13u ad=0.58035p  pd=2.72u    as=0.977928p ps=4.48592u
+m06 vdd w3  q   vdd p w=2.19u l=0.13u ad=0.977928p pd=4.48592u as=0.58035p  ps=2.72u   
+m07 vss cmd w1  vss n w=0.54u l=0.13u ad=0.248542p pd=1.32016u as=0.4055p   ps=3.03u   
+m08 w5  i0  vss vss n w=0.54u l=0.13u ad=0.0837p   pd=0.85u    as=0.248542p ps=1.32016u
+m09 w3  w1  w5  vss n w=0.54u l=0.13u ad=0.41535p  pd=2.28u    as=0.0837p   ps=0.85u   
+m10 w6  cmd w3  vss n w=0.54u l=0.13u ad=0.0837p   pd=0.85u    as=0.41535p  ps=2.28u   
+m11 vss i1  w6  vss n w=0.54u l=0.13u ad=0.248542p pd=1.32016u as=0.0837p   ps=0.85u   
+m12 q   w3  vss vss n w=1.09u l=0.13u ad=0.28885p  pd=1.62u    as=0.501687p ps=2.66476u
+m13 vss w3  q   vss n w=1.09u l=0.13u ad=0.501687p pd=2.66476u as=0.28885p  ps=1.62u   
+C0  vdd q   0.139f
+C1  cmd i1  0.052f
+C2  i0  w1  0.134f
+C3  cmd w2  0.020f
+C4  w3  q   0.007f
+C5  w1  i1  0.136f
+C6  vdd w3  0.031f
+C7  vdd cmd 0.015f
+C8  vdd i0  0.046f
+C9  vdd w1  0.012f
+C10 w3  cmd 0.181f
+C11 vdd i1  0.108f
+C12 w3  w1  0.101f
+C13 cmd i0  0.296f
+C14 cmd w1  0.046f
+C15 w3  i1  0.024f
+C16 w6  vss 0.012f
+C17 w5  vss 0.012f
+C18 q   vss 0.147f
+C19 w4  vss 0.010f
+C20 w2  vss 0.006f
+C21 i1  vss 0.194f
+C22 w1  vss 0.439f
+C23 i0  vss 0.152f
+C24 cmd vss 0.339f
+C25 w3  vss 0.327f
+.ends

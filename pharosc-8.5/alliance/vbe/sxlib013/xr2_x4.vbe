@@ -1,0 +1,36 @@
+ENTITY xr2_x4 IS
+GENERIC (
+  CONSTANT area 	 : NATURAL := 3000;
+  CONSTANT cin_i0        : NATURAL := 10;
+  CONSTANT cin_i1        : NATURAL := 10;
+  CONSTANT rdown_i0_q    : NATURAL := 600;
+  CONSTANT rdown_i1_q    : NATURAL := 590;
+  CONSTANT rup_i0_q      : NATURAL := 750;
+  CONSTANT rup_i1_q      : NATURAL := 750;
+  CONSTANT tphh_i1_q     : NATURAL := 96;
+  CONSTANT tphh_i0_q     : NATURAL := 110;
+  CONSTANT tpll_i0_q     : NATURAL := 157;
+  CONSTANT tphl_i0_q     : NATURAL := 162;
+  CONSTANT tpll_i1_q     : NATURAL := 131;
+  CONSTANT tphl_i1_q     : NATURAL := 189;
+  CONSTANT tplh_i0_q     : NATURAL := 148;
+  CONSTANT tplh_i1_q     : NATURAL := 173;
+  CONSTANT transistors	 : NATURAL := 16
+);
+PORT (
+  i0	 : in  BIT;
+  i1	 : in  BIT;
+  q	 : out BIT;
+  vdd	 : in  BIT;
+  vss	 : in  BIT
+);
+END xr2_x4;
+
+ARCHITECTURE behaviour_data_flow OF xr2_x4 IS
+
+BEGIN
+  ASSERT ((vdd and not (vss)) = '1')
+  REPORT "power supply is missing on xr2_x4"
+  SEVERITY WARNING;
+  q <= (i0 xor i1) after 163 ps;
+END;

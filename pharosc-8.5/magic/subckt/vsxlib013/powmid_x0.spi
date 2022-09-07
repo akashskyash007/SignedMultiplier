@@ -1,0 +1,6 @@
+.subckt powmid_x0 vdd vss
+*04-JAN-08 SPICE3       file   created      from powmid_x0.ext -        technology: scmos
+C0 w1 vss 0.384f
+C1 w2 vss 0.384f
+C2 w3 vss 0.569f
+.ends

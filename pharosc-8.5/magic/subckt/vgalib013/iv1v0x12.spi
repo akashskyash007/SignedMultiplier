@@ -1,0 +1,22 @@
+.subckt iv1v0x12 a vdd vss z
+*10-JAN-08 SPICE3       file   created      from iv1v0x12.ext -        technology: scmos
+m00 z   a vdd vdd p w=1.43u l=0.13u ad=0.37895p pd=1.96u as=0.53625p ps=3.61u
+m01 vdd a z   vdd p w=1.43u l=0.13u ad=0.53625p pd=3.61u as=0.37895p ps=1.96u
+m02 z   a vdd vdd p w=1.43u l=0.13u ad=0.37895p pd=1.96u as=0.53625p ps=3.61u
+m03 vdd a z   vdd p w=1.43u l=0.13u ad=0.53625p pd=3.61u as=0.37895p ps=1.96u
+m04 z   a vdd vdd p w=1.43u l=0.13u ad=0.37895p pd=1.96u as=0.53625p ps=3.61u
+m05 vdd a z   vdd p w=1.43u l=0.13u ad=0.53625p pd=3.61u as=0.37895p ps=1.96u
+m06 z   a vss vss n w=0.99u l=0.13u ad=0.26235p pd=1.52u as=0.37125p ps=2.73u
+m07 vss a z   vss n w=0.99u l=0.13u ad=0.37125p pd=2.73u as=0.26235p ps=1.52u
+m08 z   a vss vss n w=0.99u l=0.13u ad=0.26235p pd=1.52u as=0.37125p ps=2.73u
+m09 vss a z   vss n w=0.99u l=0.13u ad=0.37125p pd=2.73u as=0.26235p ps=1.52u
+m10 w1  a vss vss n w=0.99u l=0.13u ad=0.26235p pd=1.52u as=0.37125p ps=2.73u
+m11 vss a w1  vss n w=0.99u l=0.13u ad=0.37125p pd=2.73u as=0.26235p ps=1.52u
+C0 vdd a   0.118f
+C1 vdd z   0.155f
+C2 a   z   0.295f
+C3 z   w1  0.035f
+C4 w1  vss 0.007f
+C5 z   vss 0.430f
+C6 a   vss 1.234f
+.ends

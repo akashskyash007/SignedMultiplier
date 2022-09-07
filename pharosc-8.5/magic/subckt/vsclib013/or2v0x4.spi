@@ -1,0 +1,31 @@
+.subckt or2v0x4 a b vdd vss z
+*01-JAN-08 SPICE3       file   created      from or2v0x4.ext -        technology: scmos
+m00 z   zn vdd vdd p w=1.54u l=0.13u ad=0.3234p   pd=1.96u    as=0.440943p ps=2.93143u
+m01 vdd zn z   vdd p w=1.54u l=0.13u ad=0.440943p pd=2.93143u as=0.3234p   ps=1.96u   
+m02 w1  a  vdd vdd p w=1.43u l=0.13u ad=0.182325p pd=1.685u   as=0.409447p ps=2.72204u
+m03 zn  b  w1  vdd p w=1.43u l=0.13u ad=0.319026p pd=2.29048u as=0.182325p ps=1.685u  
+m04 w2  b  zn  vdd p w=0.88u l=0.13u ad=0.1122p   pd=1.135u   as=0.196324p ps=1.40952u
+m05 vdd a  w2  vdd p w=0.88u l=0.13u ad=0.251967p pd=1.6751u  as=0.1122p   ps=1.135u  
+m06 z   zn vss vss n w=0.77u l=0.13u ad=0.1617p   pd=1.19u    as=0.301781p ps=2.17u   
+m07 vss zn z   vss n w=0.77u l=0.13u ad=0.301781p pd=2.17u    as=0.1617p   ps=1.19u   
+m08 zn  a  vss vss n w=0.66u l=0.13u ad=0.1386p   pd=1.08u    as=0.258669p ps=1.86u   
+m09 vss b  zn  vss n w=0.66u l=0.13u ad=0.258669p pd=1.86u    as=0.1386p   ps=1.08u   
+C0  zn  w1  0.008f
+C1  a   w1  0.005f
+C2  a   w2  0.004f
+C3  vdd zn  0.058f
+C4  vdd a   0.022f
+C5  vdd b   0.007f
+C6  vdd z   0.025f
+C7  zn  a   0.190f
+C8  zn  b   0.006f
+C9  vdd w1  0.004f
+C10 zn  z   0.092f
+C11 a   b   0.267f
+C12 w2  vss 0.007f
+C13 w1  vss 0.009f
+C14 z   vss 0.177f
+C15 b   vss 0.144f
+C16 a   vss 0.171f
+C17 zn  vss 0.273f
+.ends

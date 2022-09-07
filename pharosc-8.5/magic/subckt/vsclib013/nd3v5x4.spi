@@ -1,0 +1,41 @@
+.subckt nd3v5x4 a b c vdd vss z
+*01-JAN-08 SPICE3       file   created      from nd3v5x4.ext -        technology: scmos
+m00 z   a vdd vdd p w=1.1u  l=0.13u ad=0.246461p pd=1.67889u  as=0.257889p ps=1.69111u 
+m01 vdd a z   vdd p w=1.1u  l=0.13u ad=0.257889p pd=1.69111u  as=0.246461p ps=1.67889u 
+m02 z   a vdd vdd p w=1.1u  l=0.13u ad=0.246461p pd=1.67889u  as=0.257889p ps=1.69111u 
+m03 vdd b z   vdd p w=1.1u  l=0.13u ad=0.257889p pd=1.69111u  as=0.246461p ps=1.67889u 
+m04 z   b vdd vdd p w=1.1u  l=0.13u ad=0.246461p pd=1.67889u  as=0.257889p ps=1.69111u 
+m05 vdd b z   vdd p w=1.1u  l=0.13u ad=0.257889p pd=1.69111u  as=0.246461p ps=1.67889u 
+m06 z   c vdd vdd p w=1.1u  l=0.13u ad=0.246461p pd=1.67889u  as=0.257889p ps=1.69111u 
+m07 vdd c z   vdd p w=1.1u  l=0.13u ad=0.257889p pd=1.69111u  as=0.246461p ps=1.67889u 
+m08 z   c vdd vdd p w=1.1u  l=0.13u ad=0.246461p pd=1.67889u  as=0.257889p ps=1.69111u 
+m09 n1  a vss vss n w=1.1u  l=0.13u ad=0.231p    pd=1.52u     as=0.311667p ps=2.03333u 
+m10 vss a n1  vss n w=1.1u  l=0.13u ad=0.311667p pd=2.03333u  as=0.231p    ps=1.52u    
+m11 n1  a vss vss n w=1.1u  l=0.13u ad=0.231p    pd=1.52u     as=0.311667p ps=2.03333u 
+m12 n2  b n1  vss n w=1.1u  l=0.13u ad=0.247133p pd=1.82833u  as=0.231p    ps=1.52u    
+m13 n1  b n2  vss n w=1.1u  l=0.13u ad=0.231p    pd=1.52u     as=0.247133p ps=1.82833u 
+m14 n2  b n1  vss n w=1.1u  l=0.13u ad=0.247133p pd=1.82833u  as=0.231p    ps=1.52u    
+m15 z   c n2  vss n w=1.1u  l=0.13u ad=0.241083p pd=1.69667u  as=0.247133p ps=1.82833u 
+m16 n2  c z   vss n w=1.1u  l=0.13u ad=0.247133p pd=1.82833u  as=0.241083p ps=1.69667u 
+m17 z   c n2  vss n w=0.55u l=0.13u ad=0.120542p pd=0.848333u as=0.123567p ps=0.914167u
+m18 n2  c z   vss n w=0.55u l=0.13u ad=0.123567p pd=0.914167u as=0.120542p ps=0.848333u
+C0  a   n1  0.039f
+C1  b   z   0.106f
+C2  b   n1  0.046f
+C3  c   z   0.131f
+C4  b   n2  0.057f
+C5  c   n2  0.033f
+C6  z   n2  0.085f
+C7  vdd a   0.026f
+C8  n1  n2  0.104f
+C9  vdd z   0.302f
+C10 a   b   0.083f
+C11 a   z   0.058f
+C12 b   c   0.077f
+C13 n2  vss 0.262f
+C14 n1  vss 0.232f
+C15 z   vss 0.186f
+C16 c   vss 0.303f
+C17 b   vss 0.240f
+C18 a   vss 0.317f
+.ends

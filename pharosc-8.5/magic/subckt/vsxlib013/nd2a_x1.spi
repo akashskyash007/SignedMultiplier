@@ -1,0 +1,48 @@
+.subckt nd2a_x1 a b vdd vss z
+*04-JAN-08 SPICE3       file   created      from nd2a_x1.ext -        technology: scmos
+m00 z   b  vdd vdd p w=1.1u   l=0.13u ad=0.2915p   pd=1.63u    as=0.372167p ps=2.14333u
+m01 vdd an z   vdd p w=1.1u   l=0.13u ad=0.372167p pd=2.14333u as=0.2915p   ps=1.63u   
+m02 an  a  vdd vdd p w=1.1u   l=0.13u ad=0.41855p  pd=3.06u    as=0.372167p ps=2.14333u
+m03 w1  b  z   vss n w=0.935u l=0.13u ad=0.144925p pd=1.245u   as=0.374825p ps=2.73u   
+m04 vss an w1  vss n w=0.935u l=0.13u ad=0.45538p  pd=2.60667u as=0.144925p ps=1.245u  
+m05 an  a  vss vss n w=0.55u  l=0.13u ad=0.2002p   pd=1.96u    as=0.26787p  ps=1.53333u
+C0  w2  w3  0.166f
+C1  w4  w3  0.166f
+C2  b   w5  0.002f
+C3  a   z   0.016f
+C4  vdd w3  0.043f
+C5  b   w2  0.033f
+C6  an  w5  0.006f
+C7  a   w1  0.014f
+C8  b   w4  0.002f
+C9  an  w2  0.009f
+C10 a   w5  0.002f
+C11 b   w3  0.013f
+C12 an  w4  0.012f
+C13 a   w2  0.002f
+C14 z   w5  0.013f
+C15 vdd b   0.031f
+C16 an  w3  0.021f
+C17 a   w4  0.023f
+C18 z   w2  0.009f
+C19 vdd an  0.008f
+C20 a   w3  0.046f
+C21 z   w4  0.009f
+C22 vdd a   0.002f
+C23 z   w3  0.039f
+C24 vdd z   0.063f
+C25 b   an  0.177f
+C26 w1  w3  0.004f
+C27 w5  w3  0.166f
+C28 vdd w5  0.026f
+C29 b   z   0.094f
+C30 an  a   0.163f
+C31 w3  vss 1.013f
+C32 w4  vss 0.181f
+C33 w2  vss 0.180f
+C34 w5  vss 0.172f
+C35 z   vss 0.046f
+C36 a   vss 0.158f
+C37 an  vss 0.115f
+C38 b   vss 0.097f
+.ends

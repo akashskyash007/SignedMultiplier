@@ -1,0 +1,44 @@
+.subckt ts_x8 cmd i q vdd vss
+*05-JAN-08 SPICE3       file   created      from ts_x8.ext -        technology: scmos
+m00 q   w1  vdd vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u   as=0.690241p ps=3.62609u
+m01 vdd w1  q   vdd p w=2.145u l=0.13u ad=0.690241p pd=3.62609u as=0.568425p ps=2.675u  
+m02 q   w1  vdd vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u   as=0.690241p ps=3.62609u
+m03 vdd w1  q   vdd p w=2.145u l=0.13u ad=0.690241p pd=3.62609u as=0.568425p ps=2.675u  
+m04 w2  cmd vdd vdd p w=1.045u l=0.13u ad=0.44935p  pd=2.95u    as=0.336271p ps=1.76656u
+m05 w1  w2  w3  vdd p w=1.045u l=0.13u ad=0.335374p pd=2.03525u as=0.44935p  ps=2.95u   
+m06 vdd cmd w1  vdd p w=1.1u   l=0.13u ad=0.35397p  pd=1.85953u as=0.353025p ps=2.14237u
+m07 w1  i   vdd vdd p w=1.1u   l=0.13u ad=0.353025p pd=2.14237u as=0.35397p  ps=1.85953u
+m08 q   w3  vss vss n w=1.045u l=0.13u ad=0.276925p pd=1.575u   as=0.350582p ps=2.2468u 
+m09 vss w3  q   vss n w=1.045u l=0.13u ad=0.350582p pd=2.2468u  as=0.276925p ps=1.575u  
+m10 q   w3  vss vss n w=1.045u l=0.13u ad=0.276925p pd=1.575u   as=0.350582p ps=2.2468u 
+m11 vss w3  q   vss n w=1.045u l=0.13u ad=0.350582p pd=2.2468u  as=0.276925p ps=1.575u  
+m12 w2  cmd vss vss n w=0.495u l=0.13u ad=0.21285p  pd=1.85u    as=0.166065p ps=1.06427u
+m13 vss w2  w3  vss n w=0.495u l=0.13u ad=0.166065p pd=1.06427u as=0.157428p ps=1.28893u
+m14 w3  i   vss vss n w=0.495u l=0.13u ad=0.157428p pd=1.28893u as=0.166065p ps=1.06427u
+m15 w1  cmd w3  vss n w=0.55u  l=0.13u ad=0.2365p   pd=1.96u    as=0.17492p  ps=1.43214u
+C0  vdd w2  0.045f
+C1  w1  cmd 0.158f
+C2  w1  q   0.015f
+C3  vdd i   0.020f
+C4  cmd q   0.171f
+C5  vdd w3  0.012f
+C6  w1  w2  0.013f
+C7  w1  i   0.135f
+C8  cmd w2  0.145f
+C9  w1  w3  0.174f
+C10 cmd i   0.150f
+C11 cmd w3  0.149f
+C12 q   w3  0.015f
+C13 w2  i   0.018f
+C14 w2  w3  0.234f
+C15 vdd w1  0.135f
+C16 i   w3  0.019f
+C17 vdd cmd 0.079f
+C18 vdd q   0.216f
+C19 w3  vss 0.504f
+C20 i   vss 0.147f
+C21 w2  vss 0.257f
+C22 q   vss 0.351f
+C23 cmd vss 0.388f
+C24 w1  vss 0.401f
+.ends

@@ -1,0 +1,23 @@
+.subckt a2_x2 i0 i1 q vdd vss
+*05-JAN-08 SPICE3       file   created      from a2_x2.ext -        technology: scmos
+m00 w1  i0 vdd vdd p w=1.1u   l=0.13u ad=0.296038p pd=1.685u   as=0.413266p ps=2.32405u
+m01 vdd i1 w1  vdd p w=1.1u   l=0.13u ad=0.413266p pd=2.32405u as=0.296038p ps=1.685u  
+m02 q   w1 vdd vdd p w=2.145u l=0.13u ad=0.92235p  pd=5.15u    as=0.805868p ps=4.5319u 
+m03 w2  i0 w1  vss n w=1.1u   l=0.13u ad=0.377474p pd=2.17895u as=0.473p    ps=3.06u   
+m04 vss i1 w2  vss n w=0.99u  l=0.13u ad=0.26235p  pd=1.53243u as=0.339726p ps=1.96105u
+m05 q   w1 vss vss n w=1.045u l=0.13u ad=0.44935p  pd=2.95u    as=0.276925p ps=1.61757u
+C0  w1  vdd 0.036f
+C1  w1  i0  0.188f
+C2  vdd i0  0.013f
+C3  w1  i1  0.275f
+C4  vdd i1  0.069f
+C5  i0  i1  0.040f
+C6  w1  w2  0.032f
+C7  vdd q   0.034f
+C8  i1  q   0.171f
+C9  w2  vss 0.021f
+C10 q   vss 0.135f
+C11 i1  vss 0.206f
+C12 i0  vss 0.129f
+C14 w1  vss 0.271f
+.ends

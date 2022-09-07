@@ -1,0 +1,11 @@
+#!/bin/bash
+# allbuf 2008-01-12:19h45 graham
+
+./allbuf_delay $1
+./allbuf_vbe
+./allbuf_lib
+./allbuf_html
+if test -x allbuf_xtra
+then
+  ./allbuf_xtra
+fi

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Script to remake all vtxlib cells from the vxlib contents
+
+ls -1 ../vxlib/*.ap | \
+  grep -v test | \
+  grep -v ram | \
+  sed 's|^../vxlib/\(.*\)\.ap|./convert_vx_vtx \1|' | bash

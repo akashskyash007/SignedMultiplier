@@ -1,0 +1,47 @@
+.subckt nd3v0x4 a b c vdd vss z
+*01-JAN-08 SPICE3       file   created      from nd3v0x4.ext -        technology: scmos
+m00 vdd b z   vdd p w=0.66u  l=0.13u ad=0.16885p  pd=1.1064u  as=0.14828p  ps=1.0448u 
+m01 z   a vdd vdd p w=1.265u l=0.13u ad=0.284203p pd=2.00253u as=0.323629p ps=2.1206u 
+m02 vdd a z   vdd p w=1.485u l=0.13u ad=0.379913p pd=2.4894u  as=0.33363p  ps=2.3508u 
+m03 z   b vdd vdd p w=1.045u l=0.13u ad=0.234777p pd=1.65427u as=0.267346p ps=1.7518u 
+m04 vdd c z   vdd p w=1.375u l=0.13u ad=0.351771p pd=2.305u   as=0.308917p ps=2.17667u
+m05 z   c vdd vdd p w=1.375u l=0.13u ad=0.308917p pd=2.17667u as=0.351771p ps=2.305u  
+m06 vdd b z   vdd p w=1.045u l=0.13u ad=0.267346p pd=1.7518u  as=0.234777p ps=1.65427u
+m07 w1  c z   vss n w=0.99u  l=0.13u ad=0.126225p pd=1.245u   as=0.244926p ps=1.998u  
+m08 w2  b w1  vss n w=0.99u  l=0.13u ad=0.126225p pd=1.245u   as=0.126225p ps=1.245u  
+m09 vss a w2  vss n w=0.99u  l=0.13u ad=0.312444p pd=1.9584u  as=0.126225p ps=1.245u  
+m10 w3  a vss vss n w=0.99u  l=0.13u ad=0.126225p pd=1.245u   as=0.312444p ps=1.9584u 
+m11 w4  b w3  vss n w=0.99u  l=0.13u ad=0.126225p pd=1.245u   as=0.126225p ps=1.245u  
+m12 z   c w4  vss n w=0.99u  l=0.13u ad=0.244926p pd=1.998u   as=0.126225p ps=1.245u  
+m13 w5  c z   vss n w=0.77u  l=0.13u ad=0.098175p pd=1.025u   as=0.190498p ps=1.554u  
+m14 w6  b w5  vss n w=0.77u  l=0.13u ad=0.098175p pd=1.025u   as=0.098175p ps=1.025u  
+m15 vss a w6  vss n w=0.77u  l=0.13u ad=0.243012p pd=1.5232u  as=0.098175p ps=1.025u  
+C0  z   w4  0.009f
+C1  vdd c   0.014f
+C2  vdd z   0.259f
+C3  a   b   0.514f
+C4  a   c   0.258f
+C5  a   z   0.033f
+C6  b   c   0.361f
+C7  b   z   0.305f
+C8  c   z   0.253f
+C9  c   w1  0.003f
+C10 z   w1  0.009f
+C11 c   w2  0.004f
+C12 z   w2  0.009f
+C13 c   w3  0.004f
+C14 vdd a   0.020f
+C15 z   w3  0.009f
+C16 c   w4  0.004f
+C17 vdd b   0.068f
+C18 w6  vss 0.010f
+C19 w5  vss 0.011f
+C20 w4  vss 0.010f
+C21 w3  vss 0.009f
+C22 w2  vss 0.009f
+C23 w1  vss 0.009f
+C24 z   vss 0.493f
+C25 c   vss 0.266f
+C26 b   vss 0.333f
+C27 a   vss 0.285f
+.ends

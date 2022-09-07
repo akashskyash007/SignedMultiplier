@@ -1,0 +1,19 @@
+.subckt tie_x0 vdd vss
+*10-JAN-08 SPICE3       file   created      from tie_x0.ext -        technology: scmos
+m00 vdd vdd w1  vdd p w=1.54u l=0.13u ad=0.517p  pd=2.73u as=0.5775p ps=3.83u
+m01 w2  vdd vdd vdd p w=1.54u l=0.13u ad=0.5775p pd=3.83u as=0.517p  ps=2.73u
+m02 vdd vdd w3  vdd p w=1.54u l=0.13u ad=0.517p  pd=2.73u as=0.5775p ps=3.83u
+m03 w4  vdd vdd vdd p w=1.54u l=0.13u ad=0.5775p pd=3.83u as=0.517p  ps=2.73u
+m04 vss vdd w5  vss n w=1.1u  l=0.13u ad=0.4004p pd=2.29u as=0.4125p ps=2.95u
+m05 w6  vdd vss vss n w=1.1u  l=0.13u ad=0.4125p pd=2.95u as=0.4004p ps=2.29u
+m06 vss vdd w7  vss n w=1.1u  l=0.13u ad=0.4004p pd=2.29u as=0.4125p ps=2.95u
+m07 w8  vdd vss vss n w=1.1u  l=0.13u ad=0.4125p pd=2.95u as=0.4004p ps=2.29u
+C0 w8 vss 0.014f
+C1 w7 vss 0.014f
+C2 w6 vss 0.014f
+C3 w5 vss 0.014f
+C4 w4 vss 0.019f
+C5 w3 vss 0.019f
+C6 w2 vss 0.019f
+C7 w1 vss 0.019f
+.ends

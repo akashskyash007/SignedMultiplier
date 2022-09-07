@@ -1,0 +1,54 @@
+.subckt cgi2abv0x1 a b c vdd vss z
+*01-JAN-08 SPICE3       file   created      from cgi2abv0x1.ext -        technology: scmos
+m00 vdd a  an  vdd p w=1.485u l=0.13u ad=0.360855p pd=2.268u   as=0.472175p ps=3.72u   
+m01 n1  an vdd vdd p w=1.485u l=0.13u ad=0.365292p pd=2.51u    as=0.360855p ps=2.268u  
+m02 w1  an vdd vdd p w=1.485u l=0.13u ad=0.189338p pd=1.74u    as=0.360855p ps=2.268u  
+m03 z   bn w1  vdd p w=1.485u l=0.13u ad=0.31185p  pd=1.905u   as=0.189338p ps=1.74u   
+m04 n1  c  z   vdd p w=1.485u l=0.13u ad=0.365292p pd=2.51u    as=0.31185p  ps=1.905u  
+m05 vdd bn n1  vdd p w=1.485u l=0.13u ad=0.360855p pd=2.268u   as=0.365292p ps=2.51u   
+m06 bn  b  vdd vdd p w=1.485u l=0.13u ad=0.472175p pd=3.72u    as=0.360855p ps=2.268u  
+m07 vss a  an  vss n w=0.77u  l=0.13u ad=0.232699p pd=1.67794u as=0.28875p  ps=2.29u   
+m08 n3  an vss vss n w=0.77u  l=0.13u ad=0.187917p pd=1.55667u as=0.232699p ps=1.67794u
+m09 w2  an vss vss n w=0.66u  l=0.13u ad=0.08415p  pd=0.915u   as=0.199456p ps=1.43824u
+m10 z   bn w2  vss n w=0.66u  l=0.13u ad=0.141392p pd=1.09846u as=0.08415p  ps=0.915u  
+m11 n3  c  z   vss n w=0.77u  l=0.13u ad=0.187917p pd=1.55667u as=0.164958p ps=1.28154u
+m12 vss bn n3  vss n w=0.77u  l=0.13u ad=0.232699p pd=1.67794u as=0.187917p ps=1.55667u
+m13 bn  b  vss vss n w=0.77u  l=0.13u ad=0.28875p  pd=2.29u    as=0.232699p ps=1.67794u
+C0  c   n1  0.040f
+C1  b   vdd 0.007f
+C2  z   w2  0.008f
+C3  z   w1  0.008f
+C4  vdd n1  0.182f
+C5  a   an  0.207f
+C6  vdd w1  0.003f
+C7  n3  w2  0.005f
+C8  n1  w1  0.024f
+C9  an  bn  0.129f
+C10 z   an  0.025f
+C11 z   bn  0.023f
+C12 a   vdd 0.007f
+C13 bn  c   0.248f
+C14 z   c   0.109f
+C15 an  vdd 0.090f
+C16 bn  b   0.193f
+C17 n3  an  0.009f
+C18 an  n1  0.018f
+C19 bn  vdd 0.087f
+C20 z   vdd 0.005f
+C21 n3  bn  0.009f
+C22 bn  n1  0.006f
+C23 c   vdd 0.007f
+C24 z   n3  0.062f
+C25 z   n1  0.063f
+C26 n3  c   0.006f
+C27 w2  vss 0.002f
+C28 n3  vss 0.239f
+C29 z   vss 0.057f
+C30 w1  vss 0.005f
+C31 n1  vss 0.056f
+C33 b   vss 0.108f
+C34 c   vss 0.104f
+C35 bn  vss 0.285f
+C36 an  vss 0.303f
+C37 a   vss 0.130f
+.ends

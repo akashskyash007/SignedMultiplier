@@ -1,0 +1,27 @@
+.subckt nr3_x05 a b c vdd vss z
+*04-JAN-08 SPICE3       file   created      from nr3_x05.ext -        technology: scmos
+m00 w1  c z   vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u   as=0.695475p ps=5.15u   
+m01 w2  b w1  vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u   as=0.332475p ps=2.455u  
+m02 vdd a w2  vdd p w=2.145u l=0.13u ad=1.04033p  pd=5.26u    as=0.332475p ps=2.455u  
+m03 vss c z   vss n w=0.44u  l=0.13u ad=0.19525p  pd=1.55667u as=0.1408p   ps=1.22667u
+m04 z   b vss vss n w=0.44u  l=0.13u ad=0.1408p   pd=1.22667u as=0.19525p  ps=1.55667u
+m05 vss a z   vss n w=0.44u  l=0.13u ad=0.19525p  pd=1.55667u as=0.1408p   ps=1.22667u
+C0  z  vdd 0.009f
+C1  w1 vdd 0.010f
+C2  w2 vdd 0.010f
+C3  c  b   0.211f
+C4  c  a   0.008f
+C5  c  z   0.101f
+C6  b  a   0.200f
+C7  b  z   0.007f
+C8  c  vdd 0.010f
+C9  b  vdd 0.010f
+C10 a  w2  0.010f
+C11 a  vdd 0.046f
+C13 w2 vss 0.014f
+C14 w1 vss 0.016f
+C15 z  vss 0.230f
+C16 a  vss 0.129f
+C17 b  vss 0.140f
+C18 c  vss 0.148f
+.ends

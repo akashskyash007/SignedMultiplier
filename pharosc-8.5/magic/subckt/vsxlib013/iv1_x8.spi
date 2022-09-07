@@ -1,0 +1,34 @@
+.subckt iv1_x8 a vdd vss z
+*04-JAN-08 SPICE3       file   created      from iv1_x8.ext -        technology: scmos
+m00 z   a vdd vdd p w=2.145u l=0.13u ad=0.568425p pd=2.87793u as=0.731963p ps=3.88386u
+m01 vdd a z   vdd p w=2.145u l=0.13u ad=0.731963p pd=3.88386u as=0.568425p ps=2.87793u
+m02 z   a vdd vdd p w=2.145u l=0.13u ad=0.568425p pd=2.87793u as=0.731963p ps=3.88386u
+m03 vdd a z   vdd p w=1.54u  l=0.13u ad=0.525512p pd=2.78841u as=0.4081p   ps=2.06621u
+m04 z   a vss vss n w=0.99u  l=0.13u ad=0.26235p  pd=1.52u    as=0.344025p ps=2.18u   
+m05 vss a z   vss n w=0.99u  l=0.13u ad=0.344025p pd=2.18u    as=0.26235p  ps=1.52u   
+m06 z   a vss vss n w=0.99u  l=0.13u ad=0.26235p  pd=1.52u    as=0.344025p ps=2.18u   
+m07 vss a z   vss n w=0.99u  l=0.13u ad=0.344025p pd=2.18u    as=0.26235p  ps=1.52u   
+C0  z   w1  0.072f
+C1  w2  w1  0.166f
+C2  w3  w1  0.166f
+C3  w4  w1  0.166f
+C4  vdd a   0.043f
+C5  a   z   0.273f
+C6  vdd z   0.126f
+C7  a   w2  0.009f
+C8  vdd w2  0.037f
+C9  a   w3  0.011f
+C10 z   w2  0.016f
+C11 vdd w3  0.010f
+C12 a   w4  0.012f
+C13 z   w3  0.063f
+C14 a   w1  0.060f
+C15 z   w4  0.057f
+C16 vdd w1  0.065f
+C17 w1  vss 1.020f
+C18 w4  vss 0.176f
+C19 w3  vss 0.164f
+C20 w2  vss 0.164f
+C21 z   vss 0.246f
+C22 a   vss 0.244f
+.ends

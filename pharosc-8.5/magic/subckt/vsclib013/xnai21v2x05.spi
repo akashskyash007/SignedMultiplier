@@ -1,0 +1,45 @@
+.subckt xnai21v2x05 a1 a2 b vdd vss z
+*01-JAN-08 SPICE3       file   created      from xnai21v2x05.ext -        technology: scmos
+m00 z   b   vdd vdd p w=0.715u l=0.13u ad=0.168025p  pd=1.25982u as=0.225225p  ps=1.59782u
+m01 z   a2n a1n vdd p w=1.155u l=0.13u ad=0.271425p  pd=2.03509u as=0.342375p  ps=3.06u   
+m02 a2n a1n z   vdd p w=1.155u l=0.13u ad=0.263725p  pd=1.96u    as=0.271425p  ps=2.03509u
+m03 vdd a2  a2n vdd p w=1.155u l=0.13u ad=0.363825p  pd=2.58109u as=0.263725p  ps=1.96u   
+m04 a1n a1  vdd vdd p w=1.155u l=0.13u ad=0.342375p  pd=3.06u    as=0.363825p  ps=2.58109u
+m05 vss a2  a2n vss n w=0.715u l=0.13u ad=0.15015p   pd=1.135u   as=0.225775p  ps=2.18u   
+m06 n2  b   vss vss n w=0.715u l=0.13u ad=0.175358p  pd=1.48333u as=0.15015p   ps=1.135u  
+m07 w1  a2n n2  vss n w=0.715u l=0.13u ad=0.0911625p pd=0.97u    as=0.175358p  ps=1.48333u
+m08 z   a1n w1  vss n w=0.715u l=0.13u ad=0.15015p   pd=1.135u   as=0.0911625p ps=0.97u   
+m09 a1n a2  z   vss n w=0.715u l=0.13u ad=0.15015p   pd=1.135u   as=0.15015p   ps=1.135u  
+m10 n2  a1  a1n vss n w=0.715u l=0.13u ad=0.175358p  pd=1.48333u as=0.15015p   ps=1.135u  
+C0  n2  w1  0.008f
+C1  a2  z   0.007f
+C2  a2n a1n 0.251f
+C3  a2n b   0.068f
+C4  a2  n2  0.006f
+C5  a2n z   0.065f
+C6  a1  n2  0.006f
+C7  a1n z   0.182f
+C8  vdd a2  0.007f
+C9  b   z   0.089f
+C10 a2n n2  0.006f
+C11 vdd a1  0.012f
+C12 a1n n2  0.043f
+C13 vdd a2n 0.176f
+C14 b   n2  0.003f
+C15 vdd a1n 0.083f
+C16 a2  a1  0.174f
+C17 z   n2  0.095f
+C18 a2  a2n 0.006f
+C19 z   w1  0.006f
+C20 a2  a1n 0.149f
+C21 a1  a1n 0.079f
+C22 a2  b   0.040f
+C23 w1  vss 0.003f
+C24 n2  vss 0.201f
+C25 z   vss 0.068f
+C26 b   vss 0.094f
+C27 a1n vss 0.169f
+C28 a2n vss 0.232f
+C29 a1  vss 0.141f
+C30 a2  vss 0.216f
+.ends

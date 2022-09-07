@@ -1,0 +1,22 @@
+.subckt nd2av0x1 a b vdd vss z
+*01-JAN-08 SPICE3       file   created      from nd2av0x1.ext -        technology: scmos
+m00 z   b  vdd vdd p w=0.77u  l=0.13u ad=0.1617p   pd=1.19u    as=0.290767p ps=2.18u   
+m01 vdd an z   vdd p w=0.77u  l=0.13u ad=0.290767p pd=2.18u    as=0.1617p   ps=1.19u   
+m02 an  a  vdd vdd p w=0.77u  l=0.13u ad=0.24035p  pd=2.29u    as=0.290767p ps=2.18u   
+m03 w1  b  z   vss n w=0.66u  l=0.13u ad=0.08415p  pd=0.915u   as=0.2112p   ps=2.07u   
+m04 vss an w1  vss n w=0.66u  l=0.13u ad=0.329653p pd=2.26737u as=0.08415p  ps=0.915u  
+m05 an  a  vss vss n w=0.385u l=0.13u ad=0.16555p  pd=1.63u    as=0.192297p ps=1.32263u
+C0  z   w1  0.007f
+C1  vdd b   0.078f
+C2  vdd an  0.007f
+C3  b   an  0.088f
+C4  vdd z   0.014f
+C5  an  a   0.174f
+C6  b   z   0.141f
+C7  an  z   0.103f
+C8  w1  vss 0.004f
+C9  z   vss 0.061f
+C10 a   vss 0.105f
+C11 an  vss 0.221f
+C12 b   vss 0.170f
+.ends

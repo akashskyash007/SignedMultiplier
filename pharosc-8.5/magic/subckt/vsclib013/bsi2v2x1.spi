@@ -1,0 +1,50 @@
+.subckt bsi2v2x1 a0 a1 s vdd vss z0 z1
+*01-JAN-08 SPICE3       file   created      from bsi2v2x1.ext -        technology: scmos
+m00 a0n a0 vdd vdd p w=1.155u l=0.13u ad=0.290438p pd=2.07738u as=0.600245p ps=2.646u  
+m01 z0  s  a0n vdd p w=1.21u  l=0.13u ad=0.2541p   pd=1.63u    as=0.304268p ps=2.17631u
+m02 a1n sn z0  vdd p w=1.21u  l=0.13u ad=0.3025p   pd=2.14333u as=0.2541p   ps=1.63u   
+m03 vdd s  sn  vdd p w=1.21u  l=0.13u ad=0.628828p pd=2.772u   as=0.35695p  ps=3.17u   
+m04 a1n a1 vdd vdd p w=1.21u  l=0.13u ad=0.3025p   pd=2.14333u as=0.628828p ps=2.772u  
+m05 z1  s  a1n vdd p w=1.21u  l=0.13u ad=0.2541p   pd=1.63u    as=0.3025p   ps=2.14333u
+m06 a0n sn z1  vdd p w=1.21u  l=0.13u ad=0.304268p pd=2.17631u as=0.2541p   ps=1.63u   
+m07 a0n a0 vss vss n w=0.55u  l=0.13u ad=0.137683p pd=1.26333u as=0.292967p ps=1.85u   
+m08 z0  sn a0n vss n w=0.55u  l=0.13u ad=0.1155p   pd=0.97u    as=0.137683p ps=1.26333u
+m09 a1n s  z0  vss n w=0.55u  l=0.13u ad=0.1397p   pd=1.26333u as=0.1155p   ps=0.97u   
+m10 vss s  sn  vss n w=0.55u  l=0.13u ad=0.292967p pd=1.85u    as=0.18205p  ps=1.85u   
+m11 a1n a1 vss vss n w=0.55u  l=0.13u ad=0.1397p   pd=1.26333u as=0.292967p ps=1.85u   
+m12 z1  sn a1n vss n w=0.55u  l=0.13u ad=0.1155p   pd=0.97u    as=0.1397p   ps=1.26333u
+m13 a0n s  z1  vss n w=0.55u  l=0.13u ad=0.137683p pd=1.26333u as=0.1155p   ps=0.97u   
+C0  vdd s   0.098f
+C1  sn  z1  0.016f
+C2  z0  a1n 0.091f
+C3  a0n a1  0.064f
+C4  vdd a0  0.032f
+C5  a0n z1  0.139f
+C6  vdd sn  0.008f
+C7  a1n a1  0.129f
+C8  vdd a0n 0.316f
+C9  s   a0  0.042f
+C10 a1n z1  0.077f
+C11 s   sn  0.267f
+C12 s   a0n 0.060f
+C13 a0  sn  0.026f
+C14 s   z0  0.049f
+C15 a0  a0n 0.045f
+C16 vdd a1  0.038f
+C17 s   a1n 0.067f
+C18 sn  a0n 0.034f
+C19 s   a1  0.096f
+C20 s   z1  0.020f
+C21 sn  a1n 0.157f
+C22 a0n z0  0.172f
+C23 a0n a1n 0.045f
+C24 sn  a1  0.034f
+C25 z1  vss 0.116f
+C26 a1  vss 0.095f
+C27 a1n vss 0.323f
+C28 z0  vss 0.080f
+C29 a0n vss 0.174f
+C30 sn  vss 0.411f
+C31 a0  vss 0.195f
+C32 s   vss 0.396f
+.ends

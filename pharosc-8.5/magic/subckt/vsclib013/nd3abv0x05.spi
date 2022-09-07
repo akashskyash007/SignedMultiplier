@@ -1,0 +1,31 @@
+.subckt nd3abv0x05 a b c vdd vss z
+*01-JAN-08 SPICE3       file   created      from nd3abv0x05.ext -        technology: scmos
+m00 z   c  vdd vdd p w=0.44u  l=0.13u ad=0.0924p    pd=0.86u    as=0.1892p    ps=1.48903u
+m01 vdd nd z   vdd p w=0.44u  l=0.13u ad=0.1892p    pd=1.48903u as=0.0924p    ps=0.86u   
+m02 w1  a  vdd vdd p w=0.825u l=0.13u ad=0.105188p  pd=1.08u    as=0.35475p   ps=2.79194u
+m03 nd  b  w1  vdd p w=0.825u l=0.13u ad=0.254925p  pd=2.4u     as=0.105188p  ps=1.08u   
+m04 w2  c  z   vss n w=0.385u l=0.13u ad=0.0490875p pd=0.64u    as=0.144375p  ps=1.52u   
+m05 vss nd w2  vss n w=0.385u l=0.13u ad=0.212358p  pd=1.88263u as=0.0490875p ps=0.64u   
+m06 nd  a  vss vss n w=0.33u  l=0.13u ad=0.0693p    pd=0.75u    as=0.182021p  ps=1.61368u
+m07 vss b  nd  vss n w=0.33u  l=0.13u ad=0.182021p  pd=1.61368u as=0.0693p    ps=0.75u   
+C0  c   z   0.120f
+C1  nd  z   0.005f
+C2  vdd a   0.051f
+C3  vdd b   0.006f
+C4  z   w2  0.007f
+C5  vdd nd  0.005f
+C6  a   b   0.109f
+C7  vdd z   0.035f
+C8  a   c   0.030f
+C9  a   nd  0.179f
+C10 a   z   0.004f
+C11 b   nd  0.092f
+C12 a   w1  0.014f
+C13 c   nd  0.134f
+C14 w1  vss 0.004f
+C15 z   vss 0.188f
+C16 nd  vss 0.174f
+C17 c   vss 0.097f
+C18 b   vss 0.199f
+C19 a   vss 0.107f
+.ends

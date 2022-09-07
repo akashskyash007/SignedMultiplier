@@ -1,0 +1,27 @@
+.subckt dly1v0x05 a vdd vss z
+*01-JAN-08 SPICE3       file   created      from dly1v0x05.ext -        technology: scmos
+m00 vdd n1 n2  vdd p w=0.33u l=0.13u ad=0.0693p  pd=0.61u as=0.12375p ps=1.41u
+m01 n1  a  vdd vdd p w=0.33u l=0.13u ad=0.12375p pd=1.41u as=0.0693p  ps=0.61u
+m02 vdd n3 z   vdd p w=0.66u l=0.13u ad=0.1386p  pd=1.22u as=0.2475p  ps=2.07u
+m03 n3  n2 vdd vdd p w=0.66u l=0.13u ad=0.2475p  pd=2.07u as=0.1386p  ps=1.22u
+m04 vss n3 z   vss n w=0.33u l=0.13u ad=0.0693p  pd=0.75u as=0.12375p ps=1.41u
+m05 n3  n2 vss vss n w=0.33u l=0.13u ad=0.12375p pd=1.41u as=0.0693p  ps=0.75u
+m06 vss n1 n2  vss n w=0.33u l=0.13u ad=0.0693p  pd=0.75u as=0.12375p ps=1.41u
+m07 n1  a  vss vss n w=0.33u l=0.13u ad=0.12375p pd=1.41u as=0.0693p  ps=0.75u
+C0  n2  a   0.033f
+C1  vdd n2  0.088f
+C2  n1  a   0.190f
+C3  vdd n1  0.046f
+C4  vdd a   0.026f
+C5  n3  n2  0.227f
+C6  vdd z   0.102f
+C7  n3  a   0.019f
+C8  vdd n3  0.019f
+C9  n3  z   0.077f
+C10 n2  n1  0.040f
+C11 z   vss 0.252f
+C12 a   vss 0.132f
+C13 n1  vss 0.319f
+C14 n2  vss 0.279f
+C15 n3  vss 0.271f
+.ends

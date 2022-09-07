@@ -1,0 +1,73 @@
+.subckt nr4_x05 a b c d vdd vss z
+*04-JAN-08 SPICE3       file   created      from nr4_x05.ext -        technology: scmos
+m00 w1  d z   vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u as=0.713625p ps=5.15u 
+m01 w2  c w1  vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u as=0.332475p ps=2.455u
+m02 w3  b w2  vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u as=0.332475p ps=2.455u
+m03 vdd a w3  vdd p w=2.145u l=0.13u ad=0.92235p  pd=5.15u  as=0.332475p ps=2.455u
+m04 z   d vss vss n w=0.33u  l=0.13u ad=0.08745p  pd=0.86u  as=0.205425p ps=1.74u 
+m05 vss c z   vss n w=0.33u  l=0.13u ad=0.205425p pd=1.74u  as=0.08745p  ps=0.86u 
+m06 z   b vss vss n w=0.33u  l=0.13u ad=0.08745p  pd=0.86u  as=0.205425p ps=1.74u 
+m07 vss a z   vss n w=0.33u  l=0.13u ad=0.205425p pd=1.74u  as=0.08745p  ps=0.86u 
+C0  w3  w4  0.003f
+C1  d   w5  0.002f
+C2  vdd d   0.010f
+C3  w5  w4  0.166f
+C4  vdd w4  0.036f
+C5  d   w6  0.011f
+C6  c   w5  0.002f
+C7  a   w2  0.005f
+C8  vdd c   0.010f
+C9  w6  w4  0.166f
+C10 d   w7  0.010f
+C11 c   w6  0.001f
+C12 b   w5  0.002f
+C13 a   w3  0.010f
+C14 vdd b   0.010f
+C15 w7  w4  0.166f
+C16 d   w4  0.018f
+C17 c   w7  0.032f
+C18 b   w6  0.002f
+C19 a   w5  0.002f
+C20 vdd a   0.038f
+C21 d   c   0.187f
+C22 c   w4  0.017f
+C23 b   w7  0.009f
+C24 a   w6  0.013f
+C25 z   w5  0.004f
+C26 vdd z   0.009f
+C27 b   w4  0.014f
+C28 a   w7  0.001f
+C29 z   w6  0.031f
+C30 w1  w5  0.005f
+C31 vdd w1  0.010f
+C32 c   b   0.198f
+C33 a   w4  0.029f
+C34 z   w7  0.009f
+C35 w1  w6  0.002f
+C36 w2  w5  0.005f
+C37 d   z   0.112f
+C38 vdd w2  0.010f
+C39 c   a   0.024f
+C40 z   w4  0.086f
+C41 w2  w6  0.005f
+C42 w3  w5  0.005f
+C43 c   z   0.020f
+C44 d   w1  0.010f
+C45 vdd w3  0.010f
+C46 b   a   0.187f
+C47 w1  w4  0.007f
+C48 w3  w6  0.005f
+C49 vdd w5  0.012f
+C50 b   z   0.032f
+C51 w2  w4  0.003f
+C52 vdd w6  0.003f
+C53 w4  vss 1.003f
+C54 w7  vss 0.178f
+C55 w6  vss 0.167f
+C56 w5  vss 0.173f
+C57 z   vss 0.193f
+C58 a   vss 0.073f
+C59 b   vss 0.091f
+C60 c   vss 0.107f
+C61 d   vss 0.103f
+.ends

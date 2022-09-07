@@ -1,0 +1,18 @@
+ha2_x2     Prop   Ramp   Cap1   LE     LE     FO=4   FO=4
+# co timing
+# co timing; average FO4_delay            145.66 ps  2.09
+a_co_hh    68.0   1.56  12.41                2.066  2.078
+a_co_ll    87.0   1.20  11.96                2.089       
+b_co_hh    68.2   1.56  11.62                2.012  2.098
+b_co_ll    96.6   1.21  11.50                2.185       
+# so timing; average characteristic_delay  16.418 ps  1.91
+# so timing; average FO4_delay            190.95 ps  2.74
+a_so_lh   140.3   1.56  11.94  2.209  1.963  3.099  3.057
+a_so_hl   151.3   1.21  12.38  1.716         3.015       
+a_so_hh    98.0   1.56  10.61                2.375  2.384
+a_so_ll   114.4   1.21  11.01                2.392       
+b_so_lh   156.6   1.56  11.49  2.102  1.866  3.281  3.115
+b_so_hl   149.8   1.21  11.60  1.630         2.950       
+b_so_hh    85.5   1.56  13.15                2.373  2.393
+b_so_ll   106.1   1.21  12.51                2.413       
+

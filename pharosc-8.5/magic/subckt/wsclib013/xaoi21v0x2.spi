@@ -1,0 +1,57 @@
+.subckt xaoi21v0x2 a1 a2 b vdd vss z
+*01-JAN-08 SPICE3       file   created      from xaoi21v0x2.ext -        technology: scmos
+m00 bn  b  vdd vdd p w=1.54u  l=0.13u ad=0.3234p   pd=1.96u    as=0.542713p ps=3.0325u 
+m01 vdd b  bn  vdd p w=1.54u  l=0.13u ad=0.542713p pd=3.0325u  as=0.3234p   ps=1.96u   
+m02 w1  an vdd vdd p w=1.54u  l=0.13u ad=0.19635p  pd=1.795u   as=0.542713p ps=3.0325u 
+m03 z   bn w1  vdd p w=1.54u  l=0.13u ad=0.3234p   pd=1.96u    as=0.19635p  ps=1.795u  
+m04 an  b  z   vdd p w=1.54u  l=0.13u ad=0.3234p   pd=1.96u    as=0.3234p   ps=1.96u   
+m05 z   b  an  vdd p w=1.54u  l=0.13u ad=0.3234p   pd=1.96u    as=0.3234p   ps=1.96u   
+m06 w2  bn z   vdd p w=1.54u  l=0.13u ad=0.19635p  pd=1.795u   as=0.3234p   ps=1.96u   
+m07 vdd an w2  vdd p w=1.54u  l=0.13u ad=0.542713p pd=3.0325u  as=0.19635p  ps=1.795u  
+m08 an  a1 vdd vdd p w=1.54u  l=0.13u ad=0.3234p   pd=1.96u    as=0.542713p ps=3.0325u 
+m09 vdd a2 an  vdd p w=1.54u  l=0.13u ad=0.542713p pd=3.0325u  as=0.3234p   ps=1.96u   
+m10 an  a2 vdd vdd p w=1.54u  l=0.13u ad=0.3234p   pd=1.96u    as=0.542713p ps=3.0325u 
+m11 vdd a1 an  vdd p w=1.54u  l=0.13u ad=0.542713p pd=3.0325u  as=0.3234p   ps=1.96u   
+m12 vss b  bn  vss n w=0.77u  l=0.13u ad=0.292059p pd=1.9075u  as=0.213125p ps=1.74u   
+m13 bn  b  vss vss n w=0.77u  l=0.13u ad=0.213125p pd=1.74u    as=0.292059p ps=1.9075u 
+m14 z   an bn  vss n w=0.77u  l=0.13u ad=0.201403p pd=1.715u   as=0.213125p ps=1.74u   
+m15 bn  an z   vss n w=0.77u  l=0.13u ad=0.213125p pd=1.74u    as=0.201403p ps=1.715u  
+m16 an  bn z   vss n w=0.935u l=0.13u ad=0.197778p pd=1.35764u as=0.244561p ps=2.0825u 
+m17 z   bn an  vss n w=1.045u l=0.13u ad=0.273333p pd=2.3275u  as=0.221047p ps=1.51736u
+m18 w3  a1 vss vss n w=0.99u  l=0.13u ad=0.126225p pd=1.245u   as=0.375504p ps=2.4525u 
+m19 an  a2 w3  vss n w=0.99u  l=0.13u ad=0.209413p pd=1.4375u  as=0.126225p ps=1.245u  
+m20 w4  a2 an  vss n w=0.99u  l=0.13u ad=0.126225p pd=1.245u   as=0.209413p ps=1.4375u 
+m21 vss a1 w4  vss n w=0.99u  l=0.13u ad=0.375504p pd=2.4525u  as=0.126225p ps=1.245u  
+C0  bn  z   0.196f
+C1  an  w2  0.008f
+C2  vdd b   0.053f
+C3  an  w3  0.008f
+C4  vdd an  0.254f
+C5  vdd bn  0.040f
+C6  w1  z   0.004f
+C7  vdd a1  0.064f
+C8  b   an  0.150f
+C9  vdd a2  0.014f
+C10 b   bn  0.310f
+C11 a2  w4  0.004f
+C12 vdd w1  0.004f
+C13 an  bn  0.191f
+C14 vdd z   0.014f
+C15 an  a1  0.179f
+C16 an  a2  0.055f
+C17 vdd w2  0.004f
+C18 b   z   0.075f
+C19 an  w1  0.008f
+C20 an  z   0.269f
+C21 a1  a2  0.275f
+C22 w4  vss 0.009f
+C23 w3  vss 0.008f
+C24 w2  vss 0.008f
+C25 z   vss 0.305f
+C26 w1  vss 0.008f
+C27 a2  vss 0.138f
+C28 a1  vss 0.202f
+C29 bn  vss 0.442f
+C30 an  vss 0.626f
+C31 b   vss 0.292f
+.ends

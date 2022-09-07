@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Script to remake all stxlib cells from the sxlib contents
+
+ls -1 ../sxlib/*.ap | \
+  grep -v test | \
+  grep -v ram | \
+  sed 's|^../sxlib/\(.*\)\.ap|./convert_sx_stx \1|' | bash

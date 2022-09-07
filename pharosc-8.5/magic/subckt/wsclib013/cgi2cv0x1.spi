@@ -1,0 +1,50 @@
+.subckt cgi2cv0x1 a b c vdd vss z
+*01-JAN-08 SPICE3       file   created      from cgi2cv0x1.ext -        technology: scmos
+m00 vdd a  n1  vdd p w=1.485u l=0.13u ad=0.352688p pd=1.96u  as=0.365292p ps=2.51u 
+m01 w1  a  vdd vdd p w=1.485u l=0.13u ad=0.189338p pd=1.74u  as=0.352688p ps=1.96u 
+m02 z   b  w1  vdd p w=1.485u l=0.13u ad=0.31185p  pd=1.905u as=0.189338p ps=1.74u 
+m03 n1  w2 z   vdd p w=1.485u l=0.13u ad=0.365292p pd=2.51u  as=0.31185p  ps=1.905u
+m04 vdd b  n1  vdd p w=1.485u l=0.13u ad=0.352688p pd=1.96u  as=0.365292p ps=2.51u 
+m05 w2  c  vdd vdd p w=1.485u l=0.13u ad=0.472175p pd=3.72u  as=0.352688p ps=1.96u 
+m06 vss a  n3  vss n w=0.66u  l=0.13u ad=0.215738p pd=1.465u as=0.1628p   ps=1.41u 
+m07 w3  a  vss vss n w=0.66u  l=0.13u ad=0.08415p  pd=0.915u as=0.215738p ps=1.465u
+m08 z   b  w3  vss n w=0.66u  l=0.13u ad=0.1386p   pd=1.08u  as=0.08415p  ps=0.915u
+m09 n3  w2 z   vss n w=0.66u  l=0.13u ad=0.1628p   pd=1.41u  as=0.1386p   ps=1.08u 
+m10 vss b  n3  vss n w=0.66u  l=0.13u ad=0.215738p pd=1.465u as=0.1628p   ps=1.41u 
+m11 w2  c  vss vss n w=0.66u  l=0.13u ad=0.2112p   pd=2.07u  as=0.215738p ps=1.465u
+C0  n3  w3  0.005f
+C1  w2  c   0.118f
+C2  b   n1  0.049f
+C3  a   z   0.062f
+C4  w2  n1  0.006f
+C5  a   n3  0.013f
+C6  b   z   0.065f
+C7  w2  z   0.016f
+C8  b   n3  0.006f
+C9  vdd a   0.014f
+C10 w2  n3  0.042f
+C11 n1  w1  0.024f
+C12 vdd b   0.019f
+C13 n1  z   0.081f
+C14 vdd w2  0.011f
+C15 w1  z   0.006f
+C16 vdd c   0.042f
+C17 a   b   0.129f
+C18 vdd n1  0.165f
+C19 z   n3  0.077f
+C20 vdd w1  0.003f
+C21 b   w2  0.251f
+C22 z   w3  0.007f
+C23 a   n1  0.023f
+C24 vdd z   0.016f
+C25 b   c   0.168f
+C26 w3  vss 0.002f
+C27 n3  vss 0.249f
+C28 z   vss 0.072f
+C29 w1  vss 0.005f
+C30 n1  vss 0.050f
+C31 c   vss 0.096f
+C32 w2  vss 0.170f
+C33 b   vss 0.212f
+C34 a   vss 0.196f
+.ends

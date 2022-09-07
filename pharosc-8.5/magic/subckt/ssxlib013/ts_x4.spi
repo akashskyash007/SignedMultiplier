@@ -1,0 +1,40 @@
+.subckt ts_x4 cmd i q vdd vss
+*05-JAN-08 SPICE3       file   created      from ts_x4.ext -        technology: scmos
+m00 q   w1  vdd vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u   as=0.764763p ps=4.19891u
+m01 vdd w1  q   vdd p w=2.145u l=0.13u ad=0.764763p pd=4.19891u as=0.568425p ps=2.675u  
+m02 w2  cmd vdd vdd p w=1.045u l=0.13u ad=0.44935p  pd=2.95u    as=0.372577p ps=2.04562u
+m03 w1  w2  w3  vdd p w=1.045u l=0.13u ad=0.335374p pd=2.03525u as=0.44935p  ps=2.95u   
+m04 vdd cmd w1  vdd p w=1.1u   l=0.13u ad=0.392186p pd=2.15328u as=0.353025p ps=2.14237u
+m05 w1  i   vdd vdd p w=1.1u   l=0.13u ad=0.353025p pd=2.14237u as=0.392186p ps=2.15328u
+m06 q   w3  vss vss n w=1.045u l=0.13u ad=0.276925p pd=1.575u   as=0.393644p ps=2.63954u
+m07 vss w3  q   vss n w=1.045u l=0.13u ad=0.393644p pd=2.63954u as=0.276925p ps=1.575u  
+m08 w2  cmd vss vss n w=0.495u l=0.13u ad=0.21285p  pd=1.85u    as=0.186463p ps=1.25031u
+m09 vss w2  w3  vss n w=0.495u l=0.13u ad=0.186463p pd=1.25031u as=0.157428p ps=1.28893u
+m10 w3  i   vss vss n w=0.495u l=0.13u ad=0.157428p pd=1.28893u as=0.186463p ps=1.25031u
+m11 w1  cmd w3  vss n w=0.55u  l=0.13u ad=0.2365p   pd=1.96u    as=0.17492p  ps=1.43214u
+C0  w1  i   0.135f
+C1  cmd w2  0.145f
+C2  w1  w3  0.133f
+C3  cmd i   0.150f
+C4  cmd w3  0.149f
+C5  q   w3  0.007f
+C6  w2  i   0.018f
+C7  w2  w3  0.234f
+C8  vdd w1  0.115f
+C9  i   w3  0.019f
+C10 vdd cmd 0.079f
+C11 vdd q   0.086f
+C12 vdd w2  0.045f
+C13 w1  cmd 0.158f
+C14 w1  q   0.007f
+C15 vdd i   0.020f
+C16 cmd q   0.171f
+C17 vdd w3  0.012f
+C18 w1  w2  0.013f
+C19 w3  vss 0.374f
+C20 i   vss 0.144f
+C21 w2  vss 0.265f
+C22 q   vss 0.146f
+C23 cmd vss 0.401f
+C24 w1  vss 0.332f
+.ends

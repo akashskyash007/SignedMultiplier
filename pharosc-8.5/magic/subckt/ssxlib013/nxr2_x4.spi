@@ -1,0 +1,53 @@
+.subckt nxr2_x4 i0 i1 nq vdd vss
+*05-JAN-08 SPICE3       file   created      from nxr2_x4.ext -        technology: scmos
+m00 vdd i0 w1  vdd p w=1.1u   l=0.13u ad=0.386928p pd=2.14227u as=0.473p    ps=3.06u   
+m01 w2  i0 vdd vdd p w=2.09u  l=0.13u ad=0.55385p  pd=2.6302u  as=0.735163p ps=4.07031u
+m02 w3  w4 w2  vdd p w=2.09u  l=0.13u ad=0.55385p  pd=2.64026u as=0.55385p  ps=2.6302u 
+m03 w2  w1 w3  vdd p w=2.145u l=0.13u ad=0.568425p pd=2.69941u as=0.568425p ps=2.70974u
+m04 vdd i1 w2  vdd p w=2.09u  l=0.13u ad=0.735163p pd=4.07031u as=0.55385p  ps=2.6302u 
+m05 w4  i1 vdd vdd p w=1.1u   l=0.13u ad=0.5214p   pd=3.39u    as=0.386928p ps=2.14227u
+m06 nq  w3 vdd vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u   as=0.754509p ps=4.17742u
+m07 vdd w3 nq  vdd p w=2.145u l=0.13u ad=0.754509p pd=4.17742u as=0.568425p ps=2.675u  
+m08 vss i0 w1  vss n w=0.55u  l=0.13u ad=0.193513p pd=1.27263u as=0.2365p   ps=1.96u   
+m09 w5  i0 vss vss n w=0.99u  l=0.13u ad=0.26235p  pd=1.52u    as=0.348324p ps=2.29074u
+m10 w3  i1 w5  vss n w=0.99u  l=0.13u ad=0.26235p  pd=1.53243u as=0.26235p  ps=1.52u   
+m11 w6  w1 w3  vss n w=1.045u l=0.13u ad=0.276925p pd=1.575u   as=0.276925p ps=1.61757u
+m12 vss w4 w6  vss n w=1.045u l=0.13u ad=0.367675p pd=2.418u   as=0.276925p ps=1.575u  
+m13 w4  i1 vss vss n w=0.55u  l=0.13u ad=0.43615p  pd=3.17u    as=0.193513p ps=1.27263u
+m14 nq  w3 vss vss n w=1.045u l=0.13u ad=0.276925p pd=1.575u   as=0.367675p ps=2.418u  
+m15 vss w3 nq  vss n w=1.045u l=0.13u ad=0.367675p pd=2.418u   as=0.276925p ps=1.575u  
+C0  w1  w2  0.007f
+C1  w4  w3  0.111f
+C2  i1  w2  0.006f
+C3  w1  w3  0.014f
+C4  i1  w3  0.118f
+C5  vdd i0  0.075f
+C6  w2  w3  0.097f
+C7  vdd w4  0.010f
+C8  vdd w1  0.010f
+C9  w3  nq  0.085f
+C10 vdd i1  0.050f
+C11 i0  w4  0.047f
+C12 vdd w2  0.112f
+C13 i0  w1  0.117f
+C14 w3  w5  0.016f
+C15 vdd w3  0.037f
+C16 i0  i1  0.027f
+C17 w4  w1  0.136f
+C18 w3  w6  0.018f
+C19 i0  w2  0.012f
+C20 vdd nq  0.127f
+C21 w4  i1  0.208f
+C22 i0  w3  0.140f
+C23 w4  w2  0.007f
+C24 w1  i1  0.107f
+C25 w6  vss 0.025f
+C26 w5  vss 0.025f
+C27 nq  vss 0.145f
+C28 w3  vss 0.612f
+C29 w2  vss 0.069f
+C30 i1  vss 0.240f
+C31 w1  vss 0.321f
+C32 w4  vss 0.232f
+C33 i0  vss 0.233f
+.ends

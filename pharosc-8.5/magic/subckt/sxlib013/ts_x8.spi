@@ -1,0 +1,44 @@
+.subckt ts_x8 cmd i q vdd vss
+*05-JAN-08 SPICE3       file   created      from ts_x8.ext -        technology: scmos
+m00 q   w1  vdd vdd p w=2.19u l=0.13u ad=0.58035p  pd=2.72u    as=0.70181p  ps=3.68277u
+m01 vdd w1  q   vdd p w=2.19u l=0.13u ad=0.70181p  pd=3.68277u as=0.58035p  ps=2.72u   
+m02 q   w1  vdd vdd p w=2.19u l=0.13u ad=0.58035p  pd=2.72u    as=0.70181p  ps=3.68277u
+m03 vdd w1  q   vdd p w=2.19u l=0.13u ad=0.70181p  pd=3.68277u as=0.58035p  ps=2.72u   
+m04 w2  cmd vdd vdd p w=1.09u l=0.13u ad=0.46325p  pd=3.03u    as=0.349303p ps=1.83298u
+m05 w1  w2  w3  vdd p w=1.09u l=0.13u ad=0.346983p pd=2.09u    as=0.46325p  ps=3.03u   
+m06 vdd cmd w1  vdd p w=1.09u l=0.13u ad=0.349303p pd=1.83298u as=0.346983p ps=2.09u   
+m07 w1  i   vdd vdd p w=1.09u l=0.13u ad=0.346983p pd=2.09u    as=0.349303p ps=1.83298u
+m08 q   w3  vss vss n w=1.09u l=0.13u ad=0.28885p  pd=1.62u    as=0.362343p ps=2.2839u 
+m09 vss w3  q   vss n w=1.09u l=0.13u ad=0.362343p pd=2.2839u  as=0.28885p  ps=1.62u   
+m10 q   w3  vss vss n w=1.09u l=0.13u ad=0.28885p  pd=1.62u    as=0.362343p ps=2.2839u 
+m11 vss w3  q   vss n w=1.09u l=0.13u ad=0.362343p pd=2.2839u  as=0.28885p  ps=1.62u   
+m12 w2  cmd vss vss n w=0.54u l=0.13u ad=0.2295p   pd=1.93u    as=0.179509p ps=1.13147u
+m13 vss w2  w3  vss n w=0.54u l=0.13u ad=0.179509p pd=1.13147u as=0.1719p   ps=1.35667u
+m14 w3  i   vss vss n w=0.54u l=0.13u ad=0.1719p   pd=1.35667u as=0.179509p ps=1.13147u
+m15 w1  cmd w3  vss n w=0.54u l=0.13u ad=0.2295p   pd=1.93u    as=0.1719p   ps=1.35667u
+C0  w1  q   0.015f
+C1  vdd i   0.017f
+C2  cmd q   0.166f
+C3  vdd w3  0.010f
+C4  w1  w2  0.011f
+C5  w1  i   0.113f
+C6  cmd w2  0.131f
+C7  w1  w3  0.165f
+C8  cmd i   0.144f
+C9  cmd w3  0.127f
+C10 q   w3  0.015f
+C11 w2  i   0.017f
+C12 w2  w3  0.192f
+C13 vdd w1  0.120f
+C14 i   w3  0.015f
+C15 vdd cmd 0.074f
+C16 vdd q   0.199f
+C17 vdd w2  0.041f
+C18 w1  cmd 0.152f
+C19 w3  vss 0.454f
+C20 i   vss 0.141f
+C21 w2  vss 0.224f
+C22 q   vss 0.328f
+C23 cmd vss 0.367f
+C24 w1  vss 0.359f
+.ends

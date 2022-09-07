@@ -1,0 +1,161 @@
+#!/bin/bash
+#
+# 25-JUL-04 GP Copied from ext2spi_013
+#  1-APR-06 GP Comprehended the gnd! name appearing with Magic 7.4.8
+# 29-DEC-07 GP Source file now has l=0.13u instead of 2u
+#
+#arguments are:
+# $1 cell to convert
+# $2 library (eg vxlib, vsclib, sxlib)
+# $3 optional merge argument, taking area and perimeter values
+#    from .cspice and the rest from .spice
+#
+if test -r "$1".spice
+then
+  source=$1.spice
+else
+  echo "# Usage is : spice2spi_013 cell library -merge" 1>&2
+  echo "#" 1>&2
+  echo "# cell.spice will be reformatted into cell.spi" 1>&2
+  echo "# A .subckt header will be added from ../../../magic/etc/library" 1>&2
+  echo "# Optionally the area and perimeter values will be merged" 1>&2
+  echo "# from file $1.cspice" 1>&2
+  exit 1
+fi
+if [ "$2" = "" ]
+then
+  lib="../"
+else
+  lib=${2}
+fi
+if [ "$3" = "-merge" -o "$3" = "-m" ]
+then
+  source2=$1.cspice
+else
+  source2=""
+fi
+
+# replace names of unamed nodes with something more readable
+if [ "$source2" = "" ]
+then
+  cell=$source
+else
+  cell=$source2
+fi
+i=0
+k=0
+until [ "$k" -eq 1 ]
+do
+  line=$(grep -m 1 '#' $cell)
+  if [ "$line" = "" ]
+  then
+    k=1
+  else
+    for token in $line
+    do
+      newtoken=${token%#}
+      if [ "$newtoken" != "$token" ]
+      then
+        let i=$i+1
+        sed -i "s/${token}/w${i}/g" $cell
+        sed -i "s/${token}/w${i}/g" $source
+        if [ "$source2" != "" ]
+        then
+          sed -i "s/${newtoken}/w${i}/g" $source
+        fi
+        break
+      fi
+    done #for token in $line
+  fi
+done #until [ "$k" -eq 1 ]
+
+# merge area and perimeter info from $source2 to $source if requested
+if [ "$source2" != "" ]
+then
+  sed 's/^+.*$//' $source > $$temp1
+  sed 's/^[^+].*$//' $source2 > $$temp2
+  paste -d "" $$temp1 $$temp2 > $source
+  rm -f $$temp1 $$temp2
+fi
+
+# replace some names with better alternatives
+sed 's/GND/vss/g' $source | \
+sed 's/gnd!/vss/g' | \
+sed 's/Vdd/vdd/' | \
+sed 's/Gnd/vss/' | \
+grep -v '^C.*vss.*vss' | \
+grep -v '^C.*vdd.*vss' | \
+grep -v '^ *$' | \
+sed 's/\*\*FLOATING//g' | \
+sed 's/fF/f/g' | \
+sed 's/fet\ /\ /g' | \
+sed 's/^M/m/' > $$temp
+
+date=$(date +%d-%b-%y | tr 'a-z' 'A-Z')
+# format output nicely into columns
+awk '$1 ~ /^m/ {printf "%-5s %-4s %-4s %-4s %-4s %-2s %-8s %-8s", $1, $2, $3, $4, $5, $6, $7, $8}
+$1 !~ /^m/ {print}' $$temp | \
+sed 's/+//' | \
+sed 's/^m../m/' | \
+sed 's/  */ /' | \
+sed "s/^\*  *\(.*\)$/\*$date \1/" | \
+awk '{printf "%-3s %-12s %-6s %-12s %-3s %-1s %-8s %-8s %-12s %-9s %-12s %-9s\n", $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12}' | \
+sed 's/  *$//' > $$temp2
+
+# 1/ For transistors, get max width of each of the 12 fields
+for field in 1 2 3 4 5 6 7 8 9 10 11 12
+do
+  lengths=$(grep '^m' $$temp2 | \
+    sed 's/  */ /g' | \
+    cut -f${field} -d' ' | \
+    awk '{print length}' | \
+    while read line
+    do
+      echo -e $line" \c"
+    done)
+  id[$field]=0
+  for length in $lengths
+  do
+    if [ "${id[$field]}" -lt "$length" ]
+    then
+      id[$field]="$length"
+    fi
+  done
+#  echo -e "${id[$field]} \c"
+done
+awk '$1 ~ /^m/ {printf "%-'${id[1]}'s %-'${id[2]}'s %-'${id[3]}'s %-'${id[4]}'s %-'${id[5]}'s %-'${id[6]}'s %-'${id[7]}'s %-'${id[8]}'s %-'${id[9]}'s %-'${id[10]}'s %-'${id[11]}'s %-'${id[12]}'s\n", $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12}
+$1 !~ /^m/ {print}' $$temp2 > $$temp
+
+# 2/ For capicitors, get max width of each of the 4 fields
+for field in 1 2 3 4
+do
+  lengths=$(grep '^C' $$temp | \
+    sed 's/  */ /g' | \
+    cut -f${field} -d' ' | \
+    awk '{print length}' | \
+    while read line
+    do
+      echo -e $line" \c"
+    done)
+  id[$field]=0
+  for length in $lengths
+  do
+    if [ "${id[$field]}" -lt "$length" ]
+    then
+      id[$field]="$length"
+    fi
+  done
+#  echo -e "${id[$field]} \c"
+done
+awk '$1 ~ /^C/ {printf "%-'${id[1]}'s %-'${id[2]}'s %-'${id[3]}'s %-'${id[4]}'s\n", $1, $2, $3, $4}
+$1 !~ /^C/ {print}' $$temp > $1.spi
+
+if test -r ../../../magic/etc/${lib}/${1}.subckt
+then
+  sort -mr -o $1.spi $1.spi ../../../magic/etc/${lib}/${1}.subckt
+  echo ".ends" >> $1.spi
+else
+  sort -mr -o $1.spi $1.spi
+fi
+rm -f $$temp $$temp2
+

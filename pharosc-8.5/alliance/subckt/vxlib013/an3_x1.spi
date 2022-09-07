@@ -1,0 +1,19 @@
+* Spice description of an3_x1
+* Spice driver version 134999461
+* Date  4/01/2008 at 18:48:34
+* vxlib 0.13um values
+.subckt an3_x1 a b c vdd vss z
+M1a zn    a     vdd   vdd p  L=0.12U  W=0.88U  AS=0.2332P   AD=0.2332P   PS=2.29U   PD=2.29U
+M1b vdd   b     zn    vdd p  L=0.12U  W=0.88U  AS=0.2332P   AD=0.2332P   PS=2.29U   PD=2.29U
+M1c zn    c     vdd   vdd p  L=0.12U  W=0.88U  AS=0.2332P   AD=0.2332P   PS=2.29U   PD=2.29U
+M1z vdd   zn    z     vdd p  L=0.12U  W=1.1U   AS=0.2915P   AD=0.2915P   PS=2.73U   PD=2.73U
+M2a vss   a     sig3  vss n  L=0.12U  W=0.88U  AS=0.2332P   AD=0.2332P   PS=2.29U   PD=2.29U
+M2b sig3  b     sig1  vss n  L=0.12U  W=0.88U  AS=0.2332P   AD=0.2332P   PS=2.29U   PD=2.29U
+M2c sig1  c     zn    vss n  L=0.12U  W=0.88U  AS=0.2332P   AD=0.2332P   PS=2.29U   PD=2.29U
+M2z z     zn    vss   vss n  L=0.12U  W=0.55U  AS=0.14575P  AD=0.14575P  PS=1.63U   PD=1.63U
+C7  a     vss   1.079f
+C8  b     vss   0.892f
+C9  c     vss   0.892f
+C2  zn    vss   1.279f
+C5  z     vss   0.677f
+.ends

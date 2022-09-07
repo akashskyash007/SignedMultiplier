@@ -1,0 +1,52 @@
+.subckt nao2o22_x4 i0 i1 i2 i3 nq vdd vss
+*05-JAN-08 SPICE3       file   created      from nao2o22_x4.ext -        technology: scmos
+m00 w1  i0 vdd vdd p w=1.09u l=0.13u ad=0.28885p  pd=1.62u    as=0.453675p ps=2.63452u
+m01 w2  i1 w1  vdd p w=1.09u l=0.13u ad=0.28885p  pd=1.62u    as=0.28885p  ps=1.62u   
+m02 w3  i3 w2  vdd p w=1.09u l=0.13u ad=0.28885p  pd=1.62u    as=0.28885p  ps=1.62u   
+m03 vdd i2 w3  vdd p w=1.09u l=0.13u ad=0.453675p pd=2.63452u as=0.28885p  ps=1.62u   
+m04 vdd w2 w4  vdd p w=1.09u l=0.13u ad=0.453675p pd=2.63452u as=0.46325p  ps=3.03u   
+m05 nq  w4 vdd vdd p w=2.19u l=0.13u ad=0.58035p  pd=2.72u    as=0.911512p ps=5.29322u
+m06 vdd w4 nq  vdd p w=2.19u l=0.13u ad=0.911512p pd=5.29322u as=0.58035p  ps=2.72u   
+m07 w2  i0 w5  vss n w=0.54u l=0.13u ad=0.2135p   pd=1.51u    as=0.1863p   ps=1.5u    
+m08 w5  i1 w2  vss n w=0.54u l=0.13u ad=0.1863p   pd=1.5u     as=0.2135p   ps=1.51u   
+m09 vss i3 w5  vss n w=0.54u l=0.13u ad=0.200397p pd=1.32016u as=0.1863p   ps=1.5u    
+m10 w5  i2 vss vss n w=0.54u l=0.13u ad=0.1863p   pd=1.5u     as=0.200397p ps=1.32016u
+m11 vss w2 w4  vss n w=0.54u l=0.13u ad=0.200397p pd=1.32016u as=0.2295p   ps=1.93u   
+m12 nq  w4 vss vss n w=1.09u l=0.13u ad=0.28885p  pd=1.62u    as=0.404505p ps=2.66476u
+m13 vss w4 nq  vss n w=1.09u l=0.13u ad=0.404505p pd=2.66476u as=0.28885p  ps=1.62u   
+C0  i1  w5  0.005f
+C1  w4  w2  0.151f
+C2  vdd i3  0.002f
+C3  i3  w5  0.014f
+C4  vdd i2  0.011f
+C5  i0  i1  0.201f
+C6  w4  nq  0.030f
+C7  i2  w5  0.014f
+C8  vdd w4  0.020f
+C9  w4  w5  0.008f
+C10 w2  w3  0.014f
+C11 i1  i3  0.076f
+C12 w2  nq  0.033f
+C13 vdd w2  0.132f
+C14 w2  w5  0.045f
+C15 i3  i2  0.201f
+C16 i1  w1  0.033f
+C17 vdd nq  0.084f
+C18 i1  w2  0.116f
+C19 i3  w2  0.111f
+C20 vdd i0  0.033f
+C21 i0  w5  0.005f
+C22 i3  w3  0.015f
+C23 i2  w2  0.014f
+C24 vdd i1  0.012f
+C25 w5  vss 0.188f
+C26 nq  vss 0.143f
+C27 w3  vss 0.010f
+C28 w2  vss 0.206f
+C29 w1  vss 0.009f
+C30 w4  vss 0.281f
+C31 i2  vss 0.146f
+C32 i3  vss 0.154f
+C33 i1  vss 0.148f
+C34 i0  vss 0.143f
+.ends

@@ -1,0 +1,44 @@
+ENTITY aoi22v0x3 IS
+GENERIC (
+  CONSTANT area          : NATURAL := 10368;
+  CONSTANT cin_b1        : NATURAL := 13;
+  CONSTANT cin_b2        : NATURAL := 13;
+  CONSTANT cin_a1        : NATURAL := 14;
+  CONSTANT cin_a2        : NATURAL := 13;
+  CONSTANT rdown_b1_z    : NATURAL := 980;
+  CONSTANT rdown_b2_z    : NATURAL := 980;
+  CONSTANT rdown_a1_z    : NATURAL := 990;
+  CONSTANT rdown_a2_z    : NATURAL := 990;
+  CONSTANT rup_b1_z      : NATURAL := 1260;
+  CONSTANT rup_b2_z      : NATURAL := 1270;
+  CONSTANT rup_a1_z      : NATURAL := 1280;
+  CONSTANT rup_a2_z      : NATURAL := 1290;
+  CONSTANT tphl_b1_z     : NATURAL := 42;
+  CONSTANT tphl_b2_z     : NATURAL := 44;
+  CONSTANT tplh_a2_z     : NATURAL := 72;
+  CONSTANT tphl_a1_z     : NATURAL := 60;
+  CONSTANT tplh_b2_z     : NATURAL := 50;
+  CONSTANT tplh_a1_z     : NATURAL := 79;
+  CONSTANT tplh_b1_z     : NATURAL := 56;
+  CONSTANT tphl_a2_z     : NATURAL := 62;
+  CONSTANT transistors   : NATURAL := 20
+);
+PORT (
+  b1	 : in  BIT;
+  b2	 : in  BIT;
+  a1	 : in  BIT;
+  a2	 : in  BIT;
+  z	 : out BIT;
+  vdd	 : in  BIT;
+  vss	 : in  BIT
+);
+END aoi22v0x3;
+
+ARCHITECTURE behaviour_data_flow OF aoi22v0x3 IS
+
+BEGIN
+  ASSERT ((vdd and not (vss)) = '1')
+  REPORT "power supply is missing on aoi22v0x3"
+  SEVERITY WARNING;
+  z <= not (((b1 and b2) or (a1 and a2))) after 86 ps;
+END;

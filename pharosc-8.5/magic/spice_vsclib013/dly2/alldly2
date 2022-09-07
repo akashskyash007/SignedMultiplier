@@ -1,0 +1,11 @@
+#!/bin/bash
+# alldly2 2008-01-11:21h11 graham
+
+./alldly2_delay $1
+./alldly2_vbe
+./alldly2_lib
+./alldly2_html
+if test -x alldly2_xtra
+then
+  ./alldly2_xtra
+fi

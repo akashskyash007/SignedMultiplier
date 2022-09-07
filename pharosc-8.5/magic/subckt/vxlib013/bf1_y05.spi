@@ -1,0 +1,13 @@
+.subckt bf1_y05 a vdd vss z
+*04-JAN-08 SPICE3       file   created      from bf1_y05.ext -        technology: scmos
+m00 vdd an z   vdd p w=0.66u l=0.13u ad=0.2112p  pd=1.41u as=0.22935p ps=2.18u
+m01 an  a  vdd vdd p w=0.66u l=0.13u ad=0.22935p pd=2.18u as=0.2112p  ps=1.41u
+m02 vss an z   vss n w=0.33u l=0.13u ad=0.1782p  pd=1.41u as=0.1419p  ps=1.52u
+m03 an  a  vss vss n w=0.33u l=0.13u ad=0.1419p  pd=1.52u as=0.1782p  ps=1.41u
+C0 vdd an  0.031f
+C1 an  z   0.114f
+C2 an  a   0.178f
+C3 a   vss 0.125f
+C4 z   vss 0.074f
+C5 an  vss 0.191f
+.ends

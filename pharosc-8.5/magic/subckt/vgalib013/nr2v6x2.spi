@@ -1,0 +1,27 @@
+.subckt nr2v6x2 a b vdd vss z
+*10-JAN-08 SPICE3       file   created      from nr2v6x2.ext -        technology: scmos
+m00 w1  a   vdd vdd p w=1.43u l=0.13u ad=0.4576p  pd=2.785u as=0.53625p ps=3.61u 
+m01 vdd a   w1  vdd p w=1.43u l=0.13u ad=0.53625p pd=3.61u  as=0.4576p  ps=2.785u
+m02 z   b   w1  vdd p w=1.43u l=0.13u ad=0.37895p pd=1.96u  as=0.4576p  ps=2.785u
+m03 w1  b   z   vdd p w=1.43u l=0.13u ad=0.4576p  pd=2.785u as=0.37895p ps=1.96u 
+m04 vss vss w2  vss n w=0.99u l=0.13u ad=0.26235p pd=1.52u  as=0.37125p ps=2.73u 
+m05 z   a   vss vss n w=0.99u l=0.13u ad=0.37125p pd=2.73u  as=0.26235p ps=1.52u 
+m06 vss b   z   vss n w=0.99u l=0.13u ad=0.26235p pd=1.52u  as=0.37125p ps=2.73u 
+m07 w3  vss vss vss n w=0.99u l=0.13u ad=0.37125p pd=2.73u  as=0.26235p ps=1.52u 
+C0  b   z   0.137f
+C1  w1  z   0.091f
+C2  vdd a   0.079f
+C3  vdd b   0.017f
+C4  vdd w1  0.047f
+C5  vdd z   0.004f
+C6  a   b   0.046f
+C7  a   w1  0.050f
+C8  a   z   0.121f
+C9  b   w1  0.014f
+C10 w3  vss 0.011f
+C11 w2  vss 0.011f
+C12 z   vss 0.185f
+C13 w1  vss 0.087f
+C14 b   vss 0.426f
+C15 a   vss 0.420f
+.ends

@@ -1,0 +1,49 @@
+.subckt ha2v0x2 a b co so vdd vss
+*01-JAN-08 SPICE3       file   created      from ha2v0x2.ext -        technology: scmos
+m00 vdd son so  vdd p w=1.375u l=0.13u ad=0.458006p pd=2.14966u as=0.443025p ps=3.5u     
+m01 son con vdd vdd p w=0.715u l=0.13u ad=0.162568p pd=1.22816u as=0.238163p ps=1.11782u 
+m02 w1  b   son vdd p w=1.375u l=0.13u ad=0.175313p pd=1.63u    as=0.312632p ps=2.36184u 
+m03 vdd a   w1  vdd p w=1.375u l=0.13u ad=0.458006p pd=2.14966u as=0.175313p ps=1.63u    
+m04 con a   vdd vdd p w=1.54u  l=0.13u ad=0.3234p   pd=1.96u    as=0.512967p ps=2.40762u 
+m05 vdd b   con vdd p w=1.54u  l=0.13u ad=0.512967p pd=2.40762u as=0.3234p   ps=1.96u    
+m06 co  con vdd vdd p w=1.54u  l=0.13u ad=0.48675p  pd=3.83u    as=0.512967p ps=2.40762u 
+m07 vss son so  vss n w=0.715u l=0.13u ad=0.174297p pd=1.23614u as=0.225775p ps=2.18u    
+m08 n2  con vss vss n w=0.55u  l=0.13u ad=0.156895p pd=1.31579u as=0.134075p ps=0.950877u
+m09 son b   n2  vss n w=0.77u  l=0.13u ad=0.1617p   pd=1.19u    as=0.219653p ps=1.84211u 
+m10 n2  a   son vss n w=0.77u  l=0.13u ad=0.219653p pd=1.84211u as=0.1617p   ps=1.19u    
+m11 w2  a   con vss n w=1.1u   l=0.13u ad=0.14025p  pd=1.355u   as=0.3278p   ps=2.95u    
+m12 vss b   w2  vss n w=1.1u   l=0.13u ad=0.268149p pd=1.90175u as=0.14025p  ps=1.355u   
+m13 co  con vss vss n w=0.77u  l=0.13u ad=0.2464p   pd=2.29u    as=0.187704p ps=1.33123u 
+C0  son n2  0.083f
+C1  b   con 0.353f
+C2  b   w1  0.006f
+C3  a   con 0.078f
+C4  vdd co  0.004f
+C5  w2  con 0.013f
+C6  b   co  0.018f
+C7  b   n2  0.006f
+C8  con w1  0.011f
+C9  son so  0.023f
+C10 w2  co  0.004f
+C11 con co  0.185f
+C12 a   n2  0.029f
+C13 son vdd 0.007f
+C14 con n2  0.020f
+C15 son b   0.089f
+C16 so  vdd 0.051f
+C17 vdd b   0.038f
+C18 son con 0.185f
+C19 so  con 0.033f
+C20 vdd a   0.013f
+C21 vdd con 0.191f
+C22 b   a   0.327f
+C23 w2  vss 0.009f
+C24 n2  vss 0.121f
+C25 co  vss 0.188f
+C26 w1  vss 0.009f
+C27 con vss 0.315f
+C28 a   vss 0.172f
+C29 b   vss 0.178f
+C31 so  vss 0.197f
+C32 son vss 0.140f
+.ends

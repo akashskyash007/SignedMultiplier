@@ -1,0 +1,31 @@
+.subckt xnr2_x05 a b vdd vss z
+*04-JAN-08 SPICE3       file   created      from xnr2_x05.ext -        technology: scmos
+m00 w1  an vdd vdd p w=1.1u   l=0.13u ad=0.1705p   pd=1.41u    as=0.420567p ps=2.43667u
+m01 z   bn w1  vdd p w=1.1u   l=0.13u ad=0.2915p   pd=1.63u    as=0.1705p   ps=1.41u   
+m02 an  b  z   vdd p w=1.1u   l=0.13u ad=0.2915p   pd=1.63u    as=0.2915p   ps=1.63u   
+m03 vdd a  an  vdd p w=1.1u   l=0.13u ad=0.420567p pd=2.43667u as=0.2915p   ps=1.63u   
+m04 bn  b  vdd vdd p w=1.1u   l=0.13u ad=0.41855p  pd=3.06u    as=0.420567p ps=2.43667u
+m05 z   an bn  vss n w=0.495u l=0.13u ad=0.131175p pd=1.025u   as=0.185625p ps=1.85u   
+m06 an  bn z   vss n w=0.495u l=0.13u ad=0.131175p pd=1.025u   as=0.131175p ps=1.025u  
+m07 vss a  an  vss n w=0.495u l=0.13u ad=0.6787p   pd=2.51u    as=0.131175p ps=1.025u  
+m08 bn  b  vss vss n w=0.495u l=0.13u ad=0.185625p pd=1.85u    as=0.6787p   ps=2.51u   
+C0  b   z   0.004f
+C1  vdd an  0.015f
+C2  w1  z   0.024f
+C3  vdd bn  0.010f
+C4  vdd b   0.056f
+C5  an  bn  0.226f
+C6  vdd a   0.004f
+C7  an  b   0.084f
+C8  vdd z   0.082f
+C9  bn  b   0.173f
+C10 bn  a   0.182f
+C11 b   a   0.134f
+C12 an  z   0.169f
+C13 bn  z   0.044f
+C14 z   vss 0.040f
+C15 a   vss 0.180f
+C16 b   vss 0.123f
+C17 bn  vss 0.296f
+C18 an  vss 0.112f
+.ends

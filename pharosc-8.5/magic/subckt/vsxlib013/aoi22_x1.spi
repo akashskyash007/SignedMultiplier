@@ -1,0 +1,72 @@
+.subckt aoi22_x1 a1 a2 b1 b2 vdd vss z
+*04-JAN-08 SPICE3       file   created      from aoi22_x1.ext -        technology: scmos
+m00 z   b1 n3  vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u  as=0.6138p   ps=3.9125u
+m01 n3  b2 z   vdd p w=2.145u l=0.13u ad=0.6138p   pd=3.9125u as=0.568425p ps=2.675u 
+m02 vdd a2 n3  vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u  as=0.6138p   ps=3.9125u
+m03 n3  a1 vdd vdd p w=2.145u l=0.13u ad=0.6138p   pd=3.9125u as=0.568425p ps=2.675u 
+m04 w1  b1 vss vss n w=0.935u l=0.13u ad=0.144925p pd=1.245u  as=0.518513p ps=3.335u 
+m05 z   b2 w1  vss n w=0.935u l=0.13u ad=0.247775p pd=1.465u  as=0.144925p ps=1.245u 
+m06 w2  a2 z   vss n w=0.935u l=0.13u ad=0.144925p pd=1.245u  as=0.247775p ps=1.465u 
+m07 vss a1 w2  vss n w=0.935u l=0.13u ad=0.518513p pd=3.335u  as=0.144925p ps=1.245u 
+C0  vdd w3  0.037f
+C1  a2  vdd 0.034f
+C2  w1  w3  0.002f
+C3  b1  w4  0.001f
+C4  n3  z   0.105f
+C5  a1  vdd 0.010f
+C6  w2  w3  0.006f
+C7  b2  w4  0.001f
+C8  b1  w5  0.001f
+C9  n3  vdd 0.177f
+C10 w4  w3  0.166f
+C11 b1  w6  0.015f
+C12 b2  w5  0.026f
+C13 a2  w4  0.002f
+C14 a1  w2  0.012f
+C15 z   vdd 0.017f
+C16 b1  b2  0.187f
+C17 w5  w3  0.166f
+C18 b1  w3  0.020f
+C19 b2  w6  0.013f
+C20 a2  w5  0.028f
+C21 a1  w4  0.002f
+C22 z   w1  0.009f
+C23 w6  w3  0.166f
+C24 b2  w3  0.010f
+C25 a2  w6  0.010f
+C26 n3  w4  0.050f
+C27 b1  a1  0.019f
+C28 b2  a2  0.165f
+C29 z   w4  0.005f
+C30 a2  w3  0.011f
+C31 a1  w6  0.012f
+C32 n3  w5  0.006f
+C33 b1  n3  0.007f
+C34 b2  a1  0.003f
+C35 a1  w3  0.022f
+C36 z   w5  0.013f
+C37 vdd w4  0.013f
+C38 b1  z   0.183f
+C39 b2  n3  0.042f
+C40 a2  a1  0.202f
+C41 n3  w3  0.035f
+C42 z   w6  0.009f
+C43 vdd w5  0.002f
+C44 a2  n3  0.064f
+C45 b2  z   0.060f
+C46 b1  vdd 0.010f
+C47 z   w3  0.077f
+C48 b1  w1  0.012f
+C49 a1  n3  0.007f
+C50 b2  vdd 0.010f
+C51 w3  vss 0.990f
+C52 w6  vss 0.176f
+C53 w5  vss 0.167f
+C54 w4  vss 0.164f
+C56 z   vss 0.138f
+C57 n3  vss 0.003f
+C58 a1  vss 0.091f
+C59 a2  vss 0.069f
+C60 b2  vss 0.077f
+C61 b1  vss 0.077f
+.ends

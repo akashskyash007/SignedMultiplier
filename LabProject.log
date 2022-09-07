@@ -1,0 +1,275 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.7)  7 NOV 2021 20:12
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**LabProject.tex
+(./LabProject.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count176
+\Gm@cntv=\count177
+\c@Gm@tempcnt=\count178
+\Gm@bindingoffset=\dimen137
+\Gm@wd@mp=\dimen138
+\Gm@odd@mp=\dimen139
+\Gm@even@mp=\dimen140
+\Gm@layoutwidth=\dimen141
+\Gm@layoutheight=\dimen142
+\Gm@layouthoffset=\dimen143
+\Gm@layoutvoffset=\dimen144
+\Gm@dimlist=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count179
+\lst@gtempboxa=\box45
+\lst@token=\toks16
+\lst@length=\count180
+\lst@currlwidth=\dimen145
+\lst@column=\count181
+\lst@pos=\count182
+\lst@lostspace=\dimen146
+\lst@width=\dimen147
+\lst@newlines=\count183
+\lst@lineno=\count184
+\lst@maxwidth=\dimen148
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count185
+\lst@skipnumbers=\count186
+\lst@framebox=\box46
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen149
+\ar@mcellbox=\box47
+\extrarowheight=\dimen150
+\NC@list=\toks17
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count187
+\l__pdf_internal_box=\box49
+)
+(./LabProject.aux)
+\openout1 = `LabProject.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count188
+\scratchdimen=\dimen151
+\scratchbox=\box50
+\nofMPsegments=\count189
+\nofMParguments=\count190
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count191
+\MPscratchDim=\dimen152
+\MPnumerator=\count192
+\makeMPintoPDFobject=\count193
+\everyMPtoPDFconversion=\toks19
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count194
+<NITK-Surathkal.png, id=1, 429.605pt x 288.07625pt>
+File: NITK-Surathkal.png Graphic file (type png)
+<use NITK-Surathkal.png>
+Package pdftex.def Info: NITK-Surathkal.png  used on input line 37.
+(pdftex.def)             Requested size: 284.53001pt x 227.63048pt.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./NITK-Surathkal.png>]
+<CircuitDiagram.png, id=11, 910.40125pt x 649.42625pt>
+File: CircuitDiagram.png Graphic file (type png)
+<use CircuitDiagram.png>
+Package pdftex.def Info: CircuitDiagram.png  used on input line 67.
+(pdftex.def)             Requested size: 426.79121pt x 341.43945pt.
+
+[2 <./CircuitDiagram.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 81.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 81.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 81.
+<ANDcell.png, id=17, 418.56375pt x 682.55pt>
+File: ANDcell.png Graphic file (type png)
+<use ANDcell.png>
+Package pdftex.def Info: ANDcell.png  used on input line 88.
+(pdftex.def)             Requested size: 227.61774pt x 227.61678pt.
+<NANDcell.png, id=18, 358.33875pt x 692.5875pt>
+File: NANDcell.png Graphic file (type png)
+<use NANDcell.png>
+Package pdftex.def Info: NANDcell.png  used on input line 92.
+(pdftex.def)             Requested size: 227.62459pt x 227.61401pt.
+ [3 <./ANDcell.png> <./NANDcell.png>]
+<XOR2cell.png, id=26, 627.34375pt x 690.58pt>
+File: XOR2cell.png Graphic file (type png)
+<use XOR2cell.png>
+Package pdftex.def Info: XOR2cell.png  used on input line 99.
+(pdftex.def)             Requested size: 227.62405pt x 199.16718pt.
+<XOR3cell.png, id=27, 1155.31625pt x 682.55pt>
+File: XOR3cell.png Graphic file (type png)
+<use XOR3cell.png>
+Package pdftex.def Info: XOR3cell.png  used on input line 103.
+(pdftex.def)             Requested size: 227.62157pt x 227.61678pt.
+<CGIcell.png, id=28, 623.32875pt x 687.56876pt>
+File: CGIcell.png Graphic file (type png)
+<use CGIcell.png>
+Package pdftex.def Info: CGIcell.png  used on input line 107.
+(pdftex.def)             Requested size: 227.62248pt x 199.16951pt.
+<INVcell.png, id=29, 290.08376pt x 690.58pt>
+File: INVcell.png Graphic file (type png)
+<use INVcell.png>
+Package pdftex.def Info: INVcell.png  used on input line 111.
+(pdftex.def)             Requested size: 227.62329pt x 227.61813pt.
+ [4 <./XOR2cell.png> <./XOR3cell.png> <./CGIcell.png>]
+<Layout.png, id=36, 1033.8625pt x 688.5725pt>
+File: Layout.png Graphic file (type png)
+<use Layout.png>
+Package pdftex.def Info: Layout.png  used on input line 120.
+(pdftex.def)             Requested size: 426.78906pt x 341.42755pt.
+ [5 <./INVcell.png> <./Layout.png>]
+[6]
+<Waveform.png, id=46, 1844.8925pt x 1037.8775pt>
+File: Waveform.png Graphic file (type png)
+<use Waveform.png>
+Package pdftex.def Info: Waveform.png  used on input line 174.
+(pdftex.def)             Requested size: 426.79362pt x 341.43958pt.
+ [7 <./Waveform.png>] (./LabProject.aux) ) 
+Here is how much of TeX's memory you used:
+ 3419 strings out of 481239
+ 47294 string characters out of 5920378
+ 348979 words of memory out of 5000000
+ 18697 multiletter control sequences out of 15000+600000
+ 537228 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,4n,36p,1221b,1026s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-
+super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on LabProject.pdf (7 pages, 424535 bytes).
+PDF statistics:
+ 74 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+

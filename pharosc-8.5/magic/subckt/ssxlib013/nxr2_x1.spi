@@ -1,0 +1,44 @@
+.subckt nxr2_x1 i0 i1 nq vdd vss
+*05-JAN-08 SPICE3       file   created      from nxr2_x1.ext -        technology: scmos
+m00 vdd i0 w1  vdd p w=1.1u   l=0.13u ad=0.348897p pd=1.81026u as=0.473p    ps=3.06u    
+m01 w2  i0 vdd vdd p w=2.09u  l=0.13u ad=0.55385p  pd=2.61312u as=0.662905p ps=3.43949u 
+m02 nq  i1 w2  vdd p w=2.09u  l=0.13u ad=0.55385p  pd=2.64026u as=0.55385p  ps=2.61312u 
+m03 w2  w1 nq  vdd p w=2.145u l=0.13u ad=0.568425p pd=2.68188u as=0.568425p ps=2.70974u 
+m04 vdd w3 w2  vdd p w=2.145u l=0.13u ad=0.68035p  pd=3.53u    as=0.568425p ps=2.68188u 
+m05 w3  i1 vdd vdd p w=1.1u   l=0.13u ad=0.594p    pd=3.28u    as=0.348897p ps=1.81026u 
+m06 vss i0 w1  vss n w=0.55u  l=0.13u ad=0.1738p   pd=1.10545u as=0.2365p   ps=1.96u    
+m07 w4  i0 vss vss n w=0.99u  l=0.13u ad=0.26235p  pd=1.52u    as=0.31284p  ps=1.98982u 
+m08 nq  w3 w4  vss n w=0.99u  l=0.13u ad=0.26235p  pd=1.53243u as=0.26235p  ps=1.52u    
+m09 w5  w1 nq  vss n w=1.045u l=0.13u ad=0.276925p pd=1.61757u as=0.276925p ps=1.61757u 
+m10 vss i1 w5  vss n w=0.99u  l=0.13u ad=0.31284p  pd=1.98982u as=0.26235p  ps=1.53243u 
+m11 w3  i1 vss vss n w=0.495u l=0.13u ad=0.2673p   pd=2.07u    as=0.15642p  ps=0.994909u
+C0  nq  w4  0.018f
+C1  vdd w3  0.023f
+C2  i0  i1  0.047f
+C3  vdd w2  0.111f
+C4  i0  w1  0.148f
+C5  vdd nq  0.017f
+C6  i0  w3  0.027f
+C7  i1  w1  0.107f
+C8  i0  w2  0.012f
+C9  i1  w3  0.300f
+C10 i0  nq  0.145f
+C11 i1  w2  0.019f
+C12 w1  w3  0.136f
+C13 i1  nq  0.019f
+C14 w1  w2  0.007f
+C15 w1  nq  0.007f
+C16 w3  nq  0.040f
+C17 vdd i0  0.078f
+C18 w2  nq  0.110f
+C19 vdd i1  0.054f
+C20 vdd w1  0.023f
+C21 w5  vss 0.028f
+C22 w4  vss 0.024f
+C23 nq  vss 0.175f
+C24 w2  vss 0.080f
+C25 w3  vss 0.288f
+C26 w1  vss 0.374f
+C27 i1  vss 0.283f
+C28 i0  vss 0.248f
+.ends

@@ -1,0 +1,28 @@
+.subckt iv1_w2 a vdd vss z
+*04-JAN-08 SPICE3       file   created      from iv1_w2.ext -        technology: scmos
+m00 vdd a z vdd p w=2.145u l=0.13u ad=1.04033p pd=5.26u as=0.695475p ps=5.15u
+m01 vss a z vss n w=1.43u  l=0.13u ad=0.69355p pd=3.83u as=0.506p    ps=3.72u
+C0  z   w1  0.012f
+C1  vdd w2  0.013f
+C2  a   w3  0.011f
+C3  vdd w1  0.004f
+C4  a   w4  0.009f
+C5  z   w3  0.010f
+C6  z   w4  0.034f
+C7  vdd w4  0.022f
+C8  a   z   0.091f
+C9  w2  w4  0.166f
+C10 a   vdd 0.027f
+C11 w1  w4  0.166f
+C12 z   vdd 0.030f
+C13 w3  w4  0.166f
+C14 a   w2  0.002f
+C15 a   w1  0.011f
+C16 z   w2  0.004f
+C17 w4  vss 1.065f
+C18 w3  vss 0.189f
+C19 w1  vss 0.185f
+C20 w2  vss 0.186f
+C22 z   vss 0.035f
+C23 a   vss 0.082f
+.ends

@@ -1,0 +1,42 @@
+.subckt nd3_x4 a b c vdd vss z
+*04-JAN-08 SPICE3       file   created      from nd3_x4.ext -        technology: scmos
+m00 z   c vdd vdd p w=1.815u l=0.13u ad=0.480975p pd=2.345u   as=0.614075p ps=3.09667u
+m01 vdd b z   vdd p w=1.815u l=0.13u ad=0.614075p pd=3.09667u as=0.480975p ps=2.345u  
+m02 z   a vdd vdd p w=1.815u l=0.13u ad=0.480975p pd=2.345u   as=0.614075p ps=3.09667u
+m03 vdd a z   vdd p w=1.815u l=0.13u ad=0.614075p pd=3.09667u as=0.480975p ps=2.345u  
+m04 z   b vdd vdd p w=1.815u l=0.13u ad=0.480975p pd=2.345u   as=0.614075p ps=3.09667u
+m05 vdd c z   vdd p w=1.815u l=0.13u ad=0.614075p pd=3.09667u as=0.480975p ps=2.345u  
+m06 w1  c vss vss n w=1.815u l=0.13u ad=0.281325p pd=2.125u   as=0.830363p ps=4.545u  
+m07 w2  b w1  vss n w=1.815u l=0.13u ad=0.281325p pd=2.125u   as=0.281325p ps=2.125u  
+m08 z   a w2  vss n w=1.815u l=0.13u ad=0.480975p pd=2.345u   as=0.281325p ps=2.125u  
+m09 w3  a z   vss n w=1.815u l=0.13u ad=0.281325p pd=2.125u   as=0.480975p ps=2.345u  
+m10 w4  b w3  vss n w=1.815u l=0.13u ad=0.281325p pd=2.125u   as=0.281325p ps=2.125u  
+m11 vss c w4  vss n w=1.815u l=0.13u ad=0.830363p pd=4.545u   as=0.281325p ps=2.125u  
+C0  c   z   0.228f
+C1  b   vdd 0.038f
+C2  c   w1  0.010f
+C3  b   z   0.138f
+C4  a   vdd 0.021f
+C5  c   w2  0.010f
+C6  b   w1  0.003f
+C7  a   z   0.022f
+C8  c   w3  0.010f
+C9  b   w2  0.002f
+C10 vdd z   0.269f
+C11 c   w4  0.010f
+C12 z   w1  0.012f
+C13 a   w3  0.002f
+C14 z   w2  0.012f
+C15 c   b   0.381f
+C16 c   a   0.026f
+C17 c   vdd 0.021f
+C18 b   a   0.365f
+C19 w4  vss 0.020f
+C20 w3  vss 0.020f
+C21 w2  vss 0.017f
+C22 w1  vss 0.016f
+C23 z   vss 0.424f
+C25 a   vss 0.179f
+C26 b   vss 0.244f
+C27 c   vss 0.306f
+.ends

@@ -1,0 +1,58 @@
+.subckt nr4_x1 a b c d vdd vss z
+*04-JAN-08 SPICE3       file   created      from nr4_x1.ext -        technology: scmos
+m00 w1  d vdd vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u  as=0.92235p  ps=5.15u  
+m01 w2  b w1  vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u  as=0.332475p ps=2.455u 
+m02 w3  c w2  vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u  as=0.332475p ps=2.455u 
+m03 z   a w3  vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u  as=0.332475p ps=2.455u 
+m04 w4  a z   vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u  as=0.568425p ps=2.675u 
+m05 w5  c w4  vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u  as=0.332475p ps=2.455u 
+m06 w6  b w5  vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u  as=0.332475p ps=2.455u 
+m07 vdd d w6  vdd p w=2.145u l=0.13u ad=0.92235p  pd=5.15u   as=0.332475p ps=2.455u 
+m08 z   d vss vss n w=0.605u l=0.13u ad=0.160325p pd=1.135u  as=0.2541p   ps=1.8225u
+m09 vss b z   vss n w=0.605u l=0.13u ad=0.2541p   pd=1.8225u as=0.160325p ps=1.135u 
+m10 z   c vss vss n w=0.605u l=0.13u ad=0.160325p pd=1.135u  as=0.2541p   ps=1.8225u
+m11 vss a z   vss n w=0.605u l=0.13u ad=0.2541p   pd=1.8225u as=0.160325p ps=1.135u 
+C0  d   w2  0.010f
+C1  c   vdd 0.020f
+C2  d   w3  0.010f
+C3  a   vdd 0.020f
+C4  d   z   0.221f
+C5  w6  d   0.025f
+C6  a   w2  0.017f
+C7  b   z   0.079f
+C8  d   w4  0.010f
+C9  vdd w1  0.010f
+C10 c   z   0.030f
+C11 vdd w2  0.010f
+C12 c   w4  0.010f
+C13 a   z   0.106f
+C14 vdd w3  0.010f
+C15 d   b   0.268f
+C16 w5  d   0.026f
+C17 vdd z   0.017f
+C18 w6  vdd 0.010f
+C19 d   c   0.055f
+C20 w1  z   0.025f
+C21 vdd w4  0.010f
+C22 d   a   0.013f
+C23 b   c   0.348f
+C24 w2  z   0.012f
+C25 b   a   0.020f
+C26 d   vdd 0.256f
+C27 w3  z   0.012f
+C28 d   w1  0.010f
+C29 b   vdd 0.020f
+C30 c   a   0.325f
+C31 w5  vdd 0.010f
+C32 w6  vss 0.009f
+C33 w5  vss 0.012f
+C34 w4  vss 0.009f
+C35 z   vss 0.293f
+C36 w3  vss 0.011f
+C37 w2  vss 0.012f
+C38 w1  vss 0.008f
+C40 a   vss 0.177f
+C41 c   vss 0.214f
+C42 b   vss 0.266f
+C43 d   vss 0.285f
+.ends

@@ -1,0 +1,45 @@
+.subckt nao22_x4 i0 i1 i2 nq vdd vss
+*05-JAN-08 SPICE3       file   created      from nao22_x4.ext -        technology: scmos
+m00 w1  i2 vdd vdd p w=1.1u   l=0.13u ad=0.2915p   pd=1.63u    as=0.461163p ps=2.66377u
+m01 w2  i1 w1  vdd p w=1.1u   l=0.13u ad=0.2915p   pd=1.63u    as=0.2915p   ps=1.63u   
+m02 vdd i0 w2  vdd p w=1.1u   l=0.13u ad=0.461163p pd=2.66377u as=0.2915p   ps=1.63u   
+m03 vdd w1 w3  vdd p w=1.1u   l=0.13u ad=0.461163p pd=2.66377u as=0.473p    ps=3.06u   
+m04 nq  w3 vdd vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u   as=0.899268p ps=5.19435u
+m05 vdd w3 nq  vdd p w=2.145u l=0.13u ad=0.899268p pd=5.19435u as=0.568425p ps=2.675u  
+m06 w4  i2 vss vss n w=0.55u  l=0.13u ad=0.176p    pd=1.37333u as=0.230241p ps=1.54138u
+m07 w1  i1 w4  vss n w=0.55u  l=0.13u ad=0.21835p  pd=1.52u    as=0.176p    ps=1.37333u
+m08 w4  i0 w1  vss n w=0.55u  l=0.13u ad=0.176p    pd=1.37333u as=0.21835p  ps=1.52u   
+m09 vss w1 w3  vss n w=0.55u  l=0.13u ad=0.230241p pd=1.54138u as=0.2365p   ps=1.96u   
+m10 nq  w3 vss vss n w=1.045u l=0.13u ad=0.276925p pd=1.575u   as=0.437459p ps=2.92862u
+m11 vss w3 nq  vss n w=1.045u l=0.13u ad=0.437459p pd=2.92862u as=0.276925p ps=1.575u  
+C0  i1  i0  0.182f
+C1  i2  w1  0.142f
+C2  vdd nq  0.092f
+C3  i0  w3  0.016f
+C4  i1  w1  0.132f
+C5  i1  w2  0.017f
+C6  i0  w1  0.025f
+C7  i2  w4  0.012f
+C8  w3  w1  0.187f
+C9  i1  w4  0.007f
+C10 vdd i2  0.051f
+C11 w3  nq  0.085f
+C12 i0  w4  0.009f
+C13 w1  w2  0.018f
+C14 vdd i1  0.003f
+C15 w3  w4  0.010f
+C16 w1  nq  0.039f
+C17 vdd i0  0.013f
+C18 w1  w4  0.062f
+C19 vdd w3  0.020f
+C20 i2  i1  0.078f
+C21 vdd w1  0.168f
+C22 w4  vss 0.116f
+C23 nq  vss 0.132f
+C24 w2  vss 0.012f
+C25 w1  vss 0.256f
+C26 w3  vss 0.374f
+C27 i0  vss 0.167f
+C28 i1  vss 0.147f
+C29 i2  vss 0.215f
+.ends

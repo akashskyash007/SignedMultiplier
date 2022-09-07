@@ -1,0 +1,76 @@
+.subckt nd3_x4 a b c vdd vss z
+*04-JAN-08 SPICE3       file   created      from nd3_x4.ext -        technology: scmos
+m00 z   c vdd vdd p w=1.815u l=0.13u ad=0.480975p pd=2.345u   as=0.614075p ps=3.09667u
+m01 vdd b z   vdd p w=1.815u l=0.13u ad=0.614075p pd=3.09667u as=0.480975p ps=2.345u  
+m02 z   a vdd vdd p w=1.815u l=0.13u ad=0.480975p pd=2.345u   as=0.614075p ps=3.09667u
+m03 vdd a z   vdd p w=1.815u l=0.13u ad=0.614075p pd=3.09667u as=0.480975p ps=2.345u  
+m04 z   b vdd vdd p w=1.815u l=0.13u ad=0.480975p pd=2.345u   as=0.614075p ps=3.09667u
+m05 vdd c z   vdd p w=1.815u l=0.13u ad=0.614075p pd=3.09667u as=0.480975p ps=2.345u  
+m06 w1  c vss vss n w=1.815u l=0.13u ad=0.281325p pd=2.125u   as=0.830363p ps=4.545u  
+m07 w2  b w1  vss n w=1.815u l=0.13u ad=0.281325p pd=2.125u   as=0.281325p ps=2.125u  
+m08 z   a w2  vss n w=1.815u l=0.13u ad=0.480975p pd=2.345u   as=0.281325p ps=2.125u  
+m09 w3  a z   vss n w=1.815u l=0.13u ad=0.281325p pd=2.125u   as=0.480975p ps=2.345u  
+m10 w4  b w3  vss n w=1.815u l=0.13u ad=0.281325p pd=2.125u   as=0.281325p ps=2.125u  
+m11 vss c w4  vss n w=1.815u l=0.13u ad=0.830363p pd=4.545u   as=0.281325p ps=2.125u  
+C0  w5  c   0.013f
+C1  w6  b   0.005f
+C2  c   w2  0.010f
+C3  b   w1  0.003f
+C4  a   z   0.022f
+C5  w3  a   0.002f
+C6  w7  c   0.027f
+C7  w5  b   0.042f
+C8  w6  a   0.005f
+C9  b   w2  0.002f
+C10 vdd z   0.269f
+C11 w5  a   0.003f
+C12 w8  c   0.047f
+C13 w7  b   0.013f
+C14 w6  vdd 0.052f
+C15 w4  w7  0.002f
+C16 w8  b   0.025f
+C17 w7  a   0.011f
+C18 w5  vdd 0.010f
+C19 w6  z   0.040f
+C20 z   w1  0.012f
+C21 w4  w8  0.008f
+C22 w8  a   0.024f
+C23 w5  z   0.036f
+C24 z   w2  0.012f
+C25 w8  vdd 0.086f
+C26 w7  z   0.011f
+C27 c   b   0.381f
+C28 w3  w7  0.002f
+C29 w4  c   0.010f
+C30 w8  z   0.128f
+C31 w7  w1  0.001f
+C32 c   a   0.026f
+C33 w3  w8  0.009f
+C34 w6  w8  0.166f
+C35 w8  w1  0.005f
+C36 w7  w2  0.002f
+C37 c   vdd 0.021f
+C38 b   a   0.365f
+C39 w5  w8  0.166f
+C40 w8  w2  0.005f
+C41 c   z   0.228f
+C42 b   vdd 0.038f
+C43 w7  w8  0.166f
+C44 w3  c   0.010f
+C45 w6  c   0.005f
+C46 c   w1  0.010f
+C47 b   z   0.138f
+C48 a   vdd 0.021f
+C49 w8  vss 0.928f
+C50 w7  vss 0.171f
+C51 w5  vss 0.158f
+C52 w6  vss 0.148f
+C53 w4  vss 0.010f
+C54 w3  vss 0.010f
+C55 w2  vss 0.010f
+C56 w1  vss 0.010f
+C57 z   vss 0.209f
+C59 a   vss 0.137f
+C60 b   vss 0.160f
+C61 c   vss 0.215f
+.ends

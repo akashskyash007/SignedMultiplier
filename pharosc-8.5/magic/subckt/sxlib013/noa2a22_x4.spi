@@ -1,0 +1,51 @@
+.subckt noa2a22_x4 i0 i1 i2 i3 nq vdd vss
+*05-JAN-08 SPICE3       file   created      from noa2a22_x4.ext -        technology: scmos
+m00 w1  i0 w2  vdd p w=1.09u l=0.13u ad=0.28885p  pd=1.62u    as=0.37605p  ps=2.325u  
+m01 w2  i1 w1  vdd p w=1.09u l=0.13u ad=0.37605p  pd=2.325u   as=0.28885p  ps=1.62u   
+m02 vdd i3 w2  vdd p w=1.09u l=0.13u ad=0.383915p pd=2.10733u as=0.37605p  ps=2.325u  
+m03 w2  i2 vdd vdd p w=1.09u l=0.13u ad=0.37605p  pd=2.325u   as=0.383915p ps=2.10733u
+m04 vdd w1 w3  vdd p w=1.09u l=0.13u ad=0.383915p pd=2.10733u as=0.46325p  ps=3.03u   
+m05 nq  w3 vdd vdd p w=2.19u l=0.13u ad=0.58035p  pd=2.72u    as=0.771352p ps=4.234u  
+m06 vdd w3 nq  vdd p w=2.19u l=0.13u ad=0.771352p pd=4.234u   as=0.58035p  ps=2.72u   
+m07 w4  i0 vss vss n w=0.54u l=0.13u ad=0.1431p   pd=1.07u    as=0.244961p ps=1.68963u
+m08 w1  i1 w4  vss n w=0.54u l=0.13u ad=0.1431p   pd=1.07u    as=0.1431p   ps=1.07u   
+m09 w5  i3 w1  vss n w=0.54u l=0.13u ad=0.1431p   pd=1.07u    as=0.1431p   ps=1.07u   
+m10 vss i2 w5  vss n w=0.54u l=0.13u ad=0.244961p pd=1.68963u as=0.1431p   ps=1.07u   
+m11 vss w1 w3  vss n w=0.54u l=0.13u ad=0.244961p pd=1.68963u as=0.2295p   ps=1.93u   
+m12 nq  w3 vss vss n w=1.09u l=0.13u ad=0.28885p  pd=1.62u    as=0.494458p ps=3.41055u
+m13 vss w3 nq  vss n w=1.09u l=0.13u ad=0.494458p pd=3.41055u as=0.28885p  ps=1.62u   
+C0  i1  w4  0.015f
+C1  i2  w1  0.014f
+C2  vdd i1  0.002f
+C3  w2  w1  0.124f
+C4  vdd i3  0.002f
+C5  i3  w5  0.015f
+C6  vdd i2  0.002f
+C7  w1  nq  0.033f
+C8  vdd w2  0.134f
+C9  i0  i1  0.201f
+C10 vdd w1  0.041f
+C11 vdd nq  0.084f
+C12 i1  i3  0.076f
+C13 i0  w2  0.005f
+C14 w3  w1  0.151f
+C15 w3  nq  0.030f
+C16 i1  w2  0.005f
+C17 i3  i2  0.201f
+C18 i1  w1  0.114f
+C19 i3  w2  0.005f
+C20 vdd w3  0.020f
+C21 i3  w1  0.113f
+C22 i2  w2  0.005f
+C23 vdd i0  0.002f
+C24 w5  vss 0.006f
+C25 w4  vss 0.006f
+C26 nq  vss 0.143f
+C27 w1  vss 0.193f
+C28 w2  vss 0.066f
+C29 i2  vss 0.167f
+C30 i3  vss 0.167f
+C31 i1  vss 0.167f
+C32 i0  vss 0.168f
+C33 w3  vss 0.281f
+.ends

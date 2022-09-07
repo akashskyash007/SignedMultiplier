@@ -1,0 +1,46 @@
+.subckt nd3v5x6 a b c vdd vss z
+*01-JAN-08 SPICE3       file   created      from nd3v5x6.ext -        technology: scmos
+m00 z   a vdd vdd p w=1.485u l=0.13u ad=0.329664p pd=2.10667u  as=0.49335p  ps=2.64444u 
+m01 vdd a z   vdd p w=1.485u l=0.13u ad=0.49335p  pd=2.64444u  as=0.329664p ps=2.10667u 
+m02 z   a vdd vdd p w=1.485u l=0.13u ad=0.329664p pd=2.10667u  as=0.49335p  ps=2.64444u 
+m03 vdd b z   vdd p w=1.485u l=0.13u ad=0.49335p  pd=2.64444u  as=0.329664p ps=2.10667u 
+m04 z   b vdd vdd p w=1.485u l=0.13u ad=0.329664p pd=2.10667u  as=0.49335p  ps=2.64444u 
+m05 vdd b z   vdd p w=1.485u l=0.13u ad=0.49335p  pd=2.64444u  as=0.329664p ps=2.10667u 
+m06 vdd c z   vdd p w=1.485u l=0.13u ad=0.49335p  pd=2.64444u  as=0.329664p ps=2.10667u 
+m07 z   c vdd vdd p w=1.485u l=0.13u ad=0.329664p pd=2.10667u  as=0.49335p  ps=2.64444u 
+m08 vdd c z   vdd p w=1.485u l=0.13u ad=0.49335p  pd=2.64444u  as=0.329664p ps=2.10667u 
+m09 vss a n1  vss n w=1.1u   l=0.13u ad=0.231p    pd=1.52u     as=0.248394p ps=1.75125u 
+m10 n1  a vss vss n w=1.1u   l=0.13u ad=0.248394p pd=1.75125u  as=0.231p    ps=1.52u    
+m11 vss a n1  vss n w=1.1u   l=0.13u ad=0.231p    pd=1.52u     as=0.248394p ps=1.75125u 
+m12 n1  a vss vss n w=1.1u   l=0.13u ad=0.248394p pd=1.75125u  as=0.231p    ps=1.52u    
+m13 n2  b n1  vss n w=1.1u   l=0.13u ad=0.255956p pd=1.88875u  as=0.248394p ps=1.75125u 
+m14 n1  b n2  vss n w=1.1u   l=0.13u ad=0.248394p pd=1.75125u  as=0.255956p ps=1.88875u 
+m15 n2  b n1  vss n w=1.1u   l=0.13u ad=0.255956p pd=1.88875u  as=0.248394p ps=1.75125u 
+m16 n1  b n2  vss n w=0.55u  l=0.13u ad=0.124197p pd=0.875625u as=0.127978p ps=0.944375u
+m17 n2  b n1  vss n w=0.55u  l=0.13u ad=0.127978p pd=0.944375u as=0.124197p ps=0.875625u
+m18 z   c n2  vss n w=1.1u   l=0.13u ad=0.231p    pd=1.52u     as=0.255956p ps=1.88875u 
+m19 n2  c z   vss n w=1.1u   l=0.13u ad=0.255956p pd=1.88875u  as=0.231p    ps=1.52u    
+m20 z   c n2  vss n w=1.1u   l=0.13u ad=0.231p    pd=1.52u     as=0.255956p ps=1.88875u 
+m21 n2  c z   vss n w=1.1u   l=0.13u ad=0.255956p pd=1.88875u  as=0.231p    ps=1.52u    
+C0  vdd z   0.151f
+C1  a   b   0.102f
+C2  a   z   0.014f
+C3  b   c   0.024f
+C4  a   n1  0.114f
+C5  b   z   0.106f
+C6  b   n1  0.055f
+C7  c   z   0.109f
+C8  b   n2  0.076f
+C9  c   n2  0.027f
+C10 z   n2  0.211f
+C11 vdd a   0.021f
+C12 n1  n2  0.190f
+C13 vdd b   0.021f
+C14 vdd c   0.025f
+C15 n2  vss 0.281f
+C16 n1  vss 0.397f
+C17 z   vss 0.214f
+C18 c   vss 0.286f
+C19 b   vss 0.340f
+C20 a   vss 0.377f
+.ends

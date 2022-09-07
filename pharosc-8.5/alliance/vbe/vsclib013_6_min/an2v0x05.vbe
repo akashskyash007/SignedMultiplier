@@ -1,0 +1,32 @@
+ENTITY an2v0x05 IS
+GENERIC (
+  CONSTANT area          : NATURAL := 2880;
+  CONSTANT cin_b         : NATURAL := 8;      
+  CONSTANT cin_a         : NATURAL := 9;      
+  CONSTANT rdown_b_z     : NATURAL := 3850;
+  CONSTANT rdown_a_z     : NATURAL := 3860;
+  CONSTANT rup_b_z       : NATURAL := 4960;
+  CONSTANT rup_a_z       : NATURAL := 4950;
+  CONSTANT tphh_a_z      : NATURAL := 65;
+  CONSTANT tphh_b_z      : NATURAL := 65;
+  CONSTANT tpll_b_z      : NATURAL := 85;
+  CONSTANT tpll_a_z      : NATURAL := 95;
+  CONSTANT transistors   : NATURAL := 6 
+);
+PORT (
+  b	 : in  BIT;
+  a	 : in  BIT;
+  z	 : out BIT;
+  vdd	 : in  BIT;
+  vss	 : in  BIT
+);
+END an2v0x05;
+
+ARCHITECTURE behaviour_data_flow OF an2v0x05 IS
+
+BEGIN
+  ASSERT ((vdd and not (vss)) = '1')
+  REPORT "power supply is missing on an2v0x05"
+  SEVERITY WARNING;
+  z <= (b and a) after 188 ps;
+END;

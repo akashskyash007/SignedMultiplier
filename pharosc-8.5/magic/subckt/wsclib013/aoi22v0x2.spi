@@ -1,0 +1,51 @@
+.subckt aoi22v0x2 a1 a2 b1 b2 vdd vss z
+*01-JAN-08 SPICE3       file   created      from aoi22v0x2.ext -        technology: scmos
+m00 z   b1 n3  vdd p w=1.54u  l=0.13u ad=0.3234p   pd=1.96u   as=0.358944p ps=2.4275u
+m01 n3  b2 z   vdd p w=1.54u  l=0.13u ad=0.358944p pd=2.4275u as=0.3234p   ps=1.96u  
+m02 z   b2 n3  vdd p w=1.54u  l=0.13u ad=0.3234p   pd=1.96u   as=0.358944p ps=2.4275u
+m03 n3  b1 z   vdd p w=1.54u  l=0.13u ad=0.358944p pd=2.4275u as=0.3234p   ps=1.96u  
+m04 vdd a1 n3  vdd p w=1.54u  l=0.13u ad=0.374825p pd=2.07u   as=0.358944p ps=2.4275u
+m05 n3  a2 vdd vdd p w=1.54u  l=0.13u ad=0.358944p pd=2.4275u as=0.374825p ps=2.07u  
+m06 vdd a2 n3  vdd p w=1.54u  l=0.13u ad=0.374825p pd=2.07u   as=0.358944p ps=2.4275u
+m07 n3  a1 vdd vdd p w=1.54u  l=0.13u ad=0.358944p pd=2.4275u as=0.374825p ps=2.07u  
+m08 w1  b1 vss vss n w=0.55u  l=0.13u ad=0.070125p pd=0.805u  as=0.25949p  ps=1.634u 
+m09 z   b2 w1  vss n w=0.55u  l=0.13u ad=0.12155p  pd=0.996u  as=0.070125p ps=0.805u 
+m10 w2  b2 z   vss n w=0.825u l=0.13u ad=0.105188p pd=1.08u   as=0.182325p ps=1.494u 
+m11 vss b1 w2  vss n w=0.825u l=0.13u ad=0.389235p pd=2.451u  as=0.105188p ps=1.08u  
+m12 w3  a1 vss vss n w=0.825u l=0.13u ad=0.105188p pd=1.08u   as=0.389235p ps=2.451u 
+m13 z   a2 w3  vss n w=0.825u l=0.13u ad=0.182325p pd=1.494u  as=0.105188p ps=1.08u  
+m14 w4  a2 z   vss n w=0.55u  l=0.13u ad=0.070125p pd=0.805u  as=0.12155p  ps=0.996u 
+m15 vss a1 w4  vss n w=0.55u  l=0.13u ad=0.25949p  pd=1.634u  as=0.070125p ps=0.805u 
+C0  z   w3  0.006f
+C1  vdd z   0.014f
+C2  b1  n3  0.026f
+C3  b1  z   0.286f
+C4  b2  n3  0.012f
+C5  a1  a2  0.313f
+C6  a1  n3  0.130f
+C7  b2  z   0.051f
+C8  a1  z   0.030f
+C9  a2  n3  0.012f
+C10 a2  z   0.036f
+C11 vdd b1  0.014f
+C12 n3  z   0.209f
+C13 vdd b2  0.014f
+C14 vdd a1  0.054f
+C15 z   w1  0.009f
+C16 vdd a2  0.014f
+C17 b1  b2  0.340f
+C18 a2  w4  0.009f
+C19 z   w2  0.017f
+C20 vdd n3  0.312f
+C21 b1  a1  0.080f
+C22 w4  vss 0.002f
+C23 w3  vss 0.005f
+C24 w2  vss 0.001f
+C25 w1  vss 0.002f
+C26 z   vss 0.485f
+C27 n3  vss 0.113f
+C28 a2  vss 0.197f
+C29 a1  vss 0.186f
+C30 b2  vss 0.139f
+C31 b1  vss 0.165f
+.ends

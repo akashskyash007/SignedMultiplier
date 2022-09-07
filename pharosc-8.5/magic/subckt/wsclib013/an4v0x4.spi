@@ -1,0 +1,57 @@
+.subckt an4v0x4 a b c d vdd vss z
+*01-JAN-08 SPICE3       file   created      from an4v0x4.ext -        technology: scmos
+m00 z   zn vdd vdd p w=1.54u  l=0.13u ad=0.3234p   pd=1.96u    as=0.42504p  ps=2.65475u
+m01 vdd zn z   vdd p w=1.54u  l=0.13u ad=0.42504p  pd=2.65475u as=0.3234p   ps=1.96u   
+m02 zn  a  vdd vdd p w=1.43u  l=0.13u ad=0.3003p   pd=1.85u    as=0.39468p  ps=2.46513u
+m03 vdd b  zn  vdd p w=1.43u  l=0.13u ad=0.39468p  pd=2.46513u as=0.3003p   ps=1.85u   
+m04 zn  c  vdd vdd p w=1.43u  l=0.13u ad=0.3003p   pd=1.85u    as=0.39468p  ps=2.46513u
+m05 vdd d  zn  vdd p w=1.43u  l=0.13u ad=0.39468p  pd=2.46513u as=0.3003p   ps=1.85u   
+m06 z   zn vss vss n w=0.605u l=0.13u ad=0.13418p  pd=1.06464u as=0.21301p  ps=1.4575u 
+m07 vss zn z   vss n w=0.935u l=0.13u ad=0.329198p pd=2.2525u  as=0.20737p  ps=1.64536u
+m08 w1  a  vss vss n w=0.88u  l=0.13u ad=0.1122p   pd=1.135u   as=0.309833p ps=2.12u   
+m09 w2  b  w1  vss n w=0.88u  l=0.13u ad=0.1122p   pd=1.135u   as=0.1122p   ps=1.135u  
+m10 w3  c  w2  vss n w=0.88u  l=0.13u ad=0.1122p   pd=1.135u   as=0.1122p   ps=1.135u  
+m11 zn  d  w3  vss n w=0.88u  l=0.13u ad=0.1848p   pd=1.3u     as=0.1122p   ps=1.135u  
+m12 w4  d  zn  vss n w=0.88u  l=0.13u ad=0.1122p   pd=1.135u   as=0.1848p   ps=1.3u    
+m13 w5  c  w4  vss n w=0.88u  l=0.13u ad=0.1122p   pd=1.135u   as=0.1122p   ps=1.135u  
+m14 w6  b  w5  vss n w=0.88u  l=0.13u ad=0.1122p   pd=1.135u   as=0.1122p   ps=1.135u  
+m15 vss a  w6  vss n w=0.88u  l=0.13u ad=0.309833p pd=2.12u    as=0.1122p   ps=1.135u  
+C0  zn  w1  0.008f
+C1  b   d   0.072f
+C2  w3  zn  0.008f
+C3  w5  a   0.014f
+C4  a   w1  0.002f
+C5  zn  w2  0.008f
+C6  c   d   0.321f
+C7  w3  a   0.002f
+C8  w6  a   0.003f
+C9  a   w2  0.002f
+C10 vdd zn  0.151f
+C11 vdd a   0.007f
+C12 vdd b   0.130f
+C13 vdd c   0.014f
+C14 zn  a   0.254f
+C15 zn  b   0.117f
+C16 vdd d   0.007f
+C17 zn  c   0.019f
+C18 vdd z   0.063f
+C19 a   b   0.210f
+C20 zn  d   0.006f
+C21 a   c   0.070f
+C22 w4  a   0.002f
+C23 a   d   0.129f
+C24 zn  z   0.117f
+C25 b   c   0.396f
+C26 w6  vss 0.011f
+C27 w5  vss 0.006f
+C28 w4  vss 0.011f
+C29 w3  vss 0.010f
+C30 w2  vss 0.009f
+C31 w1  vss 0.010f
+C32 z   vss 0.079f
+C33 d   vss 0.164f
+C34 c   vss 0.189f
+C35 b   vss 0.228f
+C36 a   vss 0.244f
+C37 zn  vss 0.384f
+.ends

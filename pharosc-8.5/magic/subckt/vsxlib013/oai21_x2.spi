@@ -1,0 +1,70 @@
+.subckt oai21_x2 a1 a2 b vdd vss z
+*04-JAN-08 SPICE3       file   created      from oai21_x2.ext -        technology: scmos
+m00 vdd b  z   vdd p w=2.09u l=0.13u ad=0.707117p pd=3.46333u as=0.5962p   ps=3.42667u
+m01 w1  a1 vdd vdd p w=2.09u l=0.13u ad=0.32395p  pd=2.4u     as=0.707117p ps=3.46333u
+m02 z   a2 w1  vdd p w=2.09u l=0.13u ad=0.5962p   pd=3.42667u as=0.32395p  ps=2.4u    
+m03 w2  a2 z   vdd p w=2.09u l=0.13u ad=0.32395p  pd=2.4u     as=0.5962p   ps=3.42667u
+m04 vdd a1 w2  vdd p w=2.09u l=0.13u ad=0.707117p pd=3.46333u as=0.32395p  ps=2.4u    
+m05 n3  b  z   vss n w=1.76u l=0.13u ad=0.4664p   pd=2.46667u as=0.59345p  ps=4.38u   
+m06 vss a1 n3  vss n w=1.76u l=0.13u ad=0.6358p   pd=3.655u   as=0.4664p   ps=2.46667u
+m07 n3  a2 vss vss n w=0.88u l=0.13u ad=0.2332p   pd=1.23333u as=0.3179p   ps=1.8275u 
+m08 vss a2 n3  vss n w=0.88u l=0.13u ad=0.3179p   pd=1.8275u  as=0.2332p   ps=1.23333u
+C0  w3  a2  0.005f
+C1  w4  a2  0.006f
+C2  w5  a1  0.023f
+C3  a1  n3  0.068f
+C4  a2  w2  0.020f
+C5  z   w1  0.013f
+C6  w6  w2  0.002f
+C7  w3  z   0.020f
+C8  w5  a2  0.026f
+C9  w4  z   0.010f
+C10 a2  n3  0.007f
+C11 vdd w1  0.010f
+C12 w6  w5  0.166f
+C13 w3  vdd 0.026f
+C14 w5  z   0.053f
+C15 z   n3  0.018f
+C16 vdd w2  0.010f
+C17 w3  w1  0.005f
+C18 w5  vdd 0.047f
+C19 b   a1  0.150f
+C20 w3  w2  0.005f
+C21 w5  w1  0.005f
+C22 b   a2  0.017f
+C23 w3  w5  0.166f
+C24 w6  b   0.028f
+C25 w4  w5  0.166f
+C26 w5  w2  0.006f
+C27 w4  n3  0.004f
+C28 b   z   0.134f
+C29 a1  a2  0.254f
+C30 w6  a1  0.014f
+C31 w5  n3  0.037f
+C32 a1  z   0.008f
+C33 b   vdd 0.033f
+C34 w6  a2  0.033f
+C35 b   w1  0.010f
+C36 a2  z   0.078f
+C37 a1  vdd 0.037f
+C38 w6  z   0.012f
+C39 w3  b   0.002f
+C40 w4  b   0.011f
+C41 a2  vdd 0.020f
+C42 w6  vdd 0.005f
+C43 w3  a1  0.005f
+C44 w5  b   0.010f
+C45 w4  a1  0.040f
+C46 b   n3  0.013f
+C47 z   vdd 0.082f
+C48 w6  w1  0.002f
+C49 w5  vss 0.992f
+C50 w4  vss 0.173f
+C51 w6  vss 0.161f
+C52 w3  vss 0.162f
+C53 n3  vss 0.083f
+C55 z   vss 0.030f
+C56 a2  vss 0.104f
+C57 a1  vss 0.141f
+C58 b   vss 0.076f
+.ends

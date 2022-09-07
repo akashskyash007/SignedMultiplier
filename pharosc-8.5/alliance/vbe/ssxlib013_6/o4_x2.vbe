@@ -1,0 +1,44 @@
+ENTITY o4_x2 IS
+GENERIC (
+  CONSTANT area 	 : NATURAL := 7000;
+  CONSTANT cin_i0        : NATURAL := 11;     
+  CONSTANT cin_i1        : NATURAL := 10;     
+  CONSTANT cin_i2        : NATURAL := 11;     
+  CONSTANT cin_i3        : NATURAL := 10;     
+  CONSTANT rdown_i0_q    : NATURAL := 1310;
+  CONSTANT rdown_i1_q    : NATURAL := 1310;
+  CONSTANT rdown_i2_q    : NATURAL := 1310;
+  CONSTANT rdown_i3_q    : NATURAL := 1310;
+  CONSTANT rup_i0_q      : NATURAL := 1530;
+  CONSTANT rup_i1_q      : NATURAL := 1520;
+  CONSTANT rup_i2_q      : NATURAL := 1540;
+  CONSTANT rup_i3_q      : NATURAL := 1520;
+  CONSTANT tphh_i3_q     : NATURAL := 85;
+  CONSTANT tphh_i1_q     : NATURAL := 96;
+  CONSTANT tphh_i0_q     : NATURAL := 102;
+  CONSTANT tpll_i2_q     : NATURAL := 247;
+  CONSTANT tphh_i2_q     : NATURAL := 114;
+  CONSTANT tpll_i0_q     : NATURAL := 237;
+  CONSTANT tpll_i3_q     : NATURAL := 181;
+  CONSTANT tpll_i1_q     : NATURAL := 216;
+  CONSTANT transistors	 : NATURAL := 10
+);
+PORT (
+  i0	 : in  BIT;
+  i1	 : in  BIT;
+  i2	 : in  BIT;
+  i3	 : in  BIT;
+  q	 : out BIT;
+  vdd	 : in  BIT;
+  vss	 : in  BIT
+);
+END o4_x2;
+
+ARCHITECTURE behaviour_data_flow OF o4_x2 IS
+
+BEGIN
+  ASSERT ((vdd and not (vss)) = '1')
+  REPORT "power supply is missing on o4_x2"
+  SEVERITY WARNING;
+  q <= (((i0 or i1) or i2) or i3) after 195 ps;
+END;

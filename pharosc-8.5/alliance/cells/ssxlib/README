@@ -1,0 +1,6 @@
+#2um version of sxlib using ALU1 for metal-1.
+#Design rules are standard vsc200.
+
+DREAL_TECHNO_NAME=$ALLIANCE_MOS/etc/s200.dreal
+GRAAL_TECHNO_NAME=$ALLIANCE_MOS/etc/s.graal
+RDS_TECHNO_NAME=$ALLIANCE_MOS/etc/vsc200.rds

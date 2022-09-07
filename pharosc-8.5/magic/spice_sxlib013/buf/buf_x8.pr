@@ -1,0 +1,6 @@
+buf_x8     Prop   Ramp   Cap1   LE     LE     FO=4   FO=4
+# q timing
+# q timing; average FO4_delay            109.92 ps  1.58
+i_q_hh     89.8   0.37   7.39                1.442  1.576
+i_q_ll    110.9   0.29   7.00                1.710       
+

@@ -1,0 +1,31 @@
+.subckt an2v0x6 a b vdd vss z
+*01-JAN-08 SPICE3       file   created      from an2v0x6.ext -        technology: scmos
+m00 vdd zn z   vdd p w=1.485u l=0.13u ad=0.351279p  pd=2.37041u as=0.365292p  ps=2.51u   
+m01 z   zn vdd vdd p w=1.485u l=0.13u ad=0.365292p  pd=2.51u    as=0.351279p  ps=2.37041u
+m02 vdd zn z   vdd p w=1.485u l=0.13u ad=0.351279p  pd=2.37041u as=0.365292p  ps=2.51u   
+m03 zn  a  vdd vdd p w=0.88u  l=0.13u ad=0.1848p    pd=1.3u     as=0.208166p  ps=1.40469u
+m04 vdd b  zn  vdd p w=0.88u  l=0.13u ad=0.208166p  pd=1.40469u as=0.1848p    ps=1.3u    
+m05 zn  b  vdd vdd p w=0.88u  l=0.13u ad=0.1848p    pd=1.3u     as=0.208166p  ps=1.40469u
+m06 vdd a  zn  vdd p w=0.88u  l=0.13u ad=0.208166p  pd=1.40469u as=0.1848p    ps=1.3u    
+m07 z   zn vss vss n w=1.1u   l=0.13u ad=0.231p     pd=1.52u    as=0.364833p  ps=2.54242u
+m08 vss zn z   vss n w=1.1u   l=0.13u ad=0.364833p  pd=2.54242u as=0.231p     ps=1.52u   
+m09 w1  a  vss vss n w=0.715u l=0.13u ad=0.0911625p pd=0.97u    as=0.237142p  ps=1.65258u
+m10 zn  b  w1  vss n w=0.715u l=0.13u ad=0.15015p   pd=1.135u   as=0.0911625p ps=0.97u   
+m11 w2  b  zn  vss n w=0.715u l=0.13u ad=0.0911625p pd=0.97u    as=0.15015p   ps=1.135u  
+m12 vss a  w2  vss n w=0.715u l=0.13u ad=0.237142p  pd=1.65258u as=0.0911625p ps=0.97u   
+C0  zn  w1  0.008f
+C1  a   b   0.213f
+C2  a   w1  0.006f
+C3  vdd zn  0.098f
+C4  vdd z   0.031f
+C5  vdd b   0.017f
+C6  zn  z   0.125f
+C7  zn  a   0.181f
+C8  zn  b   0.061f
+C9  w2  vss 0.005f
+C10 w1  vss 0.003f
+C11 b   vss 0.175f
+C12 a   vss 0.213f
+C13 z   vss 0.199f
+C14 zn  vss 0.359f
+.ends

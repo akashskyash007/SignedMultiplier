@@ -1,0 +1,43 @@
+.subckt ao2o22_x2 i0 i1 i2 i3 q vdd vss
+*05-JAN-08 SPICE3       file   created      from ao2o22_x2.ext -        technology: scmos
+m00 w1  i0 vdd vdd p w=1.09u l=0.13u ad=0.28885p  pd=1.62u    as=0.533489p ps=3.25503u
+m01 w2  i1 w1  vdd p w=1.09u l=0.13u ad=0.28885p  pd=1.62u    as=0.28885p  ps=1.62u   
+m02 w3  i2 w2  vdd p w=1.09u l=0.13u ad=0.28885p  pd=1.62u    as=0.28885p  ps=1.62u   
+m03 vdd i3 w3  vdd p w=1.09u l=0.13u ad=0.533489p pd=3.25503u as=0.28885p  ps=1.62u   
+m04 q   w2 vdd vdd p w=2.19u l=0.13u ad=0.93075p  pd=5.23u    as=1.07187p  ps=6.53993u
+m05 w2  i0 w4  vss n w=0.54u l=0.13u ad=0.2135p   pd=1.51u    as=0.1863p   ps=1.5u    
+m06 w4  i1 w2  vss n w=0.54u l=0.13u ad=0.1863p   pd=1.5u     as=0.2135p   ps=1.51u   
+m07 vss i2 w4  vss n w=0.54u l=0.13u ad=0.221537p pd=1.50553u as=0.1863p   ps=1.5u    
+m08 w4  i3 vss vss n w=0.54u l=0.13u ad=0.1863p   pd=1.5u     as=0.221537p ps=1.50553u
+m09 q   w2 vss vss n w=1.09u l=0.13u ad=0.46325p  pd=3.03u    as=0.447176p ps=3.03894u
+C0  i1  w1  0.033f
+C1  i2  i3  0.201f
+C2  w2  q   0.010f
+C3  w2  w4  0.045f
+C4  vdd w2  0.096f
+C5  i0  w4  0.005f
+C6  i2  w3  0.015f
+C7  vdd i0  0.033f
+C8  i1  w4  0.005f
+C9  vdd i1  0.012f
+C10 i2  w4  0.014f
+C11 vdd i2  0.002f
+C12 i3  w4  0.014f
+C13 w2  i1  0.116f
+C14 vdd i3  0.011f
+C15 w2  i2  0.111f
+C16 i0  i1  0.201f
+C17 w2  i3  0.087f
+C18 i1  i2  0.076f
+C19 vdd q   0.026f
+C20 w2  w3  0.014f
+C21 w4  vss 0.194f
+C22 q   vss 0.122f
+C23 w3  vss 0.010f
+C24 w1  vss 0.009f
+C25 i3  vss 0.146f
+C26 i2  vss 0.154f
+C27 i1  vss 0.148f
+C28 i0  vss 0.143f
+C29 w2  vss 0.243f
+.ends

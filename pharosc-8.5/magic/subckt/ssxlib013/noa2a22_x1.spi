@@ -1,0 +1,37 @@
+.subckt noa2a22_x1 i0 i1 i2 i3 nq vdd vss
+*05-JAN-08 SPICE3       file   created      from noa2a22_x1.ext -        technology: scmos
+m00 nq  i0 w1  vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u  as=0.718163p ps=3.9125u
+m01 w1  i1 nq  vdd p w=2.145u l=0.13u ad=0.718163p pd=3.9125u as=0.568425p ps=2.675u 
+m02 vdd i3 w1  vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u  as=0.718163p ps=3.9125u
+m03 w1  i2 vdd vdd p w=2.145u l=0.13u ad=0.718163p pd=3.9125u as=0.568425p ps=2.675u 
+m04 w2  i0 vss vss n w=1.045u l=0.13u ad=0.276925p pd=1.575u  as=0.44935p  ps=2.95u  
+m05 nq  i1 w2  vss n w=1.045u l=0.13u ad=0.276925p pd=1.575u  as=0.276925p ps=1.575u 
+m06 w3  i3 nq  vss n w=1.045u l=0.13u ad=0.276925p pd=1.575u  as=0.276925p ps=1.575u 
+m07 vss i2 w3  vss n w=1.045u l=0.13u ad=0.44935p  pd=2.95u   as=0.276925p ps=1.575u 
+C0  vdd nq  0.017f
+C1  i0  w1  0.017f
+C2  i1  w1  0.007f
+C3  i3  i2  0.252f
+C4  i3  w1  0.019f
+C5  i1  nq  0.155f
+C6  i2  w1  0.040f
+C7  i3  nq  0.145f
+C8  vdd i0  0.010f
+C9  i1  w2  0.017f
+C10 vdd i1  0.010f
+C11 w1  nq  0.103f
+C12 vdd i3  0.046f
+C13 i3  w3  0.017f
+C14 vdd i2  0.038f
+C15 i0  i1  0.226f
+C16 vdd w1  0.215f
+C17 i1  i3  0.096f
+C18 w3  vss 0.024f
+C19 w2  vss 0.024f
+C20 nq  vss 0.128f
+C21 w1  vss 0.103f
+C22 i2  vss 0.170f
+C23 i3  vss 0.166f
+C24 i1  vss 0.163f
+C25 i0  vss 0.167f
+.ends

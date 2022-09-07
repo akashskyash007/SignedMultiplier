@@ -1,0 +1,18 @@
+halfadder_x2 Prop   Ramp   Cap1   LE     LE     FO=4   FO=4
+# cout timing
+# cout timing; average FO4_delay            149.58 ps  2.14
+a_cout_hh   93.8   1.49  10.20                2.223  2.205
+a_cout_ll  105.0   1.16  10.35                2.187       
+b_cout_hh   88.0   1.49  10.16                2.120  2.083
+b_cout_ll   96.3   1.16   9.93                2.046       
+# sout timing; average characteristic_delay  13.534 ps  1.58
+# sout timing; average FO4_delay            199.39 ps  2.86
+a_sout_lh  158.2   1.50  10.27  1.779  1.592  3.143  3.269
+a_sout_hl  188.6   1.18  10.11  1.405         3.395       
+a_sout_hh  100.3   1.49  11.36                2.383  2.541
+a_sout_ll  135.5   1.19  10.74                2.698       
+b_sout_lh  142.5   1.49   9.90  1.740  1.560  2.899  2.924
+b_sout_hl  158.2   1.18  10.12  1.380         2.948       
+b_sout_hh  114.9   1.50   9.39                2.452  2.700
+b_sout_ll  160.9   1.19   9.33                2.947       
+

@@ -1,0 +1,51 @@
+.subckt cgn2_x2 a b c vdd vss z
+*04-JAN-08 SPICE3       file   created      from cgn2_x2.ext -        technology: scmos
+m00 vdd a  n2  vdd p w=2.09u  l=0.13u ad=0.55385p  pd=2.62u    as=0.5962p   ps=3.42667u
+m01 w1  a  vdd vdd p w=2.09u  l=0.13u ad=0.32395p  pd=2.4u     as=0.55385p  ps=2.62u   
+m02 zn  b  w1  vdd p w=2.09u  l=0.13u ad=0.55385p  pd=2.62u    as=0.32395p  ps=2.4u    
+m03 n2  c  zn  vdd p w=2.09u  l=0.13u ad=0.5962p   pd=3.42667u as=0.55385p  ps=2.62u   
+m04 vdd b  n2  vdd p w=2.09u  l=0.13u ad=0.55385p  pd=2.62u    as=0.5962p   ps=3.42667u
+m05 z   zn vdd vdd p w=2.09u  l=0.13u ad=0.6809p   pd=5.04u    as=0.55385p  ps=2.62u   
+m06 vss a  n4  vss n w=0.935u l=0.13u ad=0.274222p pd=1.82386u as=0.290125p ps=2.14333u
+m07 w2  a  vss vss n w=0.935u l=0.13u ad=0.144925p pd=1.245u   as=0.274222p ps=1.82386u
+m08 zn  b  w2  vss n w=0.935u l=0.13u ad=0.247775p pd=1.465u   as=0.144925p ps=1.245u  
+m09 n4  c  zn  vss n w=0.935u l=0.13u ad=0.290125p pd=2.14333u as=0.247775p ps=1.465u  
+m10 vss b  n4  vss n w=0.935u l=0.13u ad=0.274222p pd=1.82386u as=0.290125p ps=2.14333u
+m11 z   zn vss vss n w=1.045u l=0.13u ad=0.331375p pd=2.95u    as=0.306484p ps=2.03843u
+C0  n4  w2  0.010f
+C1  zn  n2  0.057f
+C2  c   vdd 0.032f
+C3  a   n4  0.013f
+C4  b   z   0.004f
+C5  zn  vdd 0.027f
+C6  c   z   0.025f
+C7  b   n4  0.007f
+C8  zn  w1  0.031f
+C9  n2  vdd 0.179f
+C10 c   n4  0.007f
+C11 zn  z   0.080f
+C12 n2  w1  0.010f
+C13 zn  n4  0.092f
+C14 vdd w1  0.010f
+C15 a   b   0.149f
+C16 zn  w2  0.007f
+C17 vdd z   0.009f
+C18 a   zn  0.023f
+C19 b   c   0.304f
+C20 a   n2  0.022f
+C21 b   zn  0.284f
+C22 c   zn  0.019f
+C23 b   n2  0.007f
+C24 a   vdd 0.020f
+C25 c   n2  0.067f
+C26 b   vdd 0.020f
+C27 w2  vss 0.005f
+C28 n4  vss 0.239f
+C29 z   vss 0.145f
+C30 w1  vss 0.008f
+C32 n2  vss 0.100f
+C33 zn  vss 0.212f
+C34 c   vss 0.112f
+C35 b   vss 0.245f
+C36 a   vss 0.188f
+.ends

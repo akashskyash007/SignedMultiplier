@@ -1,0 +1,24 @@
+* Spice description of aoi22_x2
+* Spice driver version 134999461
+* Date  4/01/2008 at 18:51:31
+* vxlib 0.13um values
+.subckt aoi22_x2 a1 a2 b1 b2 vdd vss z
+M1a vdd   a1    sig4  vdd p  L=0.12U  W=2.035U AS=0.539275P AD=0.539275P PS=4.6U    PD=4.6U
+M1b sig4  a1    vdd   vdd p  L=0.12U  W=2.035U AS=0.539275P AD=0.539275P PS=4.6U    PD=4.6U
+M2a sig4  a2    vdd   vdd p  L=0.12U  W=2.035U AS=0.539275P AD=0.539275P PS=4.6U    PD=4.6U
+M2b vdd   a2    sig4  vdd p  L=0.12U  W=2.035U AS=0.539275P AD=0.539275P PS=4.6U    PD=4.6U
+M3a z     b1    sig4  vdd p  L=0.12U  W=2.035U AS=0.539275P AD=0.539275P PS=4.6U    PD=4.6U
+M3b sig4  b1    z     vdd p  L=0.12U  W=2.035U AS=0.539275P AD=0.539275P PS=4.6U    PD=4.6U
+M4a sig4  b2    z     vdd p  L=0.12U  W=2.035U AS=0.539275P AD=0.539275P PS=4.6U    PD=4.6U
+M4b z     b2    sig4  vdd p  L=0.12U  W=2.035U AS=0.539275P AD=0.539275P PS=4.6U    PD=4.6U
+M5  vss   a1    n1    vss n  L=0.12U  W=1.815U AS=0.480975P AD=0.480975P PS=4.16U   PD=4.16U
+M6  n1    a2    z     vss n  L=0.12U  W=1.815U AS=0.480975P AD=0.480975P PS=4.16U   PD=4.16U
+M7  n2    b1    vss   vss n  L=0.12U  W=1.815U AS=0.480975P AD=0.480975P PS=4.16U   PD=4.16U
+M8  z     b2    n2    vss n  L=0.12U  W=1.815U AS=0.480975P AD=0.480975P PS=4.16U   PD=4.16U
+C10 a1    vss   0.864f
+C7  a2    vss   1.062f
+C6  b1    vss   0.823f
+C5  b2    vss   1.128f
+C4  sig4  vss   0.890f
+C2  z     vss   1.645f
+.ends

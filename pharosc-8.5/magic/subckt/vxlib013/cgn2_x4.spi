@@ -1,0 +1,62 @@
+.subckt cgn2_x4 a b c vdd vss z
+*04-JAN-08 SPICE3       file   created      from cgn2_x4.ext -        technology: scmos
+m00 n2  a  vdd vdd p w=1.705u l=0.13u ad=0.451825p pd=2.235u   as=0.571208p ps=2.945u  
+m01 zn  c  n2  vdd p w=1.705u l=0.13u ad=0.451825p pd=2.235u   as=0.451825p ps=2.235u  
+m02 n2  c  zn  vdd p w=1.705u l=0.13u ad=0.451825p pd=2.235u   as=0.451825p ps=2.235u  
+m03 vdd a  n2  vdd p w=1.705u l=0.13u ad=0.571208p pd=2.945u   as=0.451825p ps=2.235u  
+m04 w1  a  vdd vdd p w=1.705u l=0.13u ad=0.264275p pd=2.015u   as=0.571208p ps=2.945u  
+m05 zn  b  w1  vdd p w=1.705u l=0.13u ad=0.451825p pd=2.235u   as=0.264275p ps=2.015u  
+m06 w2  b  zn  vdd p w=1.705u l=0.13u ad=0.264275p pd=2.015u   as=0.451825p ps=2.235u  
+m07 vdd a  w2  vdd p w=1.705u l=0.13u ad=0.571208p pd=2.945u   as=0.264275p ps=2.015u  
+m08 n2  b  vdd vdd p w=1.705u l=0.13u ad=0.451825p pd=2.235u   as=0.571208p ps=2.945u  
+m09 vdd b  n2  vdd p w=1.705u l=0.13u ad=0.571208p pd=2.945u   as=0.451825p ps=2.235u  
+m10 z   zn vdd vdd p w=2.035u l=0.13u ad=0.539275p pd=2.565u   as=0.681764p ps=3.515u  
+m11 vdd zn z   vdd p w=2.035u l=0.13u ad=0.681764p pd=3.515u   as=0.539275p ps=2.565u  
+m12 n4  a  vss vss n w=1.485u l=0.13u ad=0.393525p pd=2.6539u  as=0.615017p ps=3.7228u 
+m13 zn  c  n4  vss n w=0.77u  l=0.13u ad=0.20405p  pd=1.3u     as=0.20405p  ps=1.3761u 
+m14 n4  c  zn  vss n w=0.77u  l=0.13u ad=0.20405p  pd=1.3761u  as=0.20405p  ps=1.3u    
+m15 vss b  n4  vss n w=1.485u l=0.13u ad=0.615017p pd=3.7228u  as=0.393525p ps=2.6539u 
+m16 w3  a  vss vss n w=0.77u  l=0.13u ad=0.11935p  pd=1.08u    as=0.318897p ps=1.93034u
+m17 zn  b  w3  vss n w=0.77u  l=0.13u ad=0.20405p  pd=1.3u     as=0.11935p  ps=1.08u   
+m18 w4  b  zn  vss n w=0.77u  l=0.13u ad=0.11935p  pd=1.08u    as=0.20405p  ps=1.3u    
+m19 vss a  w4  vss n w=0.77u  l=0.13u ad=0.318897p pd=1.93034u as=0.11935p  ps=1.08u   
+m20 z   zn vss vss n w=0.99u  l=0.13u ad=0.26235p  pd=1.52u    as=0.410011p ps=2.48186u
+m21 vss zn z   vss n w=0.99u  l=0.13u ad=0.410011p pd=2.48186u as=0.26235p  ps=1.52u   
+C0  c   n4  0.022f
+C1  n2  w1  0.010f
+C2  vdd z   0.038f
+C3  zn  a   0.250f
+C4  n2  w2  0.010f
+C5  zn  c   0.054f
+C6  zn  vdd 0.038f
+C7  a   c   0.181f
+C8  a   vdd 0.082f
+C9  zn  b   0.245f
+C10 zn  n2  0.055f
+C11 c   vdd 0.011f
+C12 a   b   0.556f
+C13 w4  zn  0.010f
+C14 zn  w1  0.010f
+C15 a   n2  0.265f
+C16 c   b   0.024f
+C17 a   w1  0.010f
+C18 c   n2  0.028f
+C19 vdd b   0.029f
+C20 zn  z   0.030f
+C21 a   w2  0.010f
+C22 vdd n2  0.315f
+C23 w3  zn  0.010f
+C24 zn  n4  0.116f
+C25 b   n2  0.026f
+C26 w4  vss 0.004f
+C27 w3  vss 0.004f
+C28 n4  vss 0.158f
+C29 z   vss 0.137f
+C30 w2  vss 0.010f
+C31 w1  vss 0.008f
+C32 n2  vss 0.135f
+C33 b   vss 0.387f
+C35 c   vss 0.181f
+C36 a   vss 0.365f
+C37 zn  vss 0.461f
+.ends

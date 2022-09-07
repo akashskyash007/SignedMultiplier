@@ -1,0 +1,22 @@
+.subckt buf_x8 i q vdd vss
+*05-JAN-08 SPICE3       file   created      from buf_x8.ext -        technology: scmos
+m00 vdd i  w1  vdd p w=2.09u  l=0.13u ad=0.584069p pd=3.10464u as=0.8987p   ps=5.04u   
+m01 q   w1 vdd vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u   as=0.599439p ps=3.18634u
+m02 vdd w1 q   vdd p w=2.145u l=0.13u ad=0.599439p pd=3.18634u as=0.568425p ps=2.675u  
+m03 q   w1 vdd vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u   as=0.599439p ps=3.18634u
+m04 vdd w1 q   vdd p w=2.145u l=0.13u ad=0.599439p pd=3.18634u as=0.568425p ps=2.675u  
+m05 vss i  w1  vss n w=0.99u  l=0.13u ad=0.295368p pd=1.77128u as=0.4257p   ps=2.84u   
+m06 q   w1 vss vss n w=1.045u l=0.13u ad=0.276925p pd=1.575u   as=0.311777p ps=1.86968u
+m07 vss w1 q   vss n w=1.045u l=0.13u ad=0.311777p pd=1.86968u as=0.276925p ps=1.575u  
+m08 q   w1 vss vss n w=1.045u l=0.13u ad=0.276925p pd=1.575u   as=0.311777p ps=1.86968u
+m09 vss w1 q   vss n w=1.045u l=0.13u ad=0.311777p pd=1.86968u as=0.276925p ps=1.575u  
+C0 w1  q   0.096f
+C1 vdd i   0.076f
+C2 vdd w1  0.067f
+C3 vdd q   0.193f
+C4 i   w1  0.281f
+C5 i   q   0.171f
+C6 q   vss 0.339f
+C7 w1  vss 0.676f
+C8 i   vss 0.196f
+.ends

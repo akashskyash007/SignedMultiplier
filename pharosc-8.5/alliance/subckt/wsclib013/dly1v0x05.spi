@@ -1,0 +1,19 @@
+* Spice description of dly1v0x05
+* Spice driver version 134999461
+* Date  1/01/2008 at 16:43:25
+* wsclib 0.13um values
+.subckt dly1v0x05 a vdd vss z
+M01 n1    a     vdd   vdd p  L=0.12U  W=0.33U  AS=0.08745P  AD=0.08745P  PS=1.19U   PD=1.19U
+M02 n1    a     vss   vss n  L=0.12U  W=0.33U  AS=0.08745P  AD=0.08745P  PS=1.19U   PD=1.19U
+M03 vdd   n1    06    vdd p  L=0.12U  W=0.33U  AS=0.08745P  AD=0.08745P  PS=1.19U   PD=1.19U
+M04 vss   n1    06    vss n  L=0.12U  W=0.33U  AS=0.08745P  AD=0.08745P  PS=1.19U   PD=1.19U
+M05 n3    06    vdd   vdd p  L=0.12U  W=0.66U  AS=0.1749P   AD=0.1749P   PS=1.85U   PD=1.85U
+M06 n3    06    vss   vss n  L=0.12U  W=0.33U  AS=0.08745P  AD=0.08745P  PS=1.19U   PD=1.19U
+M07 vdd   n3    z     vdd p  L=0.12U  W=0.66U  AS=0.1749P   AD=0.1749P   PS=1.85U   PD=1.85U
+M08 vss   n3    z     vss n  L=0.12U  W=0.33U  AS=0.08745P  AD=0.08745P  PS=1.19U   PD=1.19U
+C4  06    vss   1.116f
+C6  a     vss   0.669f
+C5  n1    vss   1.109f
+C2  n3    vss   0.875f
+C1  z     vss   0.737f
+.ends

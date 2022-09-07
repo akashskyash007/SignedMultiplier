@@ -1,0 +1,76 @@
+.subckt oai22_x1 a1 a2 b1 b2 vdd vss z
+*04-JAN-08 SPICE3       file   created      from oai22_x1.ext -        technology: scmos
+m00 w1  b1 vdd vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u  as=1.04033p  ps=5.26u  
+m01 z   b2 w1  vdd p w=2.145u l=0.13u ad=0.568425p pd=2.675u  as=0.332475p ps=2.455u 
+m02 w2  a2 z   vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u  as=0.568425p ps=2.675u 
+m03 vdd a1 w2  vdd p w=2.145u l=0.13u ad=1.04033p  pd=5.26u   as=0.332475p ps=2.455u 
+m04 z   b1 n3  vss n w=0.935u l=0.13u ad=0.247775p pd=1.465u  as=0.29315p  ps=2.0975u
+m05 n3  b2 z   vss n w=0.935u l=0.13u ad=0.29315p  pd=2.0975u as=0.247775p ps=1.465u 
+m06 vss a2 n3  vss n w=0.935u l=0.13u ad=0.338525p pd=2.015u  as=0.29315p  ps=2.0975u
+m07 n3  a1 vss vss n w=0.935u l=0.13u ad=0.29315p  pd=2.0975u as=0.338525p ps=2.015u 
+C0  z   w3  0.049f
+C1  b1  n3  0.007f
+C2  w2  w3  0.003f
+C3  b1  w4  0.002f
+C4  a1  z   0.023f
+C5  a2  w2  0.010f
+C6  b2  n3  0.077f
+C7  vdd w1  0.010f
+C8  n3  w3  0.076f
+C9  b1  w5  0.026f
+C10 b2  w4  0.002f
+C11 a2  n3  0.010f
+C12 a1  w2  0.013f
+C13 vdd z   0.086f
+C14 w4  w3  0.166f
+C15 b1  w6  0.010f
+C16 a2  w4  0.002f
+C17 a1  n3  0.007f
+C18 w1  z   0.013f
+C19 vdd w2  0.010f
+C20 b1  b2  0.189f
+C21 w5  w3  0.166f
+C22 b1  w3  0.014f
+C23 b2  w6  0.012f
+C24 a2  w5  0.011f
+C25 a1  w4  0.002f
+C26 b1  a2  0.019f
+C27 w6  w3  0.166f
+C28 b2  w3  0.018f
+C29 a2  w6  0.021f
+C30 a1  w5  0.011f
+C31 vdd w4  0.025f
+C32 b2  a2  0.167f
+C33 a2  w3  0.009f
+C34 a1  w6  0.001f
+C35 vdd w5  0.008f
+C36 w1  w4  0.005f
+C37 z   n3  0.074f
+C38 b1  vdd 0.010f
+C39 b2  a1  0.003f
+C40 a1  w3  0.024f
+C41 z   w4  0.016f
+C42 b1  w1  0.014f
+C43 b2  vdd 0.010f
+C44 a2  a1  0.224f
+C45 vdd w3  0.047f
+C46 z   w5  0.013f
+C47 w2  w4  0.005f
+C48 b1  z   0.195f
+C49 a2  vdd 0.010f
+C50 w1  w3  0.003f
+C51 z   w6  0.009f
+C52 w2  w5  0.002f
+C53 b2  z   0.028f
+C54 a1  vdd 0.052f
+C55 w3  vss 0.971f
+C56 w6  vss 0.178f
+C57 w5  vss 0.167f
+C58 w4  vss 0.167f
+C59 n3  vss 0.162f
+C60 z   vss 0.021f
+C62 a1  vss 0.063f
+C63 a2  vss 0.076f
+C64 b2  vss 0.093f
+C65 b1  vss 0.076f
+.ends

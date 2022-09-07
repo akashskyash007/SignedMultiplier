@@ -1,0 +1,39 @@
+.subckt nd2v5x8 a b vdd vss z
+*01-JAN-08 SPICE3       file   created      from nd2v5x8.ext -        technology: scmos
+m00 z   a vdd vdd p w=1.54u  l=0.13u ad=0.3234p    pd=1.96u    as=0.397513p  ps=2.44125u
+m01 vdd b z   vdd p w=1.54u  l=0.13u ad=0.397513p  pd=2.44125u as=0.3234p    ps=1.96u   
+m02 z   b vdd vdd p w=1.54u  l=0.13u ad=0.3234p    pd=1.96u    as=0.397513p  ps=2.44125u
+m03 vdd a z   vdd p w=1.54u  l=0.13u ad=0.397513p  pd=2.44125u as=0.3234p    ps=1.96u   
+m04 z   a vdd vdd p w=1.54u  l=0.13u ad=0.3234p    pd=1.96u    as=0.397513p  ps=2.44125u
+m05 vdd b z   vdd p w=1.54u  l=0.13u ad=0.397513p  pd=2.44125u as=0.3234p    ps=1.96u   
+m06 z   b vdd vdd p w=1.54u  l=0.13u ad=0.3234p    pd=1.96u    as=0.397513p  ps=2.44125u
+m07 vdd a z   vdd p w=1.54u  l=0.13u ad=0.397513p  pd=2.44125u as=0.3234p    ps=1.96u   
+m08 w1  a vss vss n w=1.1u   l=0.13u ad=0.14025p   pd=1.355u   as=0.455354p  ps=2.54444u
+m09 z   b w1  vss n w=1.1u   l=0.13u ad=0.236042p  pd=1.65833u as=0.14025p   ps=1.355u  
+m10 w2  b z   vss n w=1.1u   l=0.13u ad=0.14025p   pd=1.355u   as=0.236042p  ps=1.65833u
+m11 vss a w2  vss n w=1.1u   l=0.13u ad=0.455354p  pd=2.54444u as=0.14025p   ps=1.355u  
+m12 w3  a vss vss n w=1.045u l=0.13u ad=0.133238p  pd=1.3u     as=0.432587p  ps=2.41722u
+m13 z   b w3  vss n w=1.045u l=0.13u ad=0.22424p   pd=1.57542u as=0.133238p  ps=1.3u    
+m14 w4  b z   vss n w=0.715u l=0.13u ad=0.0911625p pd=0.97u    as=0.153427p  ps=1.07792u
+m15 vss a w4  vss n w=0.715u l=0.13u ad=0.29598p   pd=1.65389u as=0.0911625p ps=0.97u   
+C0  a   z   0.379f
+C1  a   w1  0.006f
+C2  b   z   0.212f
+C3  a   w2  0.006f
+C4  z   w1  0.009f
+C5  a   w3  0.006f
+C6  z   w2  0.009f
+C7  a   w4  0.006f
+C8  z   w3  0.009f
+C9  vdd a   0.028f
+C10 vdd b   0.046f
+C11 vdd z   0.223f
+C12 a   b   0.675f
+C13 w4  vss 0.004f
+C14 w3  vss 0.008f
+C15 w2  vss 0.009f
+C16 w1  vss 0.009f
+C17 z   vss 0.574f
+C18 b   vss 0.298f
+C19 a   vss 0.386f
+.ends

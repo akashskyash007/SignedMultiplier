@@ -1,0 +1,24 @@
+.subckt on12_x1 i0 i1 q vdd vss
+*05-JAN-08 SPICE3       file   created      from on12_x1.ext -        technology: scmos
+m00 vdd i1 w1  vdd p w=1.1u   l=0.13u ad=0.445775p pd=2.69333u as=0.473p    ps=3.06u   
+m01 q   w1 vdd vdd p w=1.1u   l=0.13u ad=0.2915p   pd=1.63u    as=0.445775p ps=2.69333u
+m02 vdd i0 q   vdd p w=1.1u   l=0.13u ad=0.445775p pd=2.69333u as=0.2915p   ps=1.63u   
+m03 vss i1 w1  vss n w=0.55u  l=0.13u ad=0.223983p pd=1.38966u as=0.2365p   ps=1.96u   
+m04 w2  w1 vss vss n w=1.045u l=0.13u ad=0.161975p pd=1.355u   as=0.425567p ps=2.64034u
+m05 q   i0 w2  vss n w=1.045u l=0.13u ad=0.44935p  pd=2.95u    as=0.161975p ps=1.355u  
+C0  vdd i1  0.051f
+C1  vdd w1  0.015f
+C2  i1  w1  0.206f
+C3  vdd i0  0.051f
+C4  i1  i0  0.002f
+C5  vdd q   0.012f
+C6  i1  q   0.171f
+C7  w1  i0  0.098f
+C8  i0  q   0.191f
+C9  q   w2  0.020f
+C10 w2  vss 0.005f
+C11 q   vss 0.142f
+C12 i0  vss 0.160f
+C13 w1  vss 0.273f
+C14 i1  vss 0.218f
+.ends

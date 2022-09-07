@@ -1,0 +1,27 @@
+.subckt nts_x1 cmd i nq vdd vss
+*05-JAN-08 SPICE3       file   created      from nts_x1.ext -        technology: scmos
+m00 w1  i   vdd vdd p w=2.145u l=0.13u ad=0.568425p pd=2.70974u as=0.92235p  ps=5.42695u
+m01 nq  w2  w1  vdd p w=2.09u  l=0.13u ad=0.8987p   pd=5.04u    as=0.55385p  ps=2.64026u
+m02 vdd cmd w2  vdd p w=1.1u   l=0.13u ad=0.473p    pd=2.78305u as=0.473p    ps=3.06u   
+m03 w3  i   vss vss n w=1.045u l=0.13u ad=0.276925p pd=1.575u   as=0.44935p  ps=3.2169u 
+m04 nq  cmd w3  vss n w=1.045u l=0.13u ad=0.44935p  pd=2.95u    as=0.276925p ps=1.575u  
+m05 vss cmd w2  vss n w=0.55u  l=0.13u ad=0.2365p   pd=1.6931u  as=0.2365p   ps=1.96u   
+C0  vdd w2  0.041f
+C1  vdd w1  0.017f
+C2  vdd nq  0.026f
+C3  i   w2  0.046f
+C4  vdd cmd 0.012f
+C5  w2  nq  0.121f
+C6  i   cmd 0.223f
+C7  w2  cmd 0.049f
+C8  w1  cmd 0.053f
+C9  nq  cmd 0.178f
+C10 vdd i   0.055f
+C11 cmd w3  0.017f
+C12 w3  vss 0.024f
+C13 cmd vss 0.255f
+C14 nq  vss 0.125f
+C15 w1  vss 0.014f
+C16 w2  vss 0.150f
+C17 i   vss 0.180f
+.ends

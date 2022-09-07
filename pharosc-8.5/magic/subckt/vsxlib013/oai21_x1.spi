@@ -1,0 +1,57 @@
+.subckt oai21_x1 a1 a2 b vdd vss z
+*04-JAN-08 SPICE3       file   created      from oai21_x1.ext -        technology: scmos
+m00 z   b  vdd vdd p w=1.1u   l=0.13u ad=0.2915p   pd=1.81356u as=0.473p    ps=2.78305u
+m01 w1  a2 z   vdd p w=2.145u l=0.13u ad=0.332475p pd=2.455u   as=0.568425p ps=3.53644u
+m02 vdd a1 w1  vdd p w=2.145u l=0.13u ad=0.92235p  pd=5.42695u as=0.332475p ps=2.455u  
+m03 n2  b  z   vss n w=0.935u l=0.13u ad=0.290125p pd=1.88667u as=0.374825p ps=2.73u   
+m04 vss a2 n2  vss n w=0.935u l=0.13u ad=0.32945p  pd=1.96u    as=0.290125p ps=1.88667u
+m05 n2  a1 vss vss n w=0.935u l=0.13u ad=0.290125p pd=1.88667u as=0.32945p  ps=1.96u   
+C0  n2  w2  0.042f
+C1  vdd w3  0.020f
+C2  a1  z   0.016f
+C3  a2  w1  0.017f
+C4  w3  w2  0.166f
+C5  vdd w4  0.006f
+C6  a2  n2  0.010f
+C7  b   z   0.099f
+C8  a1  w1  0.012f
+C9  w4  w2  0.166f
+C10 a2  w3  0.002f
+C11 a1  n2  0.007f
+C12 w5  w2  0.166f
+C13 vdd w2  0.043f
+C14 a2  w4  0.011f
+C15 a1  w3  0.002f
+C16 b   n2  0.072f
+C17 a2  w5  0.029f
+C18 a1  w4  0.011f
+C19 b   w3  0.001f
+C20 z   n2  0.012f
+C21 vdd a2  0.010f
+C22 a2  w2  0.010f
+C23 z   w3  0.004f
+C24 vdd a1  0.064f
+C25 a1  w2  0.018f
+C26 b   w5  0.016f
+C27 z   w4  0.033f
+C28 w1  w3  0.005f
+C29 b   w2  0.016f
+C30 z   w5  0.009f
+C31 w1  w4  0.001f
+C32 vdd z   0.044f
+C33 a2  a1  0.217f
+C34 z   w2  0.039f
+C35 vdd w1  0.010f
+C36 a2  b   0.139f
+C37 w1  w2  0.008f
+C38 a2  z   0.016f
+C39 w2  vss 1.006f
+C40 w5  vss 0.178f
+C41 w4  vss 0.173f
+C42 w3  vss 0.179f
+C43 n2  vss 0.095f
+C44 z   vss 0.043f
+C45 b   vss 0.097f
+C46 a1  vss 0.067f
+C47 a2  vss 0.086f
+.ends

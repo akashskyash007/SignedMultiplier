@@ -1,0 +1,38 @@
+.subckt mxi2_x05 a0 a1 s vdd vss z
+*04-JAN-08 SPICE3       file   created      from mxi2_x05.ext -        technology: scmos
+m00 w1  s  vdd vdd p w=1.1u   l=0.13u ad=0.1705p   pd=1.41u    as=0.532457p ps=2.82414u
+m01 z   a0 w1  vdd p w=1.1u   l=0.13u ad=0.2915p   pd=1.63u    as=0.1705p   ps=1.41u   
+m02 w2  a1 z   vdd p w=1.1u   l=0.13u ad=0.1705p   pd=1.41u    as=0.2915p   ps=1.63u   
+m03 vdd sn w2  vdd p w=1.1u   l=0.13u ad=0.532457p pd=2.82414u as=0.1705p   ps=1.41u   
+m04 sn  s  vdd vdd p w=0.99u  l=0.13u ad=0.3894p   pd=2.84u    as=0.479211p ps=2.54172u
+m05 w3  a1 vss vss n w=0.495u l=0.13u ad=0.076725p pd=0.805u   as=0.2794p   ps=1.92333u
+m06 z   s  w3  vss n w=0.495u l=0.13u ad=0.131175p pd=1.025u   as=0.076725p ps=0.805u  
+m07 w4  a0 z   vss n w=0.495u l=0.13u ad=0.076725p pd=0.805u   as=0.131175p ps=1.025u  
+m08 vss sn w4  vss n w=0.495u l=0.13u ad=0.2794p   pd=1.92333u as=0.076725p ps=0.805u  
+m09 sn  s  vss vss n w=0.495u l=0.13u ad=0.185625p pd=1.85u    as=0.2794p   ps=1.92333u
+C0  s   a1  0.193f
+C1  z   w4  0.011f
+C2  s   sn  0.129f
+C3  a0  a1  0.178f
+C4  s   w1  0.010f
+C5  a0  sn  0.046f
+C6  s   z   0.111f
+C7  a1  sn  0.059f
+C8  a0  z   0.086f
+C9  a1  w1  0.015f
+C10 s   w2  0.010f
+C11 a1  z   0.070f
+C12 sn  z   0.034f
+C13 vdd s   0.107f
+C14 z   w2  0.014f
+C15 s   a0  0.122f
+C16 w4  vss 0.001f
+C17 w3  vss 0.005f
+C18 w2  vss 0.004f
+C19 z   vss 0.205f
+C20 w1  vss 0.004f
+C21 sn  vss 0.192f
+C22 a1  vss 0.165f
+C23 a0  vss 0.179f
+C24 s   vss 0.269f
+.ends
